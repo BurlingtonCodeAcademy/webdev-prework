@@ -1,10 +1,8 @@
 # Hello JavaScript!
 
-
-
 ![white robot near brown wall](https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Alex Knight")
 
-<caption><em>Image of a Robot waving hello</em></caption>
+<caption><em>Image of a Robot saying hello!</em></caption>
 
 Welcome to the first lesson of our course pre-work! You are about to begin a journey of learning about programming that will change the way that you think about problems, solving problems, and the world around you.
 
@@ -38,6 +36,8 @@ Long ago, people used to program computers by connecting wires from one physical
 
 Years later people built special tools that punched holes into stacks of cards, which were read by other special devices and the process of connecting the circuits was automated away from the hands of programmers. This allowed for faster reading of the instructions, without the delay of moving connections manually.
 
+![white microwave oven](https://images.unsplash.com/photo-1574027542338-98e75acfd385?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Alex Motoc")
+
 More years passed and then instead of punching holes into cards and having a computer read those cards the process was performed on special keyboards which were connected directly to the computer, this allowed the programmer to type keys and see their output immediately on a screen. After the program was written it could be translated into machine instructions that would operate the computer's central processing unit(CPU) and display the output on a screen.
 
 Today we can write programs the same way those programmers did decades ago, by writing our instructions down in a file and running that file, and we can also write and run a program directly within our web browser. We can use our program to change a web page, receive inputs from a user, and make decisions based on those inputs.
@@ -49,6 +49,8 @@ This act of encoding human though into instructions that a computer can understa
 Just like in human spoken or written languages where there are many ways to describe the same thoughts, there are many "programming languages" that can represent the same instructions, but in different ways.
 
 A computer is not like a thinking person who can "interpret" the meaning of a message even if it's vague, or has multiple meanings. A computer is not able to determine what to do if there is any wiggle room in your instructions, it only does what it is told. For this reason human languages are ill fitted for providing computers instructions to carry out. Even the most specific forms of human language like the law, medical, scientific, or mathematical descriptions fall short of the specificity needed. This is why decades ago a group of people came together and determined how to create the first "languages" that computers could understand.
+
+![MacBook Pro on brown wooden surface](https://images.unsplash.com/photo-1544980919-e17526d4ed0a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Joshua Aragon")
 
 There have been thousands of distinct programming languages created since their first introduction over fifty years ago. Of those thousands there are about about one hundred which are still in common use today, and of those there are about a dozen languages that you might have heard of. See if you recognize some of these language names:
 
@@ -69,7 +71,7 @@ The reason that there are so many languages is that each one has been designed t
 
 ### How are Programming Languages Different Than Spoken Languages?
 
-Let's think about how to answer a simple question. How would you describe the process of printing a list of prime numbers, less than one ten?
+Let's think about how to answer a simple question. How would you describe the process of printing a list of prime numbers, less than ten?
 
 Below is the [Wikipedia definition of a Prime Number](https://en.wikipedia.org/wiki/Prime_number):
 
@@ -98,7 +100,9 @@ If the number is not prime
 Stop when the given number exceeds the maximum number
 ```
 
-As humans we can read the description above and think about how this could be performed on a sheet of paper. Unfortunately a computer is not able to translate the text written above into basic operations that run on a CPU and use data from computer memory. Computers need more explicit instructions to follow, and those instructions have to adhere to the rules of a given programming language. Have a look at the JavaScript code below, which follows the steps written above.
+As humans we can read the description above and think about how this could be performed on a sheet of paper. Unfortunately a computer is not able to translate the text written above into basic operations that run on a CPU and use data from computer memory. Computers need more explicit instructions to follow, and those instructions have to adhere to the rules of a given programming language know as **syntax**. 
+
+Have a look at the JavaScript code below, which follows the steps written above.
 
 ```js
 let max = 10;
@@ -141,7 +145,9 @@ There is a quote by Marc Andreessen that states:
 
 From: [Why Software Is Eating the World - Andreessen Horowitz](https://a16z.com/2011/08/20/why-software-is-eating-the-world/)
 
-As software continues to "eat the world", JavaScript acts as the knife in its hand.
+As software continues to "eat the world", JavaScript is the knife in its hand.
+
+![selective focus photography of cutlery on bucket](https://images.unsplash.com/photo-1523674714772-4ea01e5ce882?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "chuttersnap")
 
 While there are many programming languages, some of which we listed above, we chose JavaScript for the following reasons.
 
@@ -155,7 +161,7 @@ While there are many programming languages, some of which we listed above, we ch
 
 ###### Image from NPM Inc. This year in JavaScript 2018
 
-Link: "https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npms-predictions-for-2019-3a3d7e5298ef"
+Link: <https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npms-predictions-for-2019-3a3d7e5298ef>
 
 ### JavaScript Jobs are Accelerating
 
@@ -183,7 +189,7 @@ Along with the number of jobs available to developers growing year-over-year, th
 
 ###### React framework popularity growth, from NPM Inc. This year in JavaScript 2018
 
-Link: "https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npms-predictions-for-2019-3a3d7e5298ef"
+Link: <https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npms-predictions-for-2019-3a3d7e5298ef>
 
 ## How to Run JavaScript
 
@@ -255,7 +261,7 @@ Within your JavaScript console, type the following code and then press the `ENTE
 console.log("Hello JavaScript!");
 ```
 
-![MacBook Pro on brown wooden surface](https://images.unsplash.com/photo-1544980919-e17526d4ed0a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Joshua Aragon")
+![MacBook Pro on brown wooden surface](https://res.cloudinary.com/btvca/image/upload/v1586818922/curriculum/hello-javascript-console-example_okzsl8.png "Joshua Aragon")
 
 Do you see the text `Hello JavaScript!` print below the code you wrote? 
 
@@ -269,7 +275,7 @@ Now let's take a look at the JavaScript program that you just wrote.
 
 Below you will see a diagram of the simple program that outputs the string `'Hello JavaScript!'`. 
 
-![](https://res.cloudinary.com/btvca/image/upload/v1586813230/curriculum/hello-javascript-statement-anatomy_pirclb.png)
+![](https://res.cloudinary.com/btvca/image/upload/v1586817842/curriculum/hello-javascript-statement-anatomy_egkvoj.png)
 
 There are lots of pieces to this program that you may see, or you may not yet. Let's list the parts so that you can start to see them more easily.
 
