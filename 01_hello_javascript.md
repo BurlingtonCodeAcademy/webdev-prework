@@ -1,6 +1,9 @@
 # Hello JavaScript!
 
-![placeholder](https://via.placeholder.com/350x200)
+
+
+![white robot near brown wall](https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Alex Knight")
+
 <caption><em>Image of a Robot waving hello</em></caption>
 
 Welcome to the first lesson of our course pre-work! You are about to begin a journey of learning about programming that will change the way that you think about problems, solving problems, and the world around you.
@@ -10,22 +13,22 @@ In this first lesson we will keep the concepts fairly high level and cover what 
 ## Overview
 
 - What is Programming?
-  - What do we mean when we say 'Programming'?
-  - What are 'programming languages'?
-  - How are programming languages different then spoken languages?
+   - What do we mean when we say 'Programming'?
+   - What are 'programming languages'?
+   - How are programming languages different then spoken languages?
 - Why JavaScript?
-  - why are you learning JavaScript instead of Python, Ruby, C++, etc
-  - How the demand in JavaScript jobs is accelerating
-  - How a Browser is becoming a universal deployment target
+   - why are you learning JavaScript instead of Python, Ruby, C++, etc
+   - How the demand in JavaScript jobs is accelerating
+   - How a Browser is becoming a universal deployment target
 - Opening the Web Browser Developer Tools
-  - Opening the Browser Inspector using the menu bars
-  - Opening the Browser Inspector using the keyboard shortcuts
-  - Opening the Browser Inspector using the mouse right click
+   - Opening the Browser Inspector using the menu bars
+   - Opening the Browser Inspector using the keyboard shortcuts
+   - Opening the Browser Inspector using the mouse right click
 - How to Run JavaScript
-  - Navigating to the JavaScript console
-  - Running some simple math
+   - Navigating to the JavaScript console
+   - Running some simple math
 - The Syntax of Hello World
-  - Words, period, parenthesis, quotes, and semicolon
+   - Words, period, parenthesis, quotes, and semicolon
 
 ## What is Programming?
 
@@ -126,14 +129,185 @@ The JavaScript code that you see above is a precise set of instructions which te
 
 ## Why JavaScript?
 
-### Why are you learning JavaScript instead of Pythin, C/C++, Ruby, etc.
+### Why learn JavaScript instead of Python, C/C++, Ruby, etc.
 
-The JavaScript language is the language of the web. It has a special place in the internet world as the language that is able to run **natively** on all web browsers. As a result of this, nearly every webpage you use has some form of JavaScript running on it. While there are many programming languages, some of which we listed above, we chose JavaScript for the following reasons.
+The JavaScript language is the language of the web. It has a special place in the internet world as the only language that is able to run **natively** on all web browsers. As a result of this, nearly every webpage you use has some form of JavaScript running on it. 
+
+There is a quote by Marc Andreessen that states:
+
+> *More and more major businesses and industries are being run on software and delivered as online services - from movies to agriculture to national defense. 
+> ...
+> Six decades into the computer revolution, four decades since the invention of the microprocessor, and two decades into the rise of the modern Internet, all of the technology required to transform industries through software finally works and can be widely delivered at global scale.*
+
+From: [Why Software Is Eating the World - Andreessen Horowitz](https://a16z.com/2011/08/20/why-software-is-eating-the-world/)
+
+As software continues to "eat the world", JavaScript acts as the knife in its hand.
+
+While there are many programming languages, some of which we listed above, we chose JavaScript for the following reasons.
 
 1. JavaScript is ubiquitous, running on billions of devices and hundreds of billions of web pages.
-1. JavaScript is portable between every modern computer, meaning the same code can run on many different devices.
-1. JavaScript is expressive, meaning we are able to express our thoughts and intents within the language to a large degree.
-1. JavaScript can run in the browser as well as on web-servers and databases. This allows us to use one language in multiple places, amplifying our reach as programmers.
-1. JavaScript is evolving and improving rapidly. Meaning that new features are being added to the language constantly.
+2. JavaScript is portable between every modern computer, meaning the same code can run on many different devices.
+3. JavaScript is expressive, meaning we are able to communicate our thoughts and intents within the language in precise and creative ways.
+4. JavaScript can run in the browser as well as on web-servers and databases. This allows us to use one language in multiple places, amplifying our reach as programmers.
+5. JavaScript is evolving and improving rapidly. Meaning that new features are being added to the language constantly.
 
+![](https://miro.medium.com/max/1358/0*RAW-_uc7AcSli4aL)
 
+###### Image from NPM Inc. This year in JavaScript 2018
+
+Link: "https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npms-predictions-for-2019-3a3d7e5298ef"
+
+### JavaScript Jobs are Accelerating
+
+The number of jobs available which require JavaScript experience in part of whole have been increasing for years, and will continue to increase for the foreseeable future. JavaScript's position within technology has been growing at an astounding rate, largely due to the importance of the web browser as a target for applications, and the standardization of web browser APIs over the past decade.
+
+In addition to there being more jobs in need of JavaScript skills, the overall satisfaction with the language has been increasing for several years. This can be seen in the recent StackOverflow developer survey, which listed JavaScript as the most popular language in 2019.
+
+> For the sixth year in a row, [JavaScript](https://stackoverflow.com/jobs?sort=i&q=javascript) is the most commonly used programming language. Python has risen in the ranks, surpassing C# this year, much like it surpassed PHP last year. Python has a solid claim to being the [fastest-growing major programming language](https://stackoverflow.blog/2017/09/06/incredible-growth-python/).
+
+Beyond the world of JavaScript, the role of "Software Developer" has become the #1 job in the United States according to U.S News & World Report.
+
+- https://money.usnews.com/careers/best-jobs/software-developer
+
+### JavaScript Skills in Demand
+
+Take a look at the following study [2018 Student Developer Report by HackerRank](https://research.hackerrank.com/student-developer/2018#skills) and notice that the demand for JavaScript skills is greater than those available by potential employees. A recent report by [Devskiller](https://devskiller.com/technical-hiring-skills-report-2019/#Two) in 2019 also outlines that based on over 100,000  skills tests that 70% of companies are looking to hire for developers who understand JavaScript. All of this demand equates to higher average developer salaries as evidenced by the [PayScale JavaScript salary calculator](https://www.payscale.com/research/US/Skill=JavaScript/Salary).
+
+![](https://www.hiringlab.org/wp-content/uploads/2020/01/top_skills_full_stack_developer.png)
+
+### JavaScript Frameworks are Growing
+
+Along with the number of jobs available to developers growing year-over-year, the tools available have also continued to keep pace with the breadth of uses for JavaScript. Among the most popular frameworks available today, [Node.js, Angular, and React sit in the top three places among all languages](https://insights.stackoverflow.com/survey/2018/#technology) according to the Stack Overflow developer survey. In 2019 the State of JS survey found that in 2019 there were six widely used frameworks for just front-end JavaScript and that react, the framework taught in our bootcamp, 71% of respondents have used React and would use it again.
+
+![](https://miro.medium.com/max/1400/0*7jbtUx39ehZHpiG4)
+
+###### React framework popularity growth, from NPM Inc. This year in JavaScript 2018
+
+Link: "https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npms-predictions-for-2019-3a3d7e5298ef"
+
+## How to Run JavaScript
+
+### Navigating to the JavaScript Console
+
+Open a new tab in your web browser by clicking **File** then **New Tab** in the **Menu Bar** and then within the new tab opening the browser's JavaScript Console by following the command below based on your web browser type.
+
+Opening the Browser JavaScript Console
+
+The browser developer tools are an important tool while programming client side JavaScript. They are included in all modern browsers and can be accessed via several methods.
+
+---
+
+#### Google Chrome
+
+##### Open the JavaScript console using the Menu Bar
+
+At the top of the Google Chrome window find the **View** menu, then click **Developer**, and then click **JavaScript Console**.
+
+#### Open the JavaScript console using right-click
+
+Any where on the currently loaded page, use the right-click mouse button and select **Inspect**, you should then see a developer tools window appear at the bottom or the right hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
+
+#### Open the Browser Inspector with a Keyboard Shortcut
+
+`Command + Option + J (Mac)`
+
+`Control + Shift + J (Windows, Linux, Chrome OS)`
+
+---
+
+#### Mozilla Firefox
+
+##### Open the JavaScript console using the Menu Bar
+
+At the top of the Firefox window find the **Tools** menu, then click **Web Developer**, and then click **Web Console**.
+
+#### Open the JavaScript console using right-click
+
+Any where on the currently loaded page, use the right-click mouse button and select **Inspect Element**, you should then see a developer tools window appear at the bottom or the right hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
+
+#### Open the Browser Inspector with a Keyboard Shortcut
+
+`Command + Option + K (Mac)`
+
+`Control + Shift + K (Windows, Linux, Chrome OS)`
+
+---
+
+#### Apple Safari
+
+##### Open the JavaScript console using the Menu Ba
+
+At the top of the Safari window find the **Developer** menu, then click **Show JavaScript Console**
+
+#### Open the JavaScript console using right-click
+
+Any where on the currently loaded page, use the right-click mouse button and select **Inspect Element**, you should then see a developer tools window appear at the bottom or the right hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
+
+#### Open the Browser Inspector with a Keyboard Shortcut
+
+`Command + Option + C`
+
+### Running a Simple Program
+
+Within your JavaScript console, type the following code and then press the `ENTER`key.
+
+```js
+console.log("Hello JavaScript!");
+```
+
+![MacBook Pro on brown wooden surface](https://images.unsplash.com/photo-1544980919-e17526d4ed0a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Joshua Aragon")
+
+Do you see the text `Hello JavaScript!` print below the code you wrote? 
+
+#### Congratulations!
+
+You just wrote your first line of code in JavaScript.  Over the next several weeks we will expand on what you know, and you will be able to make your programs do many more things. For now though, sit back and enjoy this moment as a first simple program.
+
+## The Syntax of Hello JavaScript
+
+Now let's take a look at the JavaScript program that you just wrote.
+
+Below you will see a diagram of the simple program that outputs the string `'Hello JavaScript!'`. 
+
+![](https://res.cloudinary.com/btvca/image/upload/v1586813230/curriculum/hello-javascript-statement-anatomy_pirclb.png)
+
+There are lots of pieces to this program that you may see, or you may not yet. Let's list the parts so that you can start to see them more easily.
+
+###### Input to the Console
+
+```js
+console.log('Hello JavaScript!');
+```
+
+###### Expected output from the Console
+
+```js
+'Hello JavaScript!'
+```
+
+The program starts with the word **console** which is what's called an **Object** in JavaScript. This object is a bit like a model of the browser developer console that you opened before, it allows for you to send messages to the browser console and see those messages appear. We send one such message to the console called **log**, this message also needs some text to display, which we provide in the **String** containing the characters `'Hello JavaScript!'`. 
+
+When the browser receives the message `console.log('Hello JavaScript')`, it prints those characters to the screen. Notice that there are **parenthesis** surrounding the **String** on the left and right sides, the first is an **opening** **parenthesis** , meaning that it faces to like a spoon to the right, and the second **parenthesis** comes after the **String** and faces the the left, that one is called a **closing parenthesis**. Together these **parenthesis** are called a **pair** and they **enclose** the **String**.
+
+Finally take a look at the end of the line of code and see that there is a **semicolon** as the last character. This **semicolon** tells the program that JavaScript that your line of code is finished, it serves a lot like a period in english text, in that it is explicitly saying "this line is complete".
+
+# Exercises
+
+## Print Your Name
+
+Now that you know how to output the string `Hello JavaScript!` how would you could you change that program to output your name?
+
+```js
+// What should go inside the code below to print your name?
+console.log();
+```
+
+# Questions
+
+1. **How does a programming language differ from a spoken language**
+
+2. **Why is javascript important**
+
+3. **Where does JavaScript run?**
+
+4. **Where do we run JavaScript in a browser**
