@@ -24,7 +24,7 @@ What you've just read may look familiar. We used a String of text just like it w
 
 #### Single vs. Double Quotes
 
-It's possible to create a String with either single quotes, or double quotes at the beginning and end. There is a recommendation to use single quotes that much of the JavaScript community follows for consistency, but it is not a requirement. The rule you'll need to remember to follow is this; If you start a **String** with single quotes, you **must** end it with single quotes, and if you start it with double quotes, then you must finish it with double quotes. 
+It's possible to create a String with either single quotes, or double quotes at the beginning and end. There is a recommendation to use single quotes that much of the JavaScript community follows for consistency, but it is not a requirement. The rule you'll need to remember to follow is this; If you start a **String** with single-quotes, you **must** end it with single-quotes, and if you start it with double-quotes, then you must finish it with double-quotes. 
 
 You might be asking yourself, "What if I need to use quotes within my String?". To answer that question, read on to the next section.
 
@@ -155,7 +155,7 @@ Try and run that code in your browser console, and you'll likely see an error th
 SyntaxError: "" string literal contains an unescaped line break
 ```
 
-So then how can you create a string that spans more than one line? The answer is to use what are known as a **new-line character** to indicate that you want the current line to end, and the rest of the **String** to begin on the next line. Let's see an example below.
+So then how can you create a string that spans more than one line? The answer is to use what is known as a **new-line character** to indicate that you want the current line to end, and the rest of the **String** to begin on the next line. Let's see an example below.
 
 ```js
 "All the world is a stage,\n" + "And all the men and women merely players;"
@@ -187,7 +187,7 @@ Below you will see a string that has a quote within it, and then the same quote 
 
 ### Strings and Numbers
 
-If you find yourself needing to use numbers that JavaScript calculates within a String, there are several ways to do so. The first way would be to concatenate the number with the **String** using the plus symbol operator `+`, like you see below.
+If you find yourself needing to use numbers that JavaScript calculates within a String, there are several ways to do so. The first way would be to concatenate the number with the **String** using the plus symbol operator `+` like you see below.
 
 ```js
 "The answer to life, the universe, and everything is ... " + 42
