@@ -168,8 +168,6 @@ In most programming languages there are multiple types of numbers, for example t
 
 When you express a number in JavaScript that number will by default be a **floating point number**. This is a bit of a strange behavior on the part of JavaScript as most languages choose to represent numbers without a decimal point value as **Integers**, but JavaScript has chosen a different route. In order to create a number in JavaScript that **IS** and integer, you can use a fairly modern addition to the language known as **BigInt**. This feature of the language allows for you to represent **Integers** in a similar way to other languages, but with the caveat that **BigInt** numbers can only be used with other **BigInt** numbers. Check out the example below.
 
-
-
 **NOTE**: *You will need to be using a relatively recent version of Google Chrome, Mozilla Firefox, or Edge to use this language feature. Internet Explorer and Safari will not work.*
 
 ```js
@@ -235,8 +233,6 @@ Number.MAX_SAFE_INTEGER
 Number.MAX_SAFE_INTEGER + 1
 Number.MAX_SAFE_INTEGER + 2
 ```
-
-
 
 # Exercises
 
