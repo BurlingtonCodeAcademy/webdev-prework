@@ -100,7 +100,7 @@ If the number is not prime
 Stop when the given number exceeds the maximum number
 ```
 
-As humans we can read the description above and think about how this could be performed on a sheet of paper. Unfortunately a computer is not able to translate the text written above into basic operations that run on a CPU and use data from computer memory. Computers need more explicit instructions to follow, and those instructions have to adhere to the rules of a given programming language know as **syntax**. 
+As humans we can read the description above and think about how this could be performed on a sheet of paper. Unfortunately a computer is not able to translate the text written above into basic operations that run on a CPU and use data from computer memory. Computers need more explicit instructions to follow, and those instructions have to adhere to the rules of a given programming language known as **syntax**.
 
 Have a look at the JavaScript code below, which follows the steps written above.
 
@@ -135,11 +135,11 @@ The JavaScript code that you see above is a precise set of instructions that tel
 
 ### Why learn JavaScript instead of Python, C/C++, Ruby, etc.
 
-The JavaScript language is the language of the web. It has a special place in the internet world as the only language that is able to run **natively** on all web browsers. As a result of this, nearly every webpage you use has some form of JavaScript running on it. 
+The JavaScript language is the language of the web. It has a special place in the internet world as the only language that is able to run **natively** on all web browsers. As a result of this, nearly every webpage you use has some form of JavaScript running on it.
 
 There is a quote by Netscape co-founder Marc Andreessen that states:
 
-> *More and more major businesses and industries are being run on software and delivered as online services - from movies to agriculture to national defense. 
+> *More and more major businesses and industries are being run on software and delivered as online services - from movies to agriculture to national defense.
 > ...
 > Six decades into the computer revolution, four decades since the invention of the microprocessor, and two decades into the rise of the modern Internet, all of the technology required to transform industries through software finally works and can be widely delivered at global scale.*
 
@@ -205,6 +205,12 @@ The browser developer tools are an important tool while programming client side 
 
 #### Google Chrome
 
+##### Official Documentation
+
+Take a look at the documentation from Google if any of the instructions below are confusing.
+
+[Open Chrome DevTools - Google](https://developers.google.com/web/tools/chrome-devtools/open "Open Chrom DevTools - Google")
+
 ##### Open the JavaScript console using the Menu Bar
 
 Near the top right of the Chrome window find a button with **three vertical dots**, then click, "**More Tools**", then  "**Developer Tools**", and then click the "**Console**" tab in the window that opens.
@@ -222,6 +228,12 @@ Any where on the currently loaded page, use the right-click mouse button and sel
 ---
 
 #### Mozilla Firefox
+
+##### Official Documentation
+
+Take a look at the documentation from Mozilla if any of the instructions below are confusing.
+
+[Open Firefox Developer Tools - Mozilla](https://developer.mozilla.org/en-US/docs/Tools "Open Firefox Developer Tools - Mozilla")
 
 ##### Open the JavaScript console using the Menu Bar
 
@@ -241,6 +253,12 @@ Any where on the currently loaded page, use the right-click mouse button and sel
 
 #### Apple Safari
 
+##### Official Documentation
+
+Take a look at the documentation from Apple if any of the instructions below are confusing.
+
+[Open Safari Developer Tools - Apple](https://support.apple.com/guide/safari/use-the-developer-tools-in-the-develop-menu-sfri20948/mac "Open Safari Developer Tools - Apple")
+
 ##### Open the JavaScript console using the Menu Ba
 
 At the top of the Safari window find the **Developer** menu, then click **Show JavaScript Console**
@@ -253,6 +271,27 @@ Any where on the currently loaded page, use the right-click mouse button and sel
 
 `Command + Option + C`
 
+---
+
+#### Microsoft Edge
+
+##### Official Documentation
+
+Take a look at the documentation from Microsoft if any of the instructions below are confusing.
+
+[Open Edge Developer Tools - Microsoft](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium "Microsoft Edge Developer Tools - Microsoft")
+
+#### Open the JavaScript console using right-click
+
+Any where on the currently loaded page, use the right-click mouse button and select **Inspect Element**, you should then see a developer tools window appear at the bottom or on the right-hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
+
+#### Open the Browser Inspector with a Keyboard Shortcut
+
+- Windows - `Control + Shift + C` OR `F12`
+- macOS - `Command + Option + C`
+
+---
+
 ### Running a Simple Program
 
 Within your JavaScript console, type the following code and then press `ENTER`.
@@ -263,7 +302,7 @@ console.log("Hello JavaScript!");
 
 ![MacBook Pro on brown wooden surface](https://res.cloudinary.com/btvca/image/upload/v1586818922/curriculum/hello-javascript-console-example_okzsl8.png "Joshua Aragon")
 
-Do you see the text `Hello JavaScript!` print below the code you wrote? 
+Do you see the text `Hello JavaScript!` print below the code you wrote?
 
 #### Congratulations!
 
@@ -281,8 +320,6 @@ Below you will see a diagram of the simple program that outputs the string:
 
 ![](https://res.cloudinary.com/btvca/image/upload/v1586817842/curriculum/hello-javascript-statement-anatomy_egkvoj.png)
 
-
-
 There are lots of pieces to this program that you may see, or you may not yet. Let's list the parts so that you can start to see them more easily.
 
 ###### Input to the Console
@@ -297,7 +334,7 @@ console.log('Hello JavaScript!');
 'Hello JavaScript!'
 ```
 
-The program starts with the word **console** which is what's called an **Object** in JavaScript. This object is a bit like a model of the browser developer console that you opened before, it allows for you to send messages to the browser console and see those messages appear. We send one such message to the console called **log**, this message also needs some text to display, which we provide in the **String** containing the characters `'Hello JavaScript!'`. 
+The program starts with the word **console** which is what's called an **Object** in JavaScript. This object is a bit like a model of the browser developer console that you opened before, it allows for you to send messages to the browser console and see those messages appear. We send one such message to the console called **log**, this message also needs some text to display, which we provide in the **String** containing the characters `'Hello JavaScript!'`.
 
 When the browser receives the message `console.log('Hello JavaScript')`, it prints those characters to the screen. Notice that there are **parentheses** surrounding the **String** on the left and right sides, the first is an **opening** **parenthesis**, meaning that it faces like a spoon to the right, and the second **parenthesis** comes after the **String** and faces to the left, that one is called a **closing parenthesis**. Together these **parenthesis** are called a **pair** and they **enclose** the **String**.
 
