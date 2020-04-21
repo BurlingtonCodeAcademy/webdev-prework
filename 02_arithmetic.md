@@ -4,8 +4,6 @@
 
 Solving mathematical equations has been one of the primary uses of computers since they were first created over fifty years ago. In fact the term "computer" was inherited by the ancestors of our devices from the human beings who computed the answers to long equations, often while working for the military or aerospace organizations. 
 
-
-
 > ...Mr. Theo I. King throughout the year, in the grade of computer until April 20, 1897, and subsequently in the grade of assistant astronomer; Computer Frank B. Littell... Computer E. A. Boeger throughout the year; Computer G. K. Lawton ...
 
 Source: [ United States Naval Observatory report 1884]((https://books.google.com/books?id=v8ARAAAAYAAJ&pg=PR4-IA110&dq=computer&hl=en&ei=ygbzTYXpNIOosQO-7YmvCw&sa=X&oi=book_result&ct=result#v=onepage&q=computer&f=false)
@@ -126,7 +124,7 @@ The **remainder** symbol `%`, also known as the **modulus** operator, calculates
 
 ###### Exponentiation
 
-The **exponentiation** symbol `**`, also known as the **power** operator, calculates the value of the number on the left raised to the power of the number on the right. It results in a number equal to the the number on the left multiplied by its own value the number of times to the number on the right.
+The **exponentiation** symbol `**`, also known as the **power** operator, calculates the value of the number on the left raised to the power of the number on the right. It results in a number equal to the number on the left multiplied by its own value the number of times to the number on the right.
 
 ## Operator Precedence
 
