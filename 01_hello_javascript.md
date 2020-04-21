@@ -21,7 +21,7 @@ In this first lesson we will keep the concepts fairly high level and cover what 
 - Opening the Web Browser Developer Tools
    - Opening the Browser Inspector using the menu bars
    - Opening the Browser Inspector using the keyboard shortcuts
-   - Opening the Browser Inspector using the mouse right click
+   - Opening the Browser Inspector using the mouse right-click
 - How to Run JavaScript
    - Navigating to the JavaScript console
    - Running some simple math
@@ -48,11 +48,11 @@ This act of encoding human though into instructions that a computer can understa
 
 Just like in human spoken or written languages where there are many ways to describe the same thoughts, there are many "programming languages" that can represent the same instructions, but in different ways.
 
-A computer is not like a thinking person who can "interpret" the meaning of a message even if it's vague, or has multiple meanings. A computer is not able to determine what to do if there is any wiggle room in your instructions, it only does what it is told. For this reason human languages are ill fitted for providing computers instructions to carry out. Even the most specific forms of human language like the law, medical, scientific, or mathematical descriptions fall short of the specificity needed. This is why decades ago a group of people came together and determined how to create the first "languages" that computers could understand.
+A computer is not like a thinking person who can "interpret" the meaning of a message even if it's vague, or has multiple meanings. A computer is not able to determine what to do if there is any wiggle room in your instructions, it only does what it is told. For this reason, human languages are ill-fitted for providing a computer instructions to carry out. Even the most specific forms of human language like the law, medical, scientific, or mathematical descriptions fall short of the specificity needed. This is why decades ago a group of people came together and determined how to create the first "languages" that computers could understand.
 
 ![MacBook Pro on brown wooden surface](https://images.unsplash.com/photo-1544980919-e17526d4ed0a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Joshua Aragon")
 
-There have been thousands of distinct programming languages created since their first introduction over fifty years ago. Of those thousands there are about about one hundred which are still in common use today, and of those there are about a dozen languages that you might have heard of. See if you recognize some of these language names:
+There have been thousands of distinct programming languages created since their first introduction over fifty years ago. Of those thousands there are about one hundred which are still in common use today, and of those there are about a dozen languages that you might have heard of. See if you recognize some of these language names:
 
 - JavaScript
 - C
@@ -65,7 +65,7 @@ There have been thousands of distinct programming languages created since their 
 - PHP
 - Go
 
-Do any of those languages ring a bell? Each of those languages are used in hundreds of thousands of applications. In fact your computer is using some of those languages at this very moment while you are reading this lesson.
+Do any of those languages ring a bell? Each of those languages are used in hundreds of thousands of applications. In fact, your computer is using some of those languages at this very moment while you are reading this lesson.
 
 The reason that there are so many languages is that each one has been designed to do something better than or different than all the other languages that existed at the time. It's a bit like thinking about why there are so many different insects, or birds, or fish. Each kind of thing specializes in something different, and that makes it the right tool for a certain job.
 
@@ -129,7 +129,7 @@ while(currentNumber < max) {
 }
 ```
 
-The JavaScript code that you see above is a precise set of instructions which tells the computer what to do in order to print out all the primes from two up to ten. When the computer reads those instructions there is zero ambiguity for the steps it must follow. As a human however you may have a difficult time reading and understanding the code above. During the next several lessons you will see and understand what each part of that program does, such that you could write your own version which results in the same output.
+The JavaScript code that you see above is a precise set of instructions that tells the computer what to do in order to print out all the primes from two up to ten. When the computer reads those instructions there is zero ambiguity for the steps it must follow. As a human however you may have a difficult time reading and understanding the code above. During the next several lessons you will see and understand what each part of that program does, such that you could write your own version which results in the same output.
 
 ## Why JavaScript?
 
@@ -137,7 +137,7 @@ The JavaScript code that you see above is a precise set of instructions which te
 
 The JavaScript language is the language of the web. It has a special place in the internet world as the only language that is able to run **natively** on all web browsers. As a result of this, nearly every webpage you use has some form of JavaScript running on it. 
 
-There is a quote by Marc Andreessen that states:
+There is a quote by Netscape co-founder Marc Andreessen that states:
 
 > *More and more major businesses and industries are being run on software and delivered as online services - from movies to agriculture to national defense. 
 > ...
@@ -163,15 +163,15 @@ While there are many programming languages, some of which we listed above, we ch
 
 Link: <https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npms-predictions-for-2019-3a3d7e5298ef>
 
-### JavaScript Jobs are Accelerating
+### Accelerating JavaScript Jobs
 
-The number of jobs available which require JavaScript experience in part of whole have been increasing for years, and will continue to increase for the foreseeable future. JavaScript's position within technology has been growing at an astounding rate, largely due to the importance of the web browser as a target for applications, and the standardization of web browser APIs over the past decade.
+The number of jobs available that require JavaScript experience has been increasing for years, and will continue to increase for the foreseeable future. JavaScript's position within technology has been growing at an astounding rate, largely due to the importance of the web browser as a target for applications, and the standardization of web browser APIs over the past decade.
 
 In addition to there being more jobs in need of JavaScript skills, the overall satisfaction with the language has been increasing for several years. This can be seen in the recent StackOverflow developer survey, which listed JavaScript as the most popular language in 2019.
 
 > For the sixth year in a row, [JavaScript](https://stackoverflow.com/jobs?sort=i&q=javascript) is the most commonly used programming language. Python has risen in the ranks, surpassing C# this year, much like it surpassed PHP last year. Python has a solid claim to being the [fastest-growing major programming language](https://stackoverflow.blog/2017/09/06/incredible-growth-python/).
 
-Beyond the world of JavaScript, the role of "Software Developer" has become the #1 job in the United States according to U.S News & World Report.
+Beyond the world of JavaScript, the role of "Software Developer" has become the #1 job in the United States according to U.S. News & World Report.
 
 - https://money.usnews.com/careers/best-jobs/software-developer
 
@@ -183,7 +183,7 @@ Take a look at the following study [2018 Student Developer Report by HackerRank]
 
 ### JavaScript Frameworks are Growing
 
-Along with the number of jobs available to developers growing year-over-year, the tools available have also continued to keep pace with the breadth of uses for JavaScript. Among the most popular frameworks available today, [Node.js, Angular, and React sit in the top three places among all languages](https://insights.stackoverflow.com/survey/2018/#technology) according to the Stack Overflow developer survey. In 2019 the State of JS survey found that in 2019 there were six widely used frameworks for just front-end JavaScript and that react, the framework taught in our bootcamp, 71% of respondents have used React and would use it again.
+Along with the number of jobs available to developers growing year-over-year, the tools available have also continued to keep pace with the breadth of uses for JavaScript. Among the most popular frameworks available today, [Node.js, Angular, and React sit in the top three places among all languages](https://insights.stackoverflow.com/survey/2018/#technology) according to the Stack Overflow developer survey. In 2019 the State of JS survey found that in 2019 there were six widely used frameworks for just front-end JavaScript and that react, the framework taught in our boot camp, 71% of respondents have used React and would use it again.
 
 ![](https://miro.medium.com/max/1400/0*7jbtUx39ehZHpiG4)
 
@@ -197,7 +197,7 @@ Link: <https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npm
 
 Open a new tab in your web browser by clicking **File** then **New Tab** in the **Menu Bar** and then within the new tab opening the browser's JavaScript Console by following the command below based on your web browser type.
 
-Opening the Browser JavaScript Console
+#### Open the Browser Console
 
 The browser developer tools are an important tool while programming client side JavaScript. They are included in all modern browsers and can be accessed via several methods.
 
@@ -207,11 +207,11 @@ The browser developer tools are an important tool while programming client side 
 
 ##### Open the JavaScript console using the Menu Bar
 
-At the top of the Google Chrome window find the **View** menu, then click **Developer**, and then click **JavaScript Console**.
+Near the top right of the Chrome window find a button with **three vertical dots**, then click, "**More Tools**", then  "**Developer Tools**", and then click the "**Console**" tab in the window that opens.
 
 #### Open the JavaScript console using right-click
 
-Any where on the currently loaded page, use the right-click mouse button and select **Inspect**, you should then see a developer tools window appear at the bottom or the right hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
+Any where on the currently loaded page, use the right-click mouse button and select **Inspect**, you should then see a developer tools window appear at the bottom, or the right-hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
 
 #### Open the Browser Inspector with a Keyboard Shortcut
 
@@ -229,7 +229,7 @@ At the top of the Firefox window find the **Tools** menu, then click **Web Devel
 
 #### Open the JavaScript console using right-click
 
-Any where on the currently loaded page, use the right-click mouse button and select **Inspect Element**, you should then see a developer tools window appear at the bottom or the right hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
+Any where on the currently loaded page, use the right-click mouse button and select **Inspect Element**, you should then see a developer tools window appear at the bottom, or the right-hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
 
 #### Open the Browser Inspector with a Keyboard Shortcut
 
@@ -247,7 +247,7 @@ At the top of the Safari window find the **Developer** menu, then click **Show J
 
 #### Open the JavaScript console using right-click
 
-Any where on the currently loaded page, use the right-click mouse button and select **Inspect Element**, you should then see a developer tools window appear at the bottom or the right hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
+Any where on the currently loaded page, use the right-click mouse button and select **Inspect Element**, you should then see a developer tools window appear at the bottom or on the right-hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
 
 #### Open the Browser Inspector with a Keyboard Shortcut
 
@@ -255,7 +255,7 @@ Any where on the currently loaded page, use the right-click mouse button and sel
 
 ### Running a Simple Program
 
-Within your JavaScript console, type the following code and then press the `ENTER`key.
+Within your JavaScript console, type the following code and then press `ENTER`.
 
 ```js
 console.log("Hello JavaScript!");
@@ -273,9 +273,15 @@ You just wrote your first line of code in JavaScript.  Over the next several wee
 
 Now let's take a look at the JavaScript program that you just wrote.
 
-Below you will see a diagram of the simple program that outputs the string `'Hello JavaScript!'`. 
+Below you will see a diagram of the simple program that outputs the string:
+
+```js
+&#39;Hello JavaScript!&#39;
+```
 
 ![](https://res.cloudinary.com/btvca/image/upload/v1586817842/curriculum/hello-javascript-statement-anatomy_egkvoj.png)
+
+
 
 There are lots of pieces to this program that you may see, or you may not yet. Let's list the parts so that you can start to see them more easily.
 
@@ -293,15 +299,15 @@ console.log('Hello JavaScript!');
 
 The program starts with the word **console** which is what's called an **Object** in JavaScript. This object is a bit like a model of the browser developer console that you opened before, it allows for you to send messages to the browser console and see those messages appear. We send one such message to the console called **log**, this message also needs some text to display, which we provide in the **String** containing the characters `'Hello JavaScript!'`. 
 
-When the browser receives the message `console.log('Hello JavaScript')`, it prints those characters to the screen. Notice that there are **parenthesis** surrounding the **String** on the left and right sides, the first is an **opening** **parenthesis** , meaning that it faces to like a spoon to the right, and the second **parenthesis** comes after the **String** and faces the the left, that one is called a **closing parenthesis**. Together these **parenthesis** are called a **pair** and they **enclose** the **String**.
+When the browser receives the message `console.log('Hello JavaScript')`, it prints those characters to the screen. Notice that there are **parentheses** surrounding the **String** on the left and right sides, the first is an **opening** **parenthesis**, meaning that it faces like a spoon to the right, and the second **parenthesis** comes after the **String** and faces to the left, that one is called a **closing parenthesis**. Together these **parenthesis** are called a **pair** and they **enclose** the **String**.
 
-Finally take a look at the end of the line of code and see that there is a **semicolon** as the last character. This **semicolon** tells the program that JavaScript that your line of code is finished, it serves a lot like a period in english text, in that it is explicitly saying "this line is complete".
+Finally take a look at the end of the line of code and see that there is a **semicolon** as the last character. This **semicolon** tells the program JavaScript that your line of code is finished, it serves a lot like a period in English text, in that it is explicitly saying "this line is complete".
 
 # Exercises
 
 ## Print Your Name
 
-Now that you know how to output the string `Hello JavaScript!` how would you could you change that program to output your name?
+Now that you know how to output the string `Hello JavaScript!` how would you change that program to output your name?
 
 ```js
 // What should go inside the code below to print your name?
