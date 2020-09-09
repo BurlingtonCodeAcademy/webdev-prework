@@ -20,7 +20,7 @@ So, what are they exactly?
 
 Say we want to write a function that checks to see if a number is even. Going off of the previous definition, it would accept a number as an *input*, and would return a boolean as its *output*. `true` if the number is even, `false` if it's odd. 
 
- Here is a ***function definition*** AKA ***function declaration*** AKA ***function statement***, that expects a number as a parameter, and will do just that.
+ Here is a ***function definition*** AKA ***function declaration*** AKA ***function statement***, that expects a number as a *parameter*, and will do just that.
 
  ```javascript
 function isEven(number){
@@ -36,6 +36,8 @@ isEven(4) // will return true
  Immediately after the function is declared, it is *called*, with `4` passed in as the *argument*.
 
 # Terms
+
+![dictionary](https://res.cloudinary.com/btvca/image/upload/v1599683181/dictionary-3163569_1920_hkwpe3.jpg)
 
 That was a lot of new words, so let's answer some questions you might have.
 
@@ -57,11 +59,11 @@ function isEven(number){
 
 **What's a parameter?**
 
-In the above example, the *variable* `number` has no value yet, but is rather a placeholder that tells the function what to do with it when a value is provided. That placeholder is called a *parameter*. **It will be replaced with an argument when the function is called**
+In the above example, the *variable* `number` has no value yet, but is rather a placeholder that tells the function what to do with it when a value is provided. That placeholder is called a *parameter*. **It will be replaced with an argument when the function is called**.
 
 **What is an argument?**
 
-An argument is a concrete value (or variable that equates to a concrete value) that will replace the *parameter* used in the definition of a function. In the above example, `number` is the parameter and `4` is the argument. Only the *function call* will actually run the code, using the *argument* as the input. 
+An argument is a concrete value (or identifier that equates to a concrete value) that will replace the *parameter* used in the definition of a function. In the above example, `number` is the parameter and `4` is the argument. Only the *function call* will actually run the code, using the *argument* as the input. 
 
 ```javascript
 isEven(4) // 4 is the argument
@@ -112,15 +114,20 @@ b)
     
 
 
-# Scope
+# Behavior
 
-Scope is the level at which certain information is available in a program. In other words, it's where an identifier* is recognized, be it a variable, constant, function, etc. There are two types of scope: Local and Global.
+Functions are a little opinionated when it comes to where information must live in order to be seen.  In other words, depending on where a piece of data's *identifier** has been defined, the function may or may not know what the heck you're talking about.
+
+This will come in the form of a **reference error**, which like it sounds, is an error based on not knowing what the program is trying to refer to. 
 
 **identifiers* are sets of characters that are used to *identify* a variable, function or property. It's the "word(s)" you use to refer to something.  
 
-## Local Scope
 
-Here is a simple example of what local scope effectively does:
+![narrow alleyway](https://res.cloudinary.com/btvca/image/upload/v1599683061/alley-401540_640_gpylkt.jpg)
+
+## Narrow-minded
+
+Take this example:
 
 ```javascript
 function subtractFive(num){
@@ -130,14 +137,16 @@ function subtractFive(num){
 console.log(newNum) // will throw a reference error
 ```
 
-The function above, while not very useful from an application's standpoint, does serve to demonstrate the biggest pain point of scope:
+The function above, while not very useful from an application's standpoint, does serve to demonstrate a big pain point in functions:
 
 > *identifiers* defined *within* a function are unavailable to anything outside of it. 
 
+This is good! Functions are only truly concerned with the bottom line: a `return` value. Whatever logic is run and whatever *identifiers* are defined, the function is handling them on a call-by-call basis, creating a new *instance* of that code being run.
 
-This is good! Functions are only truly concerned with the bottom line: a `return` value. Whatever logic is run and whatever *identifiers* are defined, the function is handling them on a case-by-case basis, re-defining them within the internal scope of the function whenever it is called.
+The identifiers are used in context of the function, and no further. This is referred to as *scope*, and more specifically *local scope*. More on that in future lessons. For now, just remember that identifiers declared within a function will not be accessible outside of it.
 
-The identifiers are used in context of the function, and no further. Thus, the scope is considered *local*.
+## Down but not up
+
 
 **What about functions within functions?**
 
@@ -147,13 +156,45 @@ Let's take a look at the previous example, with a twist:
 
 ```javascript
 function subtractFive(num){
-    let newNum = num - 5
-    return newNumTimesThree()
-
-    function newNumTimesThree(){
+    // the function definition 
+     function timesThree(){
         return newNum * 3
     }
+    // the code being run
+    let newNum = num - 5
+    return timesThree()
+
+   
 } 
+subtractFive(10) // => 15
 ```
 
-So, what's happening here? There's a function declaration within a function declaration? 
+So, what's happening here? There's a function declaration within a function declaration?
+
+Yep!
+
+Here, we've introduces a *second* function that has been *declared* within the first. `timesThree` is a function that has NO parameters, but when called, refers to the variable `newNum` that has been defined within view of its encasing function, `subtractFive`. 
+
+`timesThree` can see what `newNum` is because it lives within the parent function and has a stated `return` value, `newNum * 3`. So, by calling `subtractFive` and passing `10` as an argument to it, `newNum` is defined relative to the argument 10:
+
+```javascript
+let newNum = num - 5 // when num is 10
+```
+And then, due being defined within the function, `timesThree` knows what `newNum` is. So, it returns:
+
+```javascript
+newNum * 3
+```
+Note that the main function, `subtractFive` is returning the value that `timesThree()` equates to, and `timesThree` has been defined to `return` a number 3x `newNum`:
+
+```javascript
+// this function returns a value that is then returned by subtractFive
+return timesThree()
+```
+
+So, what's our takeaway?
+
+> Identifiers are visible to the functions that are *nested* within a given function, given the initial identifier has been declared inside the intiial function.
+
+Thus the title of this section, **down, but not up**
+
