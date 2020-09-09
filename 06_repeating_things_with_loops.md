@@ -140,6 +140,8 @@ This is, in its simplest form, how a loop behaves.
 
  Now, let's take a look at the different types of loops that exist in programming; JavaScript in particular.
 
+ ![Loops In Javascript](https://res.cloudinary.com/btvca/image/upload/v1599682539/synchronize-150123_1280_k3pfdo.png)
+
 # Loops in JavaScript
 
 ## While loops
@@ -260,6 +262,7 @@ This says the following:
 
 **Note! This is one of the FEW times that a semicolon inbetween each expression is absolutely necessary.  DO NOT FORGET THEM!**
 
+![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/v1599682636/sunset-1211475_1280_xtjrjn.png)
 
 # Final Musings
 
