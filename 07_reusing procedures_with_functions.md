@@ -1,4 +1,4 @@
-# Functions: Terms & Behavior
+# Functions: Terms & Behavior in JavaScript
 
 ![functions](https://res.cloudinary.com/btvca/image/upload/v1599680156/functions_title_card_ftkut4.jpg)
 
@@ -78,7 +78,7 @@ isEven(4) // isEven is called
 ```
 **What is the significance of return?**
 
-`return` is an extremely important keyword and is tied directly to the *input* and *output* relationship of a function's definition. `return`, when encountered in a function, will end that function's execution. Whatever is to the right of that `return` keyword, then, will be the value that the function will equate to when called.
+`return` is an extremely important keyword and is tied directly to the *input* and *output* relationship of a function's definition. `return`, when encountered in a function, will end that function's execution. Whatever is to the right of that `return` keyword, then, will be the value that the function will equate to when called. Think of `return` as the *output* of a function. 
 
 For example, `isEven` has two choices for a `return` value: `true` or `false`. Depending on the *argument* passed in, that function will `return` one of those two values. That value, then can be stored in a variable and used elsewhere!
 
@@ -125,6 +125,8 @@ This will come in the form of a **reference error**, which like it sounds, is an
 
 ![narrow alleyway](https://res.cloudinary.com/btvca/image/upload/v1599683061/alley-401540_640_gpylkt.jpg)
 
+> NOTE: In terms of declarations, you may have encountered the `var` keywork in one form or another. In 2015, a really big change came to JavaScript that has proved `var` to be more or less obsolete. When discussing general behavior of functions in this lesson, it is under the assumption that we are using `let` in its place. 
+
 ## Narrow-minded
 
 Take this example:
@@ -145,12 +147,12 @@ This is good! Functions are only truly concerned with the bottom line: a `return
 
 The identifiers are used in context of the function, and no further. This is referred to as *scope*, and more specifically *local scope*. More on that in future lessons. For now, just remember that identifiers declared within a function will not be accessible outside of it.
 
+
 ## Down but not up
-
-
+![jumping](https://res.cloudinary.com/btvca/image/upload/v1599686317/base-jump-1600668_1280_mrkmam.jpg)
 **What about functions within functions?**
 
-When a function is part of another function, the inner-most function has access to all of the identifiers located within it's parent functions.
+When a function is part of another function, the inner function has access to all of the identifiers located within it's parent function(s).
 
 Let's take a look at the previous example, with a twist:
 
@@ -173,13 +175,14 @@ So, what's happening here? There's a function declaration within a function decl
 
 Yep!
 
-Here, we've introduces a *second* function that has been *declared* within the first. `timesThree` is a function that has NO parameters, but when called, refers to the variable `newNum` that has been defined within view of its encasing function, `subtractFive`. 
+Here, we've introduced a *second* function that has been *declared* within the first. `timesThree` is a function that has NO parameters, but when called, refers to the variable `newNum` that has been defined within view of its encasing function, `subtractFive`. 
 
 `timesThree` can see what `newNum` is because it lives within the parent function and has a stated `return` value, `newNum * 3`. So, by calling `subtractFive` and passing `10` as an argument to it, `newNum` is defined relative to the argument 10:
 
 ```javascript
 let newNum = num - 5 // when num is 10
 ```
+
 And then, due being defined within the function, `timesThree` knows what `newNum` is. So, it returns:
 
 ```javascript
@@ -192,9 +195,30 @@ Note that the main function, `subtractFive` is returning the value that `timesTh
 return timesThree()
 ```
 
-So, what's our takeaway?
+**So, what's our takeaway?**
 
 > Identifiers are visible to the functions that are *nested* within a given function, given the initial identifier has been declared inside the intiial function.
 
-Thus the title of this section, **down, but not up**
+Thus the title of this section, **down, but not up**.
 
+**But what if an identifier is declared on the top level?**
+
+Happens all the time! These variables, functions, whatever they wind up being, are referred to as being in the *global* scope. This means they're available to anything in your program. There are benefits and downsides to this that go far beyond the scope (hah) of this article, so for now, just remember:
+
+**Down, but not up.**
+
+# Final Musings
+
+Functions have a lot more to do in JavaScript than what's been covered in this article. This is not a be-all end-all resource, but rather an attempt at an easy read to get you familiarized with the language surounding functions in a smooth and simple way. 
+
+Here are some takeaways I'd like to leave you with:
+
+- functions can be *declared* with the `function` keyword
+- *parameters* are (optional) placeholder variables used in the function *definition*/*declaration*
+- *arguments* are the real values given to the function when called. They replace the *parameters*.
+- *Calling* a function means running the code in its *definition* with the *arguments*.
+- *identifiers* are available for use in functions only when they exist on or "below" the level at which they were defined. 
+
+Happy coding :)
+
+-Paul
