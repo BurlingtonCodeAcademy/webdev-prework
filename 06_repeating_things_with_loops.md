@@ -1,6 +1,6 @@
 # Loops
 
-![Loops Title Card](https://res.cloudinary.com/btvca/image/upload/v1599680156/loops_title_card_bi2qmp.png)
+![Loops Title Card](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599680156/loops_title_card_bi2qmp.png)
 
 Ahh, loops. A fundamental part of what makes programming such a tour de force. Knowing what they are and how they behave is paramount to being a programmer of any skill level. Whether just starting out or a lifelong coder, you won't build anything of use until you harness them properly. Probably.
 
@@ -10,7 +10,7 @@ Loops are, in a nutshell, blocks of code that will run over and over and over an
 
 Consider the following:
 
-![Imageofallworknoplay](https://res.cloudinary.com/btvca/image/upload/v1599680156/allwork_cli_qmjjax.png)
+![Imageofallworknoplay](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599680156/allwork_cli_qmjjax.png)
 
 Besides being a play on the beloved 1980s classic *The Shining*, this screenshot of the terminal on my computer was not the product of my descent into madness, but rather a simple and effective `while` loop. Harnessing the awesome power of a loop, I was able to to repeat a block of code over and over and over! In this case, that code simply printed a line of text to the terminal. 
 
@@ -64,7 +64,7 @@ while (i < 10) {
 ```
 Now, run this in your terminal. It should look much more manageable. 
 
-![While loop example](https://res.cloudinary.com/btvca/image/upload/v1599680156/loop_terminated_ti1bbp.png)
+![While loop example](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599680156/loop_terminated_ti1bbp.png)
 
 
 Sucess! The loop stopped without breaking our computers. Note that the text was only printed 9 times.
@@ -140,7 +140,7 @@ This is, in its simplest form, how a loop behaves.
 
  Now, let's take a look at the different types of loops that exist in programming; JavaScript in particular.
 
- ![Loops In Javascript](https://res.cloudinary.com/btvca/image/upload/c_scale,w_506/v1599682539/synchronize-150123_1280_k3pfdo.png)
+ ![Loops In Javascript](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599682539/synchronize-150123_1280_k3pfdo.png)
 
 # Loops in JavaScript
 
@@ -262,7 +262,7 @@ This says the following:
 
 **Note! This is one of the FEW times that a semicolon inbetween each expression is absolutely necessary.  DO NOT FORGET THEM!**
 
-![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/c_scale,w_754/v1599682636/sunset-1211475_1280_xtjrjn.png)
+![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599682636/sunset-1211475_1280_xtjrjn.png)
 
 # Final Musings
 

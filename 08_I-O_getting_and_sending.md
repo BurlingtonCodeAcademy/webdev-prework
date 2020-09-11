@@ -1,7 +1,8 @@
 
-![keyboard](https://res.cloudinary.com/btvca/image/upload/v1599749989/keyboard-70506_1920_u4tbm6.jpg)
-
 # Input and Output
+
+![keyboard](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599749989/keyboard-70506_1920_u4tbm6.jpg)
+
 
 Telephones. Coffee grinders. Engines. People.
 
@@ -31,7 +32,7 @@ For the following lesson, we're going to be creating an I/O workflow from the CL
 
 
 # Getting User Input
-![command line](https://res.cloudinary.com/btvca/image/upload/v1599750226/command-line-pt-2-8-1243728_cmpytn.jpg
+![command line](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599750226/command-line-pt-2-8-1243728_cmpytn.jpg
 )
 The CLI is a default standard interface for programming due to its ease of use and ability to integrate into different operating systems through what's known as a *shell*.
 
@@ -78,11 +79,11 @@ The big takeaway is that, to see your input, you need to *stringify that buffer*
 
 And if we try this, we'll see something like the following:
 
-![hanging curosr](https://res.cloudinary.com/btvca/image/upload/v1599765909/hanging_cursor_whz5rj.png)
+![hanging curosr](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599765909/hanging_cursor_whz5rj.png)
 
 And when you enter some text...
 
-![input](https://res.cloudinary.com/btvca/image/upload/v1599766075/Input_r2vjgq.png)
+![input](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599766075/Input_r2vjgq.png)
 
 It logs back what you enter! success!
 
@@ -96,13 +97,13 @@ process.stdin.on('data', (function (chunk) {
     console.log(`You entered the following text: ${input}`)
 })) 
 ```
-![better example](https://res.cloudinary.com/btvca/image/upload/v1599832051/i-o_example_j8aw2c.png)
+![better example](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599832051/i-o_example_j8aw2c.png)
 
 This isn't much different than the previous example, right? It only really serving to emphasize the fact that `chunk` is your information, and by appending `.toString()` to it, it converts that *buffer* into something readable.
 
 # Sending Output
 
-![skateboard phone](https://res.cloudinary.com/btvca/image/upload/v1599832410/sport-3365503_1920_rrhf4m.jpg)
+![skateboard phone](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599832410/sport-3365503_1920_rrhf4m.jpg)
 
 As you may have guessed, the *output* aspect of I/O is handled by the `console.log` in the previous example. While `console` is meant for debugging purposes, its printing capabilities make it an excellent choice for any sort of default command line *output*. 
 
@@ -115,7 +116,7 @@ Thus `process.stdin`/`process.stdout` is our I/O relationship.
 
 
 ## readline
-![Books](https://res.cloudinary.com/btvca/image/upload/v1599835857/books-1245690_1920_nmgj68.jpg)
+![Books](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599835857/books-1245690_1920_nmgj68.jpg)
 
 Node has a massive list of *modules*, which you can think of as additional features that come bundled with an initial node installation. All you have to do is give your file the go-ahead to be used in your specific program. 
 
@@ -167,7 +168,7 @@ rl.question("Do you like to code?\n", function(answer){
 ```
 Running this code produces a result like so:
 
-![readline example](https://res.cloudinary.com/btvca/image/upload/v1599836880/readline_example_dcgzvd.png)
+![readline example](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599836880/readline_example_dcgzvd.png)
 
 There are a few things going on here, so let's break it down:
 

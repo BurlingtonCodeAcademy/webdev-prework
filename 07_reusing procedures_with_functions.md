@@ -1,6 +1,6 @@
 # Functions: Terms & Behavior in JavaScript
 
-![functions](https://res.cloudinary.com/btvca/image/upload/v1599680156/functions_title_card_ftkut4.jpg)
+![functions](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599680156/functions_title_card_ftkut4.jpg)
 
 Functions are an essential piece of the JavaScript puzzle. Without them, our code would run wild and overgrown. Our applications would accrue [code debt](https://en.wikipedia.org/wiki/Technical_debt) at an unmanageable rate. We would constantly repeat ourselves. We would constantly repeat ourselves. Civilzations would crumble.
 
@@ -37,7 +37,7 @@ isEven(4) // will return true
 
 # Terms
 
-![dictionary](https://res.cloudinary.com/btvca/image/upload/v1599683181/dictionary-3163569_1920_hkwpe3.jpg)
+![dictionary](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599683181/dictionary-3163569_1920_hkwpe3.jpg)
 
 That was a lot of new words, so let's answer some questions you might have.
 
@@ -123,7 +123,7 @@ This will come in the form of a **reference error**, which like it sounds, is an
 **identifiers* are sets of characters that are used to *identify* a variable, function or property. It's the "word(s)" you use to refer to something.  
 
 
-![narrow alleyway](https://res.cloudinary.com/btvca/image/upload/v1599683061/alley-401540_640_gpylkt.jpg)
+![narrow alleyway](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599683061/alley-401540_640_gpylkt.jpg)
 
 > NOTE: In terms of declarations, you may have encountered the `var` keywork in one form or another. In 2015, a really big change came to JavaScript that has proved `var` to be more or less obsolete. When discussing general behavior of functions in this lesson, it is under the assumption that we are using `let` in its place. 
 
@@ -149,7 +149,7 @@ The identifiers are used in context of the function, and no further. This is ref
 
 
 ## Down but not up
-![jumping](https://res.cloudinary.com/btvca/image/upload/v1599686317/base-jump-1600668_1280_mrkmam.jpg)
+![jumping](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599686317/base-jump-1600668_1280_mrkmam.jpg)
 **What about functions within functions?**
 
 When a function is part of another function, the inner function has access to all of the identifiers located within it's parent function(s).
