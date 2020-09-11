@@ -1,3 +1,6 @@
+
+![keyboard](https://res.cloudinary.com/btvca/image/upload/v1599749989/keyboard-70506_1920_u4tbm6.jpg)
+
 # Input and Output
 
 Telephones. Coffee grinders. Engines. People.
@@ -9,8 +12,6 @@ As redundant as that statement may be, it demonstrates the fundamental idea of *
 So let's leave the coffee grinders and telephones by the way side and discuss the properties of Input/Output (I/O) in a context useful to us programmers: the command line.
 
 But first, what is I/O in computing?
-
-![keyboard](https://res.cloudinary.com/btvca/image/upload/v1599749989/keyboard-70506_1920_u4tbm6.jpg)
 
 When dealing with computers, I/O is the process in which an entity receives some information, interprets that information, and does something based on that interpretation.
 

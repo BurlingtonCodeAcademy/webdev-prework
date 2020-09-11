@@ -1,4 +1,4 @@
-Convert to markdown from here:
+# Making Decisions with Conditionals
+>Focus is a matter of deciding what things you're not going to do.
 
-https://docs.google.com/document/d/1WwNAHsRnWPXrtBbZm31-r59RVtKhHIQPSLT9SKrCxx4/edit#heading=h.ni012bw2vm5
-
+-- John Carmack, Co-founder, id Software
