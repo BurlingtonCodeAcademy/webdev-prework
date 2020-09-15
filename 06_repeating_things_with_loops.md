@@ -262,9 +262,9 @@ This says the following:
 
 **Note! This is one of the FEW times that a semicolon inbetween each expression is absolutely necessary.  DO NOT FORGET THEM!**
 
-![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599682636/sunset-1211475_1280_xtjrjn.png)
-
 # Final Musings
+
+![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599682636/sunset-1211475_1280_xtjrjn.png)
 
 `for`, `while`, and `do...while` loops are all variations of a simple concept; do something until a condition is no longer `true`.
 
@@ -273,4 +273,5 @@ There are more mechanisms native to javascript that allow for quick and easy way
 Drill them. Learn them. Embrace them! Do not fear them! They'll make you a better programmer, I promise.
 
 <br>
+Happy Coding :)
 -Paul
