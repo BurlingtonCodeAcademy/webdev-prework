@@ -35,9 +35,10 @@ For other topics, like *strings* and *functions*, introduce a small secondary ex
 - Already in place
 
 **Arithmetic**
- - Questions
- - Maybe fill in the blanks? 9_9 = 81 ?
+- Questions
+- Maybe fill in the blanks? 9_9 = 81 ?
     - Too simple?
+- If 
 
 **Strings**
 - Second, smaller lesson to demonstrate method and their simple application
@@ -77,7 +78,19 @@ x + y < z //true
 **I/O**
 - Questions?
 
-
-
 - Write a command line application using `process.stdin` that returns your input in lowercase.
 - Bonus: make the output return in lower case with a space " " between every character. 
+
+
+
+
+
+
+Action Items:
+
+- Track progress with github issues and PRs
+- Track inspiration/resources with google sheet (test run)
+- Track Scope of lessons in a google doc
+- Prework and Bootcamp tracked in separate google doc
+
+
