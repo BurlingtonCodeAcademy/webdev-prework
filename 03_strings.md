@@ -267,3 +267,63 @@ As of some one gently rapping, rapping at my chamber door. \
 The poem above is multiple lines, but it is only a single String, the `\` characters following each line are saying to JavaScript, "Hey, I know that a line-break is coming up, but please do not end the String because there is more to come, okay?". Using these backslashes, we can use a **String** that spans multiple lines without needing to combine multiple shorter **Strings**.
 
 This same solution can be used for **Template Strings** without any changes other than the starting and ending quotes being back-tick <code>(`)</code> characters.
+
+
+
+
+## Questions
+
+What is a string?
+
+<details>
+<summary>Answer</summary>
+A sequence of characters, either as a literal constant or as some kind of variable. Words! 
+
+In JavaScript, strings are wrapped in single-quotes, double-quotes, or back-ticks: 
+`""`, `''`,` `` `
+</details>
+<br>
+
+
+What is the term for combining two separate strings together?
+
+<details>
+<summary>Answer</summary>
+Concatenation
+</details>
+
+<br>
+
+What is one way to include JavaScript logic (arithmetic) within a string? 
+Can you provide an example?
+<details>
+<summary>Answer 1</summary>
+*Template Strings*
+
+or
+
+*Concatenation*
+</details>
+<details>
+<summary>Answer 2</summary>
+
+```javascript
+//Concatenating
+'The product of 9 and 7 is ' + (9*7) + '.'
+
+//Template Strings
+`The product of 9 and 7 is ${9*7}.`
+```
+</details>
+<br>
+How do you add line breaks to a long string?
+<details>
+<summary>Hint</summary>
+How do you give make a string break to a *new line*?
+</details>
+
+
+<details>
+<summary>Answer</summary>
+The **new-line** character: \n
+</details>
