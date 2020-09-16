@@ -189,3 +189,13 @@ This error is trying to communicate that the keyword `var` cannot be used as a v
 ## Global Variables
 
 ## Mutating Variables
+
+## Exercises
+
+/ *
+variable binding
+Exercises: Make the following statements true
+*/
+
+let x = // your code here
+x/30 = 6
