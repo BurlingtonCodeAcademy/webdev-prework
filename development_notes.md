@@ -82,9 +82,7 @@ x + y < z //true
 - Bonus: make the output return in lower case with a space " " between every character. 
 
 
-
-
-
+# Progress
 
 Action Items:
 
@@ -93,4 +91,86 @@ Action Items:
 - Track Scope of lessons in a google doc
 - Prework and Bootcamp tracked in separate google doc
 
+## Notes: 
 
+Flow of lessons may be off
+
+If we are trying to give practical exercises along with the lessons, leaving variable declaration to the 4th lesson is a detriment. Without covering variables, examples and exercises are difficult to demonstrate in a larger context.
+
+Basic JavaScript syntax 1st!
+
+Proposed order
+
+[x] means proposed exercises
+
+- 01 hello_javascript 
+- 02 Variables
+- 03 arithmetic [x]
+- 04 strings 
+- 05 conditionals
+- 06 loops
+- 07 functions
+- 08 I/O
+- Project
+
+
+- Node or no? 
+    - If not, a few of my plans need to change. 
+
+
+### Changes to Strings Lesson:
+
+Add content on manipulating strings!
+
+Cover:
+- String behavior (like indexing and coercion)
+- Manipulating strings
+    - Method examples
+    - How to chain them
+
+Exercises
+
+- Capitalize a word 
+- No functions!
+- See if a word is present in a long string
+- Format a string `01Calvin_&_Hobbes` (slice and replace)
+
+
+### Variable Binding:
+
+Exercises
+- Step by step, with words
+    - "Declare 2 variables, `name` and `userName`
+    - Assign value "Doug" to `name`
+    - assign `name` as a value to `userName`
+    - show the value of `userName` with `console.log()` or `alert` if in browser
+
+- Create a variable with `let` that has the value of your middle name.
+    - What is a proper naming convention to do so? (ie. `myMiddleName`)
+
+### Conditions
+
+Exercises
+The following code returns a random number between 1 and 10 and stores it in `randomNum`
+
+- Will anything print to the console with the following?
+
+```js
+if("will it print?"){
+    console.log("Printing!")
+}
+//yes
+```
+<br>
+
+```js
+let randomNum = Math.round(Math.random()*10)
+```
+
+write the conditions for the following logic:
+
+- if `randomNum` is even, print `"even"` to the console
+- if `randomNum` is odd, print `"odd"` to the console
+- if `randomNum` is even and over 6, print `"big even"` to the console
+
+### 

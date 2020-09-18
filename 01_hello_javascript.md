@@ -351,12 +351,19 @@ Now that you know how to output the string `Hello JavaScript!` how would you cha
 console.log();
 ```
 
+<details>
+<summary>Answer</summary>
+
+```js
+console.log("Your Name Here")
+```
+</details>
+
+
 # Questions
 
-1. **How does a programming language differ from a spoken language**
+1. **How does a programming language differ from a spoken language?**
 
-2. **Why is javascript important**
+2. **Why is javascript important?**
 
-3. **Where does JavaScript run?**
-
-4. **Where do we run JavaScript in a browser**
+3. **Where is JavaScript run?**
