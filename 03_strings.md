@@ -268,22 +268,108 @@ The poem above is multiple lines, but it is only a single String, the `\` charac
 
 This same solution can be used for **Template Strings** without any changes other than the starting and ending quotes being back-tick <code>(`)</code> characters.
 
+## Indexing
+As discussed, strings are a series of characters. Each *character* in that string exists at a location relative to itself, called an *index*. 
+
+**An *index* is a number that identifies the location of a character in a string. The index comes at the end of that string, inside of square brackets (`[ ]`)**
+
+Try this in your browser console:
+
+```js
+'here-is-a-string'[1]
+// will return 'e'
+```
+Wait, why am I getting '`e`'? isn't the first letter '`h`'? 
+
+Why yes! Yes it is. But it is at `index 0`. 
+
+In programming, most things are **zero-indexed**,
+meaning that when accessing a character within a string or any other data-type, you do so starting at `0`. Be mindful of the implications this holds; if your string's first character starts at `0` instead of `1`, then the *last* character will not be the length of the string, but rather `1` less than the length.
+
+Example:
+```js
+'this-string'
+// has 11 characters
+
+'this-string'[11]
+// should return undefined
+
+'this-string'[10]
+// should return 'g'
+```
+Do I have to *know* the length of a string? Nope! It can be found by adding `.length` to the end of *any* string. The result will be the number of characters that string is comprised of. 
+
+```js
+`this-string`.length
+// should return 11
+```
+
+## String Methods
+So, we've covered the basics of what strings *are*, but how do we use them in programming? While a pre-determined string can be the preferred output in a number of use cases (like a "log in successful" message,) they are much more dynamic than that.
+
+JavaScript has a TON of *methods* that are natively available to use on *any* string. 
+
+What are methods? 
+
+More on that when we discuss functions. For now, all you need to know is that they are tools for manipulating strings in a variety of ways. 
+
+For example, the method `.toUpperCase()` will take a string and return an uppercase variation of it. Methods need to be *called* with open and closed parentheses, '`()`', and accessed with a period '`.`'
+
+**Try this in your browser console:**
+
+```js
+`capitalized`.toUpperCase()
+// should return 'CAPITALIZED'
+```
+There are many methods, each with unique and sometimes confusing behaviors. Some take values inside the parentheses that determine how that method will behave. 
+
+For example, the `.replace()` method replaces a part of a string. This method accepts 2 values inside of its parentheses: the first is the *substring* (or part of the string) that you will replace, and the second is what you'd like to replace it with.
+
+**Try this in your browser console:**
+
+```js
+`Yes-No?`.replace('-',' or ')
+//should return 'Yes or No?'
+```
+This takes the string `Yes-No?` and replaces the `-` with `' or '` (note the whitespaces).
+
+Here are a few more examples: 
+
+### `.repeat()`
+
+The `.repeat()` method returns a string repeated the given number of times. 
+
+```js
+`haha`.repeat(3)
+// should return 'hahahahahaha'
+```
+
+### `.indexOf()`
+The `.indexOf()` method returns the starting *index* of the string being searched for within the string the method is called on.
+
+```js
+'looking for something?'.indexOf('for')
+//should return 8
+```
+If no substring is present, it will return `-1`
 
 
+### `.slice()` 
+The `.slice()` method extracts a section of the string the method is being called on. It expects 1 or 2 numbers inside the parentheses:
 
-## Questions
+- The first number is the index at which to start the slice.
+- The second number is optional, and denotes the END of the slice. If omitted, it takes the rest of the string with it. The character at this index is not included in the returned string.
 
-What is a string?
+```js
+"let's slice this string".slice(6)
+// should return "slice this string"
 
-<details>
-<summary>Answer</summary>
-A sequence of characters, either as a literal constant or as some kind of variable. Words! 
+"let's slice this string".slice(6,11)
+// should return "slice"
+```
+For a complete list, check out [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Instance_methods)
 
-In JavaScript, strings are wrapped in single-quotes, double-quotes, or back-ticks: 
-`""`, `''`,` `` `
-</details>
-<br>
-
+## Exercises
 
 What is the term for combining two separate strings together?
 
@@ -291,39 +377,70 @@ What is the term for combining two separate strings together?
 <summary>Answer</summary>
 Concatenation
 </details>
-
 <br>
 
-What is one way to include JavaScript logic (arithmetic) within a string? 
-Can you provide an example?
+
+Find the index of the  substring `hello` if its present in the following string!
+
+`hereisara41n2do#%!mstringofhello(teststring8323`
+
 <details>
-<summary>Answer 1</summary>
-*Template Strings*
+<summary>Hint</summary>
 
-or
-
-*Concatenation*
+`.indexOf()` will return the index of a given substring, or `-1` if the substring does not exist.
 </details>
+
+</details>
+
 <details>
-<summary>Answer 2</summary>
+<summary>Solution</summary>
 
-```javascript
-//Concatenating
-'The product of 9 and 7 is ' + (9*7) + '.'
-
-//Template Strings
-`The product of 9 and 7 is ${9*7}.`
+```js
+`hereisara41n2do#%!mstringofhello(teststring8323`.indexOf('hello')
+// 27
 ```
 </details>
 <br>
-How do you add line breaks to a long string?
+
+Format the string `01Calvin & Hobbes97` by removing the number at the beginning and end.
+
 <details>
 <summary>Hint</summary>
-How do you give make a string break to a *new line*?
+
+`.slice()` can take 2 numbers to indicate starting and ending indexes of the substring you'd like to extract.
 </details>
 
 
 <details>
-<summary>Answer</summary>
-The **new-line** character: \n
+<summary>Solution</summary>
+
+```js
+`01Calvin_&Hobbes`.slice(2,17)
+```
 </details>
+<br>
+
+**Capitalize a word** 
+
+Write a statement that takes the string '`apple`', capitalizes the first letter,and *concatenates* it to the remaining string.
+
+<details>
+<summary>Hint</summary>
+
+The first character of a string is at index 0.
+</details>
+<details>
+<summary>Hint</summary>
+
+use `.slice()` to remove the first letter of string.
+</details>
+
+</details>
+<details>
+<summary>Solution</summary>
+
+```js
+`apple`[0].toUpperCase() + `apple`.slice(1)
+```
+</details>
+<br>
