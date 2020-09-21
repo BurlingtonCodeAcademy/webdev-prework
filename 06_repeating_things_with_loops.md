@@ -15,8 +15,7 @@ Consider the following:
 Besides being a play on the beloved 1980s classic *The Shining*, this screenshot of the terminal on my computer was not the product of my descent into madness, but rather a simple and effective `while` loop. Harnessing the awesome power of a loop, I was able to to repeat a block of code over and over and over! In this case, that code simply printed a line of text to the terminal. 
 
 ## A ridiculous example
-Try it for yourself! While in a *Node environment*, run: 
-
+Try it for yourself! While in the console, run:
 
 ```javascript
 while (1 < 10){
