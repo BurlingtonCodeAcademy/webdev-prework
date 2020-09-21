@@ -203,3 +203,44 @@ let globalVar = 'I am a global variable'
 ```
 *Anywhere* below that will be able to refer to the `globalVar`. Useful in some cases, but be mindful as well! If that variable is available everywhere (and declared with `let`,) its value is subject to change at any point!
 
+## Exercises
+Create a variable with `let` that has the value of your middle name.
+    - What is a proper naming convention to do so? 
+    - What are the benefits of a name like this?
+
+Open your browser's console, and do the following:
+    - "Declare 2 variables, `name` and `userName`
+    - Assign value "Doug" to `name`
+    - assign `name` as a value to `userName`
+    - show the value of `userName` with `console.log()` or `alert` if in browser
+
+<details>
+<summary>Solution<summary>
+
+```js
+let name, userName
+name = "Doug"
+userName= name
+alert(userName)
+```
+</details>
+
+Open your browser's console and do the following:
+   - Declare 3 variables, `firstName`, `lastName` and `age`
+   - Assign values to all 3 of these variables
+      - `firstName` and `lastName` should have a string value
+      - `age` should have a number value
+   - Using these variables, display a string that displays their first and last name as well as their age.
+
+   <details>
+<summary>Solution<summary>
+
+```js
+let firstName, lastName, age
+firstName = "Bill"
+lastName = "Hader"
+age= 42
+console.log(`My name is ${firstName} ${lastName} and I am ${age}!)
+</details>
+
+
