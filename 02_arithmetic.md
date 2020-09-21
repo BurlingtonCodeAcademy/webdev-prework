@@ -227,21 +227,157 @@ This maximum safe **integer** number is equal to `9007199254740991`, written ano
 ```js
 2**53 - 1
 ```
-
 This number also has a special representation that might be a little easier to remember.
 
 ```js
 Number.MAX_SAFE_INTEGER
 ```
 
-Here's an example to illustrate the point, run these  expressions in your browser console and see their results.  Notice anything strange?
+This is one of a handful of special *properties* that are made available on the `Number` object. They are available for use anywhere you can run JavaScript.
+
+Others include:
+
+- `Number.MAX_VALUE`
+   - The largest positive number JavaScript can muster.
+- `Number.POSITIVE_INFINITY`
+   - Special value that represents infinity.
+
+You can find a full list [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#Static_properties).
+
+## `Math` in JavaScript
+
+Like `Number`, `Math` is available anywhere you can run JavaScript. `Math` comes with a lot of really cool functionality, much like your basic graphing calculator! Trigonometry, logarithms, rounding, and more are at the palm of your hand in just a few easy steps!
+
+Why, just like the `π` button on a calculator, `Math.PI` returns the ratio of a circle's circumference to its diameter, or better known as pi!
+
+Here's a short list of things you can do with `Math`(there are a TON more):
+
+`Math.PI`
+   - Represents the ratio of a circle's circumference to its diameter; approximately `3.14159`
+
+`Math.Floor()`
+   - Rounds the number inside the parentheses down
 
 ```js
-Number.MAX_SAFE_INTEGER
-Number.MAX_SAFE_INTEGER + 1
-Number.MAX_SAFE_INTEGER + 2
+Math.floor(412.942)
+// ouput: 412
 ```
+`Math.round()`
+   - Round the number inside to the nearest integer
+
+```js
+Math.round(412.942)
+// output: 413
+```
+`Math.random()`
+   - Returns a random number between 0 and 1
+```js
+Math.random()
+// output : 0.20018197563815687 (different every time)
+```
+
+> Note that some of these have `()` after them, and some, like `Math.PI` do not. Those that do not are referred to as *properties*, and represent a value that does not change, like **pi** or **e**. Those that do are referred to as *methods* and they perform some sort of calculations, usually when given a number to work with.
+
+[List of Properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#Static_properties)
+
+[List of Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#Static_methods)
 
 # Exercises
 
-# Assessments
+In either a node environment or in your browser, solve the following questions with `Math`.
+
+1) Find the area of a circle with a 3in radius.
+
+<details>
+<summary>Hint</summary>
+To calculate the area of a circle, use the following equation:
+
+```
+Area = pi * (radius ** 2)
+```
+</details>
+<details>
+<summary>Answer</summary>
+
+```js
+Math.PI * 3**2
+// output: 28.274333882308138
+```
+Answer: 28.274333882308138in<sup>2</sup>
+</details>
+<br>
+
+2) Find the volume of a cylinder with a diameter of 8in and a height of 12in, *rounded* to the nearest integer.
+
+<details>
+<summary>Hint 1</summary>
+To calculate the volume of a cylinder, use the following equation:
+
+```
+ Volume = pi * (radius**2) * height
+```
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+The radius of a circle is half its diameter.
+
+</details>
+
+
+<details>
+<summary>Hint 3</summary>
+
+`Math.round()` rounds the number inside of the parentheses to the nearest integer.
+</details>
+
+<details>
+<summary>Answer</summary>
+
+```js
+Math.round(Math.PI * (4**2) * 12)
+// 603
+
+```
+Answer: 603in<sup>3</sup>
+</details>
+<br>
+
+
+3. Using `Math.random()`, write a statment that will either return 0 or 1 depending on the random number generated. 
+
+<details>
+<summary>Hint 1</summary>
+
+`Math.round()` rounds the number inside of the parentheses to the nearest integer.
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+`Math.random()` returns a random number between 0 and 1
+</details>
+
+<details>
+<summary>Answer</summary>
+
+```js
+Math.round(Math.random())
+// output: 0 or 1
+```
+</details>
+
+<br>
+
+4. Write a statement that returns a random integer between 0 and 10 
+
+<details>
+<summary>Answer</summary>
+
+```js
+Math.round(Math.random()*10)
+// output: 0 or 1
+```
+</details>
+<br>
