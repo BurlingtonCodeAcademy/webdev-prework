@@ -185,7 +185,21 @@ Uncaught SyntaxError: Unexpected token 'var'
 This error is trying to communicate that the keyword `var` cannot be used as a variable name. The error is just not very expressive, and makes that intent difficult to understand.
 
 ## Choosing Good Names
+When writing code, chances are you won't be the only one to read it. Aside from leaving comments and organizing things clearly, choosing names that are reflective of what that variable holds for a value is paramount to a legible program.
+
+> Aside from examples of basic arithmetic and a few rare edge cases, **avoid single-character variables**
+
+let's say you're writing a program that stores a `boolean` in a variable, `true` if the number is even, `false` if its odd. 
+
+`isEven` would be a much better choice for a variable name than say, `z`.
+
 
 ## Global Variables
+When a variable is bound to a value on the top-level of the program (outside of functions, objects, etc,) it is called a *global* variable and is thus accessible anywhere within the program. 
 
-## Mutating Variables
+If you declare a variable right at the top, line 1, first thing right out of the gate:
+```javascript
+let globalVar = 'I am a global variable'
+```
+*Anywhere* below that will be able to refer to the `globalVar`. Useful in some cases, but be mindful as well! If that variable is available everywhere (and declared with `let`,) its value is subject to change at any point!
+
