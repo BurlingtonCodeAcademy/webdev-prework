@@ -222,3 +222,66 @@ Here are some takeaways I'd like to leave you with:
 Happy coding :)
 
 -Paul
+
+## Exercises
+
+The function below determines if a string is long enough to be a password
+
+```js
+function verifyPassword(string){
+    if (string.length >= 8){
+        return true
+    } else{
+        return false
+    }
+}
+```
+What changes would removing the `else` and corresponding `{}` introduce?
+
+<details>
+<summary>Answer</summary>
+None at all!
+</details>
+
+<br>
+
+Write a function that takes 2 numbers as arguments, and returns `3 times` the larger of those 2 numbers. 
+
+```js
+threeTimesLarger(2,3) // 9
+threeTimesLarger(20,5) //60
+```
+
+<details>
+<summary>Answer</summary>
+
+```js
+function threeTimesLarger(a,b){
+    if(a > b){
+        return 3*a
+    } else{
+        return 3*b
+    }
+}
+```
+</details>
+<br>
+Write a function `factorial(x)` that takes a positive integer and returns the product of that integer and every other integer between it and 1.
+
+In other words, `factorial(5)` will yield `5*4*3*2*1`, or `120`.
+
+<details>
+<summary>Answer</summary>
+
+```js
+function factorial(x){
+    let result = x
+
+    while (x>1){
+        x--
+        result = result * x
+    }
+    console.log(result)
+}
+```
+</details>
