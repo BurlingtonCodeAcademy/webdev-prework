@@ -135,6 +135,22 @@ if (brownEgg > greenEgg) {
 }
 ```
 
+You can also create conditions that evaluate multiple cases at once with the `||` (or) and `&&` (and) operators. 
+
+```js
+if (someValue && someOtherValue){
+    // run the code below if someValue and someOtherValue are both true 
+  console.log("Congratulations they're both true!");
+}
+
+if (someValue || someOtherValue){
+    // run the code below if either someValue or someOtherValue are true 
+  console.log("At least one of these is true!");
+}
+
+```
+
+
 ## Branching Based on Conditions
 Now that you understand how to use a comparison, and make a decision based on that comparison, it's time to see how you can choose one of several branches of actions to take.
 
@@ -174,4 +190,94 @@ This code acts like a fork in the road in a sense.
 - Conditions must have something to compare against
 - Conditions provide a course of action to take `if` the provided statement is true.
 - Conditions may also provide "contingencies" in the case that the previous condition is not `true`. These are *else-clauses*.
+
+## Exercises
+
+Will anything print to the console with the following?
+
+```js
+if("will it print?"){
+    console.log("Printing!")
+}
+```
+<details>
+<summary>Hint</summary>
+
+Think about what primitive data types (or values) in JavaScript equate to `true`. Are strings among them? 
+</details>
+
+<details>
+<summary>Answer</summary>
+
+It will print. Strings equate to `true`, or are *truthy*.
+</details>
+
+<br>
+
+The following code returns a random number between 1 and 10 and stores it in `randomNum`
+
+```js
+let randomNum = Math.round(Math.random()*10)
+```
+
+write the conditions for the following logic:
+
+1) if `randomNum` is even, print `"even"` to the console
+2) if `randomNum` is odd, print `"odd"` to the console
+3) if `randomNum` is even and over 6, print `"big even"` to the console
+4) can you make these all apply to the same logic chain?
+
+<details>
+<summary>Hint</summary>
+
+The `%` (modulo) operator returns the remainder of a division. A remainder of `0` means that a number (dividend) is divisible by the provided divisor.
+</details>
+
+<details>
+
+<summary>Solution 1</summary>
+
+```js
+ if(randomNum % 2 ===0){
+    console.log("even")
+}
+
+```
+</details>
+
+<details>
+
+<summary>Solution 2</summary>
+
+```js
+ if(randomNum % 2 !==0){
+    console.log("odd")
+}
+
+```
+</details>
+<details>
+<summary>Solution 3</summary>
+
+```js
+if((randomNum % 2 ===0 ) && (randomNum >6)){
+    console.log("big even")
+```
+</details>
+
+
+<details>
+
+<summary>Solution 4</summary>
+
+```js
+if((randomNum % 2 ===0 ) && (randomNum >6)){
+    console.log("big even")
+} else if(randomNum % 2 ===0){
+    console.log("even")
+} else {
+    console.log("odd")
+}
+```
+</details>
 
