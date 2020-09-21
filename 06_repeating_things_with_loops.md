@@ -274,3 +274,66 @@ Drill them. Learn them. Embrace them! Do not fear them! They'll make you a bette
 <br>
 Happy Coding :)
 -Paul
+
+## Exercises
+
+What is the last number that will be printed to the console?
+```js
+let num = 10
+while (num > 1){
+    console.log(num)
+    num--
+}
+```
+
+<details>
+<summary>Answer</summary>
+2
+</details>
+
+Rewrite the following `for` loop into a `while` loop.
+
+```js
+for (let i = 0; i < 10 ; i ++){
+    console.log(`i is: ${i}`)
+}
+```
+<details>
+<summary>Hint</summary>
+
+Don't forget the functionality of the *incrementer* (`i++`). You'll have to include it within your `while` loop.
+</details>
+
+<details>
+<summary>Answer</summary>
+
+```js
+let i = 0
+while (i<10){
+    console.log(`i is: ${i}`)
+    i++
+}
+```
+</details>
+<br>
+
+Write a `for` loop that prints every number between 1 and 33 (inclusive) that is divisible by `3`
+
+<details>
+<summary>Hint</summary>
+
+The modulo operator (`%`) returns the remainder of a division.
+</details>
+
+<details>
+<summary>Answer</summary>
+
+```js
+for (let num = 1; num <= 33; num++){
+    if (num % 3 ===0){
+        console.log(num)
+    }
+}
+```
+</details>
+
