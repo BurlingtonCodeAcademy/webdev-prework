@@ -14,7 +14,7 @@ In this project, you will be creating a browser-based "fortune teller" applicati
 
 define a function `tellFortune` that:
 
-1)asks the user, "What is your name?" and stores the response in a variable `name`
+1) asks the user, "What is your name?" and stores the response in a variable `name`
 
 2) asks the user "What is your sign?" and stores the response in a variable `sign`
 
