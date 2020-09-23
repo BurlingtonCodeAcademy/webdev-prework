@@ -232,15 +232,16 @@ Open your browser's console and do the following:
       - `age` should have a number value
    - Using these variables, display a string that displays their first and last name as well as their age.
 
-   <details>
-<summary>Solution<summary>
+<details>
+<summary>Solution</summary>
 
 ```js
+
 let firstName, lastName, age
 firstName = "Bill"
 lastName = "Hader"
 age= 42
-console.log(`My name is ${firstName} ${lastName} and I am ${age}!)
+console.log(`My name is ${firstName} ${lastName} and I am ${age}!`)
+```
+
 </details>
-
-
