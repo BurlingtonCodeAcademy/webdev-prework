@@ -17,10 +17,20 @@ In this project, you will be creating a browser-based "fortune teller" applicati
 <!-- Copy and Paste Me -->
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
-    src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=index.html&previewSize=0&attributionHidden=true"
+    src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=index.html&previewSize=100&attributionHidden=true"
     title="fortune-teller-bca on Glitch"
     allow="geolocation; microphone; camera; midi; vr; encrypted-media"
     style="height: 100%; width: 100%; border: 0;">
   </iframe>
 </div>
 
+
+<!-- Copy and Paste Me -->
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=index.html&previewSize=0&attributionHidden=true"
+    title="fortune-teller-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
