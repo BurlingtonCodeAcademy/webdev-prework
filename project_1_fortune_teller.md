@@ -14,12 +14,18 @@ In this project, you will be creating a browser-based "fortune teller" applicati
 
 define a function `tellFortune` that:
 
-1) asks the user, "What is your name?" and stores the response in a variable `name`
+1)asks the user, "What is your name?" and stores the response in a variable `name`
+
 2) asks the user "What is your sign?" and stores the response in a variable `sign`
+
 3) asks the user "What color socks are you wearing?" and stores the response in a variable `color`.
+
 4) finds the  **total number of characters (length) of the three responses combined** and stores it in a variable `num`. 
+
 5) if `num` is even, displays a dialogue box that reads "You will change the world for the better."
+
 6) if `num` is odd, displays a dialogue box that reads "Love and happiness is around the corner."
+
 7) if `num` is odd **and** divisible by 3, displays "You will grow to be wealthy in wisdom."
 
 Don't forget to call your function!
