@@ -215,7 +215,7 @@ Open your browser's console, and do the following:
     - show the value of `userName` with `console.log()` or `alert` if in browser
 
 <details>
-<summary>Solution<summary>
+<summary>Solution</summary>
 
 ```js
 let name, userName
@@ -233,7 +233,7 @@ Open your browser's console and do the following:
    - Using these variables, display a string that displays their first and last name as well as their age.
 
    <details>
-<summary>Solution<summary>
+<summary>Solution</summary>
 
 ```js
 let firstName, lastName, age
