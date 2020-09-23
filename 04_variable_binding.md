@@ -215,7 +215,7 @@ Open your browser's console, and do the following:
     - show the value of `userName` with `console.log()` or `alert` if in browser
 
 <details>
-<summary>Solution<summary>
+<summary>Solution</summary>
 
 ```js
 let name, userName
