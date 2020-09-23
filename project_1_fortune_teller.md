@@ -46,13 +46,11 @@ In this glitch environment, your code will run whenever changes are detected. To
 
 Now, when adding any code to `script.js` you should see your changes immediately in your mini-browser.
 
-<!-- Copy and Paste Me -->
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
-    src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=index.html&previewSize=100&attributionHidden=true"
+    src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=script.js&previewSize=0&attributionHidden=true"
     title="fortune-teller-bca on Glitch"
     allow="geolocation; microphone; camera; midi; vr; encrypted-media"
     style="height: 100%; width: 100%; border: 0;">
   </iframe>
 </div>
-
