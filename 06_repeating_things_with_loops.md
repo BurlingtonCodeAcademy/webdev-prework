@@ -24,7 +24,7 @@ while (1 < 10){
 ```
 When you get the point, press `ctrl +c` twice to exit the program.
 
-<br>
+<br/>
 So, what happened? Well, as you might have guessed, this block of code: 
 
 ```javascript
@@ -271,7 +271,7 @@ There are more mechanisms native to javascript that allow for quick and easy way
 
 Drill them. Learn them. Embrace them! Do not fear them! They'll make you a better programmer, I promise.
 
-<br>
+<br/>
 Happy Coding :)
 -Paul
 
@@ -315,7 +315,7 @@ while (i<10){
 }
 ```
 </details>
-<br>
+<br/>
 
 Write a `for` loop that prints every number between 1 and 33 (inclusive) that is divisible by `3`
 

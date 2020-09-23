@@ -377,7 +377,7 @@ What is the term for combining two separate strings together?
 <summary>Answer</summary>
 Concatenation
 </details>
-<br>
+<br/>
 
 
 Find the index of the  substring `hello` if its present in the following string!
@@ -400,7 +400,7 @@ Find the index of the  substring `hello` if its present in the following string!
 // 27
 ```
 </details>
-<br>
+<br/>
 
 Format the string `01Calvin & Hobbes97` by removing the number at the beginning and end.
 
@@ -418,7 +418,7 @@ Format the string `01Calvin & Hobbes97` by removing the number at the beginning 
 `01Calvin_&Hobbes`.slice(2,17)
 ```
 </details>
-<br>
+<br/>
 
 **Capitalize a word** 
 
@@ -443,4 +443,4 @@ use `.slice()` to remove the first letter of string.
 `apple`[0].toUpperCase() + `apple`.slice(1)
 ```
 </details>
-<br>
+<br/>

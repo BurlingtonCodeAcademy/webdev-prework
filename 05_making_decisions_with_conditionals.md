@@ -212,7 +212,7 @@ Think about what primitive data types (or values) in JavaScript equate to `true`
 It will print. Strings equate to `true`, or are *truthy*.
 </details>
 
-<br>
+<br/>
 
 The following code returns a random number between 1 and 10 and stores it in `randomNum`
 

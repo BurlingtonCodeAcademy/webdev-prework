@@ -243,7 +243,7 @@ What changes would removing the `else` and corresponding `{}` introduce?
 None at all!
 </details>
 
-<br>
+<br/>
 
 Write a function that takes 2 numbers as arguments, and returns `3 times` the larger of those 2 numbers. 
 
@@ -265,7 +265,7 @@ function threeTimesLarger(a,b){
 }
 ```
 </details>
-<br>
+<br/>
 Write a function `factorial(x)` that takes a positive integer and returns the product of that integer and every other integer between it and 1.
 
 In other words, `factorial(5)` will yield `5*4*3*2*1`, or `120`.

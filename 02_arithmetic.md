@@ -305,7 +305,7 @@ Math.PI * 3**2
 ```
 Answer: 28.274333882308138in<sup>2</sup>
 </details>
-<br>
+<br/>
 
 2) Find the volume of a cylinder with a diameter of 8in and a height of 12in, *rounded* to the nearest integer.
 
@@ -342,7 +342,7 @@ Math.round(Math.PI * (4**2) * 12)
 ```
 Answer: 603in<sup>3</sup>
 </details>
-<br>
+<br/>
 
 
 3. Using `Math.random()`, write a statment that will either return 0 or 1 depending on the random number generated. 
@@ -368,7 +368,7 @@ Math.round(Math.random())
 ```
 </details>
 
-<br>
+<br/>
 
 4. Write a statement that returns a random integer between 0 and 10 
 
@@ -380,4 +380,4 @@ Math.round(Math.random()*10)
 // output: 0 or 1
 ```
 </details>
-<br>
+<br/>
