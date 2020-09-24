@@ -240,3 +240,7 @@ Some final takeaways:
 - `align-items` orients the *flex-container*'s contents along the *cross-axis*.
 - *flex-items* are the children of the *flex-container*
 - *flex-items* have properties that are available to them only as children to a *flex-container*, like `order`, and whether they will `grow` or `shrink`.
+
+Happy Coding :)
+
+-Paul
