@@ -1,10 +1,7 @@
 # CSS Flexbox
 ![Yoga class](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1600888151/women-1178187_1280_fzhkrh.jpg)
- 
-Intro and overview
-- Uses
-- Context in CSS
-- Context in Page layout
+
+Flexbox is a layout and design approach that aims at practical and scalable structuring of your webpage. In practice, it uses a wrapper, or *container*, to alter the dimensions of *items* within it, which allows for a more *flexible* (thus the name) design. 
 
 # Terms and Basics
 Properly using flexbox hinges on the container-item relationship. This relationship determines not only the way certain elements on your web page will behave, but how the elements *inside* of them will as well. Those elements can then go on to become their own flexboxes, which define how the elements inside them are oriented, and so on and so on. 
@@ -64,9 +61,9 @@ Give it a shot! See how the elements inside of the `#container` `<div>` align by
 
 
 # The Parent (container)
-The parent container is where all of the high level orientation choices take place. It is where you declare, "I will keep parts of my website in you, and they will fit like so". The example above declares a container that, by default, is a `row` that *justifies* the items within it so that they are spaced out a particular way using `justify-content: space-between`. 
+The parent container is where all of the high level orientation choices are made. It is where you declare, "I will keep parts of this website in you, and they will fit like so". The example above declares a container that, by default, is a `row` that *justifies* the items within it so that they are spaced out a particular way using `justify-content: space-between`. 
 
-But that's only one property! There are a *ton* of ways you can customize the behavior of a container. Let's highlight a few here:
+But that's only one property! There are a *ton* of ways you can customize the behavior of a container. Let's highlight them here:
 
 ## `Flex-direction`
 As stated, when you create a flex-container by assigning it to `display:flex`, the default *main-axis* is left-to-right, or `row`. but there are options to do so in any direction!
@@ -157,11 +154,18 @@ Try them here:
 ## `align-content`
 > `align-content` is a bit of a misnomer, as the property that parallels `justify-content` is more `align-items`. 
 
-`align-content`, then, serves to orient the *lines* of items within a flex-container. If there is only one line, say an individual row or column, `align-content` will have no effect. 
+`align-content`, rather, serves to orient the *lines* of items within a flex-container. If there is only one line, say an individual row or column, `align-content` will have no effect. 
 
 See here, when the container is just too small for the items to exist in one row:
 
-
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/align-content-bca?path=index.html&previewSize=0&attributionHidden=true"
+    title="align-content-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
 
 We have set the container to `wrap`, so the third item exists on a second row. Now, because we have multiple rows, `align-content` will effectively orient them.
 
@@ -170,5 +174,69 @@ Replace `align-content` with the following properties to see how they behave:
 `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`, `stretch` (default).
 
 # The Children (items)
+The child elements, or *items*, are not focused on the overall layout as the container is. In fact, they have their own properties separate from those already discussed that deal with how an individual item is laid out *inside* that container.
 
-# Nested Containers
+*items* can change adjust position outside of the natural flow of what a container might want! They can also be given sizes relative to their sibling *items*, aligned separately, and even change the order they appear in a flex-container!
+
+## `order`
+
+By default, an *item* in a *flex-container* appears in the same order as it does in the source HTML. That value defaults to `0` for all items, but can be overridden by giving a value to it greater (or less) than the default. This will change the order of the items!
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/flexbox-order-bca?path=style.css&previewSize=0&attributionHidden=true"
+    title="flexbox-order-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+
+
+## flex-grow and flex-shrink
+When assigning a `flex-grow` or `flex-shrink` value to an element, it tells that element to *scale* (or change size) relative to the number given. The default value is `0`, so any number greater than that will establish a ratio between it and the other items next to it. 
+
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/flex-box-grow-shrink?path=style.css&previewSize=0&attributionHidden=true"
+    title="flex-box-grow-shrink on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+
+
+## align-self
+`align-self` allows an individual item to change its alignment regardless of the parent container's `align-items` property. This allows items to "break rank" so to speak. They will still exist within the normal flow of a *flex-container*. 
+
+`align-self` posesses the same values as `align-items`, but applies to the individual item and not the container. 
+
+Those values are: 
+
+`flex-start`, `flex-end`, `center`, `stretch` (default), and `baseline`.
+
+Try it out:
+
+<!-- Copy and Paste Me -->
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/flex-box-align-self?path=style.css&previewSize=0&attributionHidden=true"
+    title="flex-box-align-self on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+
+# Final Musings
+![final musings](https://res.cloudinary.com/btvca/image/upload/c_limit,h_540,w_1080/v1599682636/sunset-1211475_1280_xtjrjn.png)
+
+Flexbox allows for a highly customizable, scalable design pattern that leaves much of the internal calculations (like width, and ratio) up to its core functionality. With it, you can spend less time micromanaging your own code and more time building beautiful and dynamic webpages!
+
+Some final takeaways:
+- Containers are created with `display:flex`
+- A container only treats immediate children as *flex-items*
+- Containers have a main axis in which *flex-items* are *justified* with `justify-content`
+- A container's main-axis is dependent on the `flex-direction` and defaults to `row`
+- `align-items` orients the *flex-container*'s contents along the *cross-axis*.
+- *flex-items* are the children of the *flex-container*
+- *flex-items* have properties that are available to them only as children to a *flex-container*, like `order`, and whether they will `grow` or `shrink`.
