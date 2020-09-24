@@ -160,7 +160,7 @@ See here, when the container is just too small for the items to exist in one row
 
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
-    src="https://glitch.com/embed/#!/embed/align-content-bca?path=index.html&previewSize=0&attributionHidden=true"
+    src="https://glitch.com/embed/#!/embed/align-content-bca?path=style.css&previewSize=0&attributionHidden=true"
     title="align-content-bca on Glitch"
     allow="geolocation; microphone; camera; midi; vr; encrypted-media"
     style="height: 100%; width: 100%; border: 0;">
