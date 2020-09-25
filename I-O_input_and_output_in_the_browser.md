@@ -162,8 +162,8 @@ Here are some takeaways to hold onto for now:
 
  Otherwise, display the generic message, "Hello, user!"
 
- <details>
- <summary>Hint 1</summary>
+<details>
+<summary>Hint 1</summary>
 Start with a function definition so you can later call this code multiple times! AKA:
 
 
@@ -172,27 +172,27 @@ function askName(){
     let name = // your codehere
 }
  ```
- </details>
+</details>
 
- <details>
- <summary>Hint 2</summary>
+<details>
+<summary>Hint 2</summary>
 
 You can store the value of a window prompt in a variable for later use:
 
 ```js
 
 ```
- </details>
+</details>
 
- <details>
- <summary>Hint 3</summary>
+<details>
+<summary>Hint 3</summary>
 
 Use `window.confirm()` to verify whether the entered value is desired.
 
- </details>
+</details>
 
- <details>
- <summary>Solution</summary>
+<details>
+<summary>Solution</summary>
 
 ```js
 function askName() {
@@ -205,4 +205,4 @@ function askName() {
     }
 }
 ```
- </details>
+</details>
