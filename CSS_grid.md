@@ -228,7 +228,7 @@ For example:
 ```
 This is saying that for EVERY additional column needed, have it default to a value of `60px`.  This will "fill in the blanks," so to speak, and allow for the grid to adjust accordingly. This is an important property if you expect your grid to grow over time, or are unsure of the number of *items* that it will eventually hold. 
 
-Try it here! 
+Try it here! See how adding a 7th item to the list causes the grid to behave, and how it goes about remedying this.
 
 <iframe height="351" style="width: 100%;" scrolling="no" title="grid-auto_example_bca" src="https://codepen.io/burlingtoncodeacademy/embed/zYqbNdV?height=351&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/zYqbNdV'>grid-auto_example_bca</a> by Burlington Code Academy
@@ -236,3 +236,82 @@ Try it here!
 </iframe>
 
 # Child Container (the grid item)
+
+Now that we've taken a look at how best to define and customize a *grid container*, let's take a quick look at the properties that are availalbe to *grid items* themselves. These properties are fewer in number, and explicitly deal with the placement of each individual item both within its area, and the grid's flow as a whole.
+
+## `grid-column` and `grid-row`
+To move any individual *grid item* regardless of behavior defined by the *grid container*, you can give that *item* the properties that tell it which *grid lines* it spans across in both column and row.
+
+`grid-column-start` & `grid-column-end` define the columns in which an item will reside in.
+
+`grid-row-start`, `grid-row-end` define the row in which an item will reside in.
+
+This will look something like this:
+
+```html
+<body>
+    <div id="container">
+        <div class="item item-1"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+```
+
+```css
+#container {
+    display: grid;
+    border: 1px solid blue;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+}
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+```
+This will result in, as seen before, a 3x2 grid. Then, when `item-1` is given the proper start and end values as shown above, you'll get something like so:
+
+![start and end](https://res.cloudinary.com/btvca/image/upload/v1601067754/grid_start_and_end_sftbi7.png)
+
+This can be achieved with the shorthand property `grid-column` and `grid-row`:
+
+```css
+    grid-column: 1/3;
+    grid-row: 1/2;
+```
+
+## `grid-area`
+`grid-area` is the corresponding *item* level CSS property that aligns with the previously defined areas with `grid-template-area` (see above).
+
+They exist together like so:
+
+```css
+#container{ 
+    grid-template-areas: 
+    "top-left top-left top-right"
+    "bottom-left bottom-right bottom-right";
+}
+.item-1{
+    grid-area: bottom-right; 
+}
+```
+
+# Final Musings
+Grid is a powerful layout tool that allows for highly customizable webpage structuring. When used properly, it allows you to do more with less. Here are some takeaways:
+
+- Grid should be used for general templating of a page
+- The *container* (element with `display:grid`) is where the majority of customization takes place. 
+- The *grid* consists of *tracks* which is a term for the *rows* and *columns*.
+- `grid-auto-columns` and `grid-auto-rows` set the behavior for *columns* or *rows* when they haven't been explicitly stated yet.
+    - these are automatically made when there are too many items in the container, or when an item has been assigned to an *area* that doesn't exist yet.
+
+For the official documentation and elaboration on certain aspects, don't hesitate to hop on over to [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)! 
+
+Happy Coding :) 
+
+-Paul
