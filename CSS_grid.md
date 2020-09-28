@@ -66,7 +66,7 @@ Like in flexbox, the container is an element with the CSS `display:grid` assigne
 > Like flexbox, grid only goes one level deep; children of *items* don't adhere to the same rules as the *items* themselves. 
 
 ## Grid Line 
-When a *grid* is defined, so are the *grid lines*. These lines are numbered by default to make placing *items* inside of their boundaries easy and explicity.  
+When a *grid* is defined, so are the *grid lines*. These lines are numbered by default to make placing *items* inside of their boundaries easy and explicit.  
 
 Say for example, we define a grid here:
 
