@@ -100,27 +100,27 @@ You have certainly already used some mathematical operators before in school or 
 
 ![black retractable pen on white printer paper](https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Antoine Dautry")
 
-###### Addition
+#### Addition
 
 The **addition** symbol `+` when placed between two numbers represents the addition of the number on the left and the number on the right. The most common usage of the `+` symbol is to add two numbers, resulting in the sum of the numbers.
 
-###### Subtraction
+#### Subtraction
 
 The **subtraction** symbol `-` when placed between two numbers represents the subtraction of one number on the right from the number on the left. The most common usage of the `-` symbol is to subtract two numbers, resulting in the difference between the numbers
 
-###### Multiplication
+#### Multiplication
 
 The **multiplication** symbol `*` when placed between two numbers represents the multiplication of the number on the left by the number on the right. The multiplication of two numbers results in the product of the two numbers.
 
-###### Division
+#### Division
 
 The **division** symbol `\` when placed between two numbers represents the division of the number on the left by the number on the right. The division of two numbers results in the quotient of the two numbers.
 
-###### Remainder
+#### Remainder
 
 The **remainder** symbol `%`, also known as the **modulus** operator, calculates the amount left over after dividing the number on the left evenly by the number on the right. The application of the **remainder** operator on two numbers will always produce a number of the same sign as the number on the left, which is the amount remaining after evenly dividing the number on the left by the number on the right.
 
-###### Exponentiation
+#### Exponentiation
 
 The **exponentiation** symbol `**`, also known as the **power** operator, calculates the value of the number on the left raised to the power of the number on the right. It results in a number equal to the number on the left multiplied by its own value the number of times to the number on the right.
 

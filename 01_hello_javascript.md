@@ -275,7 +275,7 @@ Any where on the currently loaded page, use the right-click mouse button and sel
 
 #### Microsoft Edge
 
-##### Official Documentation
+#### Official Documentation
 
 Take a look at the documentation from Microsoft if any of the instructions below are confusing.
 
@@ -322,13 +322,13 @@ Below you will see a diagram of the simple program that outputs the string:
 
 There are lots of pieces to this program that you may see, or you may not yet. Let's list the parts so that you can start to see them more easily.
 
-###### Input to the Console
+#### Input to the Console
 
 ```js
 console.log('Hello JavaScript!');
 ```
 
-###### Expected output from the Console
+#### Expected output from the Console
 
 ```js
 'Hello JavaScript!'
