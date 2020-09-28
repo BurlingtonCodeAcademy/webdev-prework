@@ -6,7 +6,7 @@ Solving mathematical equations has been one of the primary uses of computers sin
 
 > ...Mr. Theo I. King throughout the year, in the grade of computer until April 20, 1897, and subsequently in the grade of assistant astronomer; Computer Frank B. Littell... Computer E. A. Boeger throughout the year; Computer G. K. Lawton ...
 
-Source: [ United States Naval Observatory report 1884]((https://books.google.com/books?id=v8ARAAAAYAAJ&pg=PR4-IA110&dq=computer&hl=en&ei=ygbzTYXpNIOosQO-7YmvCw&sa=X&oi=book_result&ct=result#v=onepage&q=computer&f=false)
+Source: [United States Naval Observatory report 1884](https://books.google.com/books?id=v8ARAAAAYAAJ&pg=PR4-IA110&dq=computer&hl=en&ei=ygbzTYXpNIOosQO-7YmvCw&sa=X&oi=book_result&ct=result#v=onepage&q=computer&f=false)
 
 Today our "computers" can tally up answers to even the most difficult questions which would have required weeks or months to calculate by hand. In this lesson you will learn how to communicate a mathematical expression in JavaScript such that your computer can provide you with an answer before your finger even leaves the enter key. You will also learn about some of the limitations that are inherent with using digital device to calculate, and how you can work around these limitations.
 
@@ -61,16 +61,14 @@ Read on, and learn one of the most fundamental data types, Numbers, which you wi
 - Maximum Size of Integer
   
    - MAX_SAFE_INTEGER
-  
-   - Example of 2**53 + 1
-  
-   - Using BigInt as a workaround
+
+- The `Math` object
 
 ## Simple math expressions
 
 JavaScript can run nearly any mathematical expression you can imagine, and below we will show you how to communicate some of them.
 
-Let's start off with some simple equations just to kick the tires a bit. In the web browser, you are using to read this, open your **JavaScript console** by following the steps in the **hello-javascript** lesson and type the following into the text area.
+Let's start off with some simple equations just to kick the tires a bit. In the web browser you are using to read this, open your **JavaScript console** by following the steps in the **hello-javascript** lesson and type the following into the text area.
 
 ```js
 1 + 1
@@ -98,7 +96,7 @@ The answer to this expression is `4382.50276243094`
 
 You have certainly already used some mathematical operators before in school or work. Below we list the operators that we used in the code example above
 
-**NOTE:** any of the symbols listed below can be applied to any pair of number which can both be positive, both be negative or be a mix of positive and negative.
+**NOTE:** any of the symbols listed below can be applied to any pair of numbesr which can both be positive, both be negative or be a mix of positive and negative.
 
 ![black retractable pen on white printer paper](https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Antoine Dautry")
 
@@ -108,7 +106,7 @@ The **addition** symbol `+` when placed between two numbers represents the addit
 
 ###### Subtraction
 
-The **subtraction** symbol `-` when placed between two numbers represents the subtraction of one number on the left  from the number on the right. The most common usage of the `-` symbol is to subtract two numbers, resulting in the difference between the numbers
+The **subtraction** symbol `-` when placed between two numbers represents the subtraction of one number on the right from the number on the left. The most common usage of the `-` symbol is to subtract two numbers, resulting in the difference between the numbers
 
 ###### Multiplication
 
@@ -170,9 +168,9 @@ Source [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:AST_binary_tr
 
 ## Number types
 
-In most programming languages there are multiple types of numbers, for example there are **Integers** which are whole numbers, or numbers without a fractional component, and there are **Floating-Point Numbers** that are numbers which are represented by some fraction or fractional approximation. Many people think of **Floating-Point Numbers** also called **Floats** as numbers that have some number of digits after the decimal point or `.`, such as `3.14159` or `2.71828`. These are numbers that can be approximated in JavaScript by taking some integer and raising it to some exponential value.
+In most programming languages there are multiple types of numbers, for example there are **Integers** which are whole numbers, or numbers without a fractional component, and there are **Floating-Point Numbers** that are numbers which are represented by some fraction or fractional approximation. Many people think of **Floating-Point Numbers** (also called **Floats**) as numbers that have some number of digits after the decimal point or `.`, such as `3.14159` or `2.71828`. These are numbers that can be approximated in JavaScript by taking some integer and raising it to some exponential value.
 
-When you express a number in JavaScript that number will by default be a **Floating-Point number**. This is a bit of strange behavior on the part of JavaScript as most languages choose to represent numbers without a decimal point value as **Integers**, but JavaScript has chosen a different route. In order to create a number in JavaScript that **IS** and integer, you can use a fairly modern addition to the language known as **BigInt**. This feature of the language allows for you to represent **Integers** in a similar way to other languages, but with the caveat that **BigInt** numbers can only be used with other **BigInt** numbers. Check out the example below.
+When you express a number in JavaScript, that number will by default be a **Floating-Point number**. This is a bit of strange behavior on the part of JavaScript as most languages choose to represent numbers without a decimal point value as **Integers**, but JavaScript has chosen a different route. In order to create a number in JavaScript that **IS** an integer, you can use a fairly modern addition to the language known as **BigInt**. This feature of the language allows for you to represent **Integers** in a similar way to other languages, but with the caveat that **BigInt** numbers can only be used with other **BigInt** numbers. Check out the example below.
 
 **NOTE**: *You will need to be using a relatively recent version of Google Chrome, Mozilla Firefox, or Edge to use this language feature. Internet Explorer and Safari will not work.*
 
@@ -186,7 +184,7 @@ Why do these kinds of numbers exist? Well it's a bit complicated, but is has to 
 
 ## Idiosyncrasies of Floats
 
-JavaScript has a somewhat strange way of representing numbers by default, in that **ALL** numbers are **Floating Point** unless told to be some other kind, this decision carries with it some strange behaviors. One of the side-effects of this decision is that numbers which are integers, without a value after the decimal point, behave as expected when using any of the basic mathematical operators up to very large numbers. However numbers that **DO** have decimal point values can behave in ways not expected in comparison to those that you might enter into a calculator.
+JavaScript has a somewhat strange way of representing numbers by default, in that **ALL** numbers are **Floating Point** unless told to be some other kind. This decision carries with it some strange behaviors. One of the side-effects of this decision is that numbers which are integers, without a value after the decimal point, behave as expected when using any of the basic mathematical operators up to very large numbers. However numbers that **DO** have decimal point values can behave in ways not expected in comparison to those that you might enter into a calculator.
 
 This behavior is best communicated using examples, so please take a look at the JavaScript below and test it out by running it in your browser's console, like prior lessons.
 

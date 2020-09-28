@@ -42,11 +42,11 @@ More years passed and then instead of punching holes into cards and having a com
 
 Today we can write programs the same way those programmers did decades ago, by writing our instructions down in a file and running that file, and we can also write and run a program directly within our web browser. We can use our program to change a web page, receive inputs from a user, and make decisions based on those inputs.
 
-This act of encoding human though into instructions that a computer can understand is known as programming, and it is powerful ability that will change the way you think about solving problems.
+This act of encoding human thought into instructions that a computer can understand is known as programming, and it is a powerful ability that will change the way you think about solving problems.
 
 ### What are Programming Languages?
 
-Just like in human spoken or written languages where there are many ways to describe the same thoughts, there are many "programming languages" that can represent the same instructions, but in different ways.
+Just like in spoken or written languages where there are many ways to describe the same thoughts, there are many "programming languages" that can represent the same instructions, but in different ways.
 
 A computer is not like a thinking person who can "interpret" the meaning of a message even if it's vague, or has multiple meanings. A computer is not able to determine what to do if there is any wiggle room in your instructions, it only does what it is told. For this reason, human languages are ill-fitted for providing a computer instructions to carry out. Even the most specific forms of human language like the law, medical, scientific, or mathematical descriptions fall short of the specificity needed. This is why decades ago a group of people came together and determined how to create the first "languages" that computers could understand.
 
@@ -129,7 +129,7 @@ while(currentNumber < max) {
 }
 ```
 
-The JavaScript code that you see above is a precise set of instructions that tells the computer what to do in order to print out all the primes from two up to ten. When the computer reads those instructions there is zero ambiguity for the steps it must follow. As a human however you may have a difficult time reading and understanding the code above. During the next several lessons you will see and understand what each part of that program does, such that you could write your own version which results in the same output.
+The JavaScript code that you see above is a precise set of instructions that tells the computer what to do in order to print out all prime numbers from two up to ten. When the computer reads those instructions there is zero ambiguity for the steps it must follow. As a human however you may have a difficult time reading and understanding the code above. During the next several lessons you will see and understand what each part of that program does, such that you could write your own version which results in the same output.
 
 ## Why JavaScript?
 
@@ -217,7 +217,7 @@ Near the top right of the Chrome window find a button with **three vertical dots
 
 #### Open the JavaScript console using right-click
 
-Any where on the currently loaded page, use the right-click mouse button and select **Inspect**, you should then see a developer tools window appear at the bottom, or the right-hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
+Anywhere on the currently loaded page, use the right-click mouse button and select **Inspect**, you should then see a developer tools window appear at the bottom, or the right-hand side of your browser. Within the developer tools window, select the tab with the name **Console**.
 
 #### Open the Browser Inspector with a Keyboard Shortcut
 
@@ -354,7 +354,7 @@ console.log();
 <details>
 <summary>Answer</summary>
 
-```js
+```javascript
 console.log("Your Name Here")
 ```
 </details>

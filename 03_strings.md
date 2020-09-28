@@ -20,6 +20,8 @@ When building programs, it's common to work with text, either single characters,
 
 - Long Strings
 
+- String Methods
+
 ## Strings by Themselves
 
 In JavaScript, it's easy to create a String of text. All you need is a pair of quotation marks and some characters. How does a string look? Check out the example below!
@@ -112,7 +114,7 @@ console.log("Be yourself; " + 'everyone else is already taken.');
 
 *Quote by Oscar Wilde*
 
-You can even combine two **Strings** that have quotes within them, no matter the quote style. For example, see the example below.
+You can even combine two **Strings** that have quotes within them, no matter the quote style. For example, see below.
 
 ```js
 'The joke goes "Time flies like an arrow,"' + " 'fruit flies like a banana.'"
@@ -152,7 +154,7 @@ Did you get a result that looks like this?
 "The joke goes \"Time flies like an arrow,\" 'fruit flies like a banana.'"
 ```
 
-![](https://cdn.pixabay.com/photo/2014/07/25/23/05/groucho-marx-401923_960_720.jpg)
+![Groucho Marx](https://cdn.pixabay.com/photo/2014/07/25/23/05/groucho-marx-401923_960_720.jpg)
 
 What are the backslash characters (`\`) doing there? The reason why they exist is that while JavaScript can handle a string containing both kinds of quotes, single and double, it needs to mark those that otherwise end the string as being **part of** the **String**. This process of marking what are usually considered **special characters** is known as **escaping**, and it's quite common within Strings.
 
@@ -269,7 +271,7 @@ The poem above is multiple lines, but it is only a single String, the `\` charac
 This same solution can be used for **Template Strings** without any changes other than the starting and ending quotes being back-tick <code>(`)</code> characters.
 
 ## Indexing
-As discussed, strings are a series of characters. Each *character* in that string exists at a location relative to itself, called an *index*. 
+As discussed, strings are a series of characters. Each *character* in that string exists at a location relative to the string as a whole, called an *index*. 
 
 **An *index* is a number that identifies the location of a character in a string. The index comes at the end of that string, inside of square brackets (`[ ]`)**
 
@@ -390,7 +392,6 @@ Find the index of the  substring `hello` if its present in the following string!
 `.indexOf()` will return the index of a given substring, or `-1` if the substring does not exist.
 </details>
 
-</details>
 
 <details>
 <summary>Solution</summary>
@@ -429,13 +430,13 @@ Write a statement that takes the string '`apple`', capitalizes the first letter,
 
 The first character of a string is at index 0.
 </details>
+
 <details>
 <summary>Hint</summary>
 
 use `.slice()` to remove the first letter of string.
 </details>
 
-</details>
 <details>
 <summary>Solution</summary>
 

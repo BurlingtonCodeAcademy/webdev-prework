@@ -209,10 +209,10 @@ Create a variable with `let` that has the value of your middle name.
     - What are the benefits of a name like this?
 
 Open your browser's console, and do the following:
-    - "Declare 2 variables, `name` and `userName`
-    - Assign value "Doug" to `name`
-    - assign `name` as a value to `userName`
-    - show the value of `userName` with `console.log()` or `alert` if in browser
+ - "Declare 2 variables, `name` and `userName`
+ - Assign value "Doug" to `name`
+ - assign `name` as a value to `userName`
+ - show the value of `userName` with `console.log`
 
 <details>
 <summary>Solution</summary>
@@ -221,7 +221,7 @@ Open your browser's console, and do the following:
 let name, userName
 name = "Doug"
 userName= name
-alert(userName)
+console.log(userName)
 ```
 </details>
 
@@ -244,4 +244,4 @@ age= 42
 console.log(`My name is ${firstName} ${lastName} and I am ${age}!`)
 ```
 
-</details>
+</details> 

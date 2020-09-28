@@ -16,7 +16,7 @@ So, what are they exactly?
 
  So what' that mean? Let's break it down.
 
- ## A simple example
+## A simple example
 
 Say we want to write a function that checks to see if a number is even. Going off of the previous definition, it would accept a number as an *input*, and would return a boolean as its *output*. `true` if the number is even, `false` if it's odd. 
 

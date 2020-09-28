@@ -253,7 +253,6 @@ The `%` (modulo) operator returns the remainder of a division. A remainder of `0
  if(randomNum % 2 !==0){
     console.log("odd")
 }
-
 ```
 </details>
 <details>

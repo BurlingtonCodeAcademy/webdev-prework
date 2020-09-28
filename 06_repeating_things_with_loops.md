@@ -2,7 +2,7 @@
 
 ![Loops Title Card](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599680156/loops_title_card_bi2qmp.png)
 
-Ahh, loops. A fundamental part of what makes programming such a tour de force. Knowing what they are and how they behave is paramount to being a programmer of any skill level. Whether just starting out or a lifelong coder, you won't build anything of use until you harness them properly. Probably.
+Ahh, loops. A fundamental part of what makes programming such a tour de force. Knowing what they are and how they behave is paramount to being a programmer of any skill level. Whether just starting out or a lifelong coder, you won't build anything of use until you harness them properly. 
 
 
 ## What are loops
