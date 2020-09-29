@@ -191,8 +191,8 @@ Create an *ordered list* with the following three items, with the first and thir
 2) amethyst
 3) *emerald*
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="&lt;strong&gt; tag" src="https://codepen.io/burlingtoncodeacademy/embed/YzqbNKM?height=265&theme-id=dark&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/YzqbNKM'>&lt;strong&gt; tag</a> by Burlington Code Academy
+<iframe height="154" style="width: 100%;" scrolling="no" title="BCA &lt;ul&gt; exercise" src="https://codepen.io/burlingtoncodeacademy/embed/poymNab?height=154&theme-id=dark&default-tab=result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/poymNab'>BCA &lt;ul&gt; exercise</a> by Burlington Code Academy
   (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
