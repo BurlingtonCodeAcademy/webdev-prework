@@ -55,3 +55,12 @@ Now, when adding any code to `script.js` you should see your changes immediately
   </iframe>
 </div>
 
+## Submitting Your Project
+
+Once you're confident in your work, grab the URL from the glitch environment and send it to our team for review. To find a copyable link click on **Share**, select **Code** and then select **copy**. 
+
+![glitch share link](https://res.cloudinary.com/btvca/image/upload/v1601320649/glitch_share_ocoffp.png)
+
+Send all project URLS to **BCA EMAIL HERE** with your name and project in the title.
+
+### Jane Doe Week 1 Prework Project
