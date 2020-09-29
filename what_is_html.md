@@ -21,7 +21,7 @@ This is my website
 ```
 Only the end result is anything but breathtaking:
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="HTML intro ex." src="https://codepen.io/burlingtoncodeacademy/embed/rNebZPe?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="265" style="width: 100%;" scrolling="no" title="HTML intro ex." src="https://codepen.io/burlingtoncodeacademy/embed/rNebZPe?height=265&theme-id=dark&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/rNebZPe'>HTML intro ex.</a> by Burlington Code Academy
   (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -58,7 +58,7 @@ Placing elements *inside* of other elements. This is done for a variety of reaso
 
 You can wrap some of your *content* from the `h1` *element* in an `<em></em>` tag (stands for **emphasis**), which will italicize the content within. 
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="HTML intro ex." src="https://codepen.io/burlingtoncodeacademy/embed/rNebZPe?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="265" style="width: 100%;" scrolling="no" title="HTML intro ex." src="https://codepen.io/burlingtoncodeacademy/embed/rNebZPe?height=265&theme-id=dark&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/rNebZPe'>HTML intro ex.</a> by Burlington Code Academy
   (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -143,7 +143,7 @@ Create an unordered list with 3 items. Give those items the following content:
 - orange
 - banana
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="BCA &lt;ul&gt; exercise" src="https://codepen.io/burlingtoncodeacademy/embed/poymNab?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="154" style="width: 100%;" scrolling="no" title="BCA &lt;ul&gt; exercise" src="https://codepen.io/burlingtoncodeacademy/embed/poymNab?height=154&theme-id=dark&default-tab=result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/poymNab'>BCA &lt;ul&gt; exercise</a> by Burlington Code Academy
   (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
