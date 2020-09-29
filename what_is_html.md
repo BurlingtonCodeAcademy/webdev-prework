@@ -92,6 +92,8 @@ and will be rendered like so:
 It will redirect your browser to `www.burlingtoncodeacademy.com` when clicked. `<a>` tags take a variety of other attributes as well. See a complete list [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes). 
 
 
+![document](https://res.cloudinary.com/btvca/image/upload/v1601403300/journal-2850091_1280_wbvbcn.jpg)
+
 ### The DOM
 The DOM, or *Document Object Model*, is the interface that is created from the browser's rendering of the HTML document. When that document is processed, The DOM is created which restructures the content in such a way that it can be manipulated with a scripting language, like JavaScript. It is not crucial to understand this concept entirely, but it is important to differentiate; **Your document and The DOM are 2 different things**. More on this later!
 
@@ -129,7 +131,9 @@ will render like:
 `<div>` elements are popular as the most "generic" container for flow content. It posesses no default effects on content or layout.
 
 ### `p` - paragraph 
-The `<p>` element represents a paragraph. They are block-level, and have no unique attributes.
+The `<p>` element represents a paragraph. It is block-level, and has no unique attributes.
+
+Eventually, your HTML will be quite complex; nested elements, sections, and attributes galore. For now, we'll focus on the basics. Complete the following exercises before continuing.
 
 ## Interactive Exercises
 
@@ -162,3 +166,44 @@ Create an unordered list with 3 items. Give those items the following content:
 
 
 ### 2. 
+The `<strong>` element is an *inline* element that boldens its content. In the paragraph below, wrap all instances of dialogue (text with quotation marks) with `<strong>` tags. The end result should be as follows:
+
+<p>Once upon a midnight dreary, while I pondered, weak and weary, Over many a quaint and curious volume of forgotten lore— While I nodded, nearly napping, suddenly there came a tapping, As of some one gently rapping, rapping at my chamber door. <strong>“’Tis some visitor,”</strong> I muttered, <strong>“tapping at my chamber door— Only this and nothing more.”</strong> </p>
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="&lt;strong&gt; tag" src="https://codepen.io/burlingtoncodeacademy/embed/YzqbNKM?height=265&theme-id=dark&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/YzqbNKM'>&lt;strong&gt; tag</a> by Burlington Code Academy
+  (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<details>
+<summary>Solution</summary>
+
+```
+<p>Once upon a midnight dreary, while I pondered, weak and weary, Over many a quaint and curious volume of forgotten lore— While I nodded, nearly napping, suddenly there came a tapping, As of some one gently rapping, rapping at my chamber door. <strong>“’Tis some visitor,”</strong> I muttered, <strong>“tapping at my chamber door— Only this and nothing more.”</strong> </p>
+```
+</details>
+
+
+### 3. 
+Create an *ordered list* with the following three items, with the first and third being italicized:
+
+1) *garnet*
+2) amethyst
+3) *emerald*
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="&lt;strong&gt; tag" src="https://codepen.io/burlingtoncodeacademy/embed/YzqbNKM?height=265&theme-id=dark&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/YzqbNKM'>&lt;strong&gt; tag</a> by Burlington Code Academy
+  (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<details>
+<summary>Solution</summary>
+
+```
+<ol>
+    <li><em>garnet</em></li>
+    <li>amethyst</li>
+    <li><em>emerald</em></li>
+</ol>
+```
+</details>
