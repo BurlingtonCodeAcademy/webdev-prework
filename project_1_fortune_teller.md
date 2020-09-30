@@ -61,7 +61,6 @@ Once you're confident in your work, grab the URL from the glitch environment and
 
 ![glitch share link](https://res.cloudinary.com/btvca/image/upload/v1601320649/glitch_share_ocoffp.png)
 
-**Send all project URLS to support@burlingtoncodeacademy.com with your name and project in the title:**
+Send all project URLS to **support@burlingtoncodeacademy**.com with your name and project in the title:
 
-i.e.
-### Jane Doe Week 1 Prework
+i.e. **Jane Doe Week 1 Prework**
