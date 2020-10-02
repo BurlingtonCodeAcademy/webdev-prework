@@ -51,7 +51,7 @@ A closing tag serves as the ending point for an element, and is denoted by a for
 The content of the element. Depending on the opening and closing tags being used, the content will change accordingly. In this example, it is a large header (or `h1` element). 
 
 ### element
-The element is everything shown. It consists of the both the tags and the content. 
+The element is everything shown. It consists of both the tags and the content. 
 
 ### nesting
 Placing elements *inside* of other elements. This is done for a variety of reasons pertaining to both structure and style. Let's say you're being extra protective of your website, and you want your header to reflect that fact.
