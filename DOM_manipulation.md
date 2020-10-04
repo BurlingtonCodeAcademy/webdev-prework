@@ -42,9 +42,53 @@ The site redirect has been changed, but now the link is misleading! So we'll nee
 ```js
 let link = document.querySelector('#example-link')
 link.href="https://www.google.com"
-link.textContent="Google"
+link.innerText="Google"
 ```
 And now, what is still a link to the BCA website in the HTML, is now a link to Google in our DOM. The DOM has been *manipulated* to alter the appearance and functionality of our page! 
+
+## `textContent` vs. `innerHTML` vs. `innerText`
+In your travels, you will come across a few *similar* sounding properties that deserve clarification before moving on. 
+
+```html
+<div id="example">
+
+ Here is an <em>element</em>. It has nested <em>elements</em>.
+
+</div>
+```
+```js
+let example = document.querySelector('#example')
+```
+
+`textContent` is a property that returns all elements in the given node, including line breaks and styles/formatting. Use this when you want to see the element in its entirety, including styling that has been applied to it. 
+
+```js
+console.log(example.textContent)
+/*
+        Here is an element. It has nested elements.
+
+    /*
+```
+
+
+`innerText` is a property that returns JUST the text as rednered. When you highlight an element in your window and copy it to your clipboard, you are effectively copying what will equate to `innerText`. Use this when you want the most basic, raw text. 
+
+
+```js
+console.log(example.innerText)
+// Here is an element. It has nested elements.
+```
+
+
+`innerHTML` is a property that returns the HTML markup AS originally compiled. Use this when you want to see what is *explicitly* in the element. This includes line breaks and spacing, and enclosed elements.
+
+```js
+console.log(example.innerHTML)
+/*
+        Here is an <em>element</em>. It has nested <em>elements</em>.
+
+    */
+```
 
 ## Making new elements
 
