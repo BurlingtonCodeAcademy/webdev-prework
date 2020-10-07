@@ -96,7 +96,7 @@ height="100px" width="100px"
 Play around with it below!
 
 
-<iframe  style={{height:"265px", width: "100%"}} scrolling="no" title="&lt;img&gt; exercise" src="https://codepen.io/burlingtoncodeacademy/embed/WNwqEbZ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe  style={{height:"265px", width: "100%"}} scrolling="no" title="&lt;img&gt; exercise" src="https://codepen.io/burlingtoncodeacademy/embed/WNwqEbZ?height=265&theme-id=dark&default-tab=html,result&editable=trure" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/WNwqEbZ'>&lt;img&gt; exercise</a> by Burlington Code Academy
   (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -138,7 +138,8 @@ Make a "website" in the code sandbox below that has the following:
 
 Note there is no `<head>`, as that metadata has been taken care of by codepen. Treat the "HTML" area as the `<body></body>` element! 
 
-<iframe  style={{height: "265px",width: "100%"}} scrolling="no" title="Your first website" src="https://codepen.io/burlingtoncodeacademy/embed/bGpPYop?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+
+<iframe  style={{height: "265px",width: "100%"}} scrolling="no" title="Your first website" src="https://codepen.io/burlingtoncodeacademy/embed/bGpPYop?height=265&theme-id=dark&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/bGpPYop'>Your first website</a> by Burlington Code Academy
   (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
