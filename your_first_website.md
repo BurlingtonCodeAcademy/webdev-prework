@@ -58,7 +58,7 @@ This will be covered more in depth next week when we discuss styling your site (
 
 
 It looks something like this:
-```
+```html
 <link rel="stylesheet" href="style.css">
 ```
 
@@ -90,7 +90,7 @@ It is also HIGHLY encouraged to provide an `alt` attribute, which is a *text des
 
 `height` and `width` may also be directly scaled here, like so:
 
-```
+```html
 height="100px" width="100px"
 ```
 Play around with it below!
