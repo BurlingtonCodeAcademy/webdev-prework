@@ -95,7 +95,7 @@ height="100px" width="100px"
 ```
 Play around with it below!
 
-<p class="codepen" data-height="320" data-theme-id="dark" data-default-tab="result" data-user="burlingtoncodeacademy" data-slug-hash="WNwqEbZ" data-editable="true" style="height: 320px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;img&amp;gt; exercise">
+<p class="codepen" data-height="320" data-theme-id="dark" data-default-tab="result" data-user="burlingtoncodeacademy" data-slug-hash="WNwqEbZ" data-editable="true" style={{height: "320px"; box-sizing: "border-box", display: "flex", align-items: "center", justify-content: "center", border: "2px solid", margin: "1em 0", padding: "1em"}} data-pen-title="&amp;lt;img&amp;gt; exercise">
   <span>See the Pen <a href="https://codepen.io/burlingtoncodeacademy/pen/WNwqEbZ">
   &lt;img&gt; exercise</a> by Burlington Code Academy (<a href="https://codepen.io/burlingtoncodeacademy">@burlingtoncodeacademy</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -138,7 +138,7 @@ Make a "website" in the code sandbox below that has the following:
 
 Note there is no `<head>`, as that metadata has been taken care of by codepen. Treat the "HTML" area as the `<body></body>` element! 
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="burlingtoncodeacademy" data-slug-hash="bGpPYop" data-editable="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Your first website">
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="burlingtoncodeacademy" data-slug-hash="bGpPYop" data-editable="true" style={{height: "320px"; box-sizing: "border-box", display: "flex", align-items: "center", justify-content: "center", border: "2px solid", margin: "1em 0", padding: "1em"}} data-pen-title="Your first website">
   <span>See the Pen <a href="https://codepen.io/burlingtoncodeacademy/pen/bGpPYop">
   Your first website</a> by Burlington Code Academy (<a href="https://codepen.io/burlingtoncodeacademy">@burlingtoncodeacademy</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
