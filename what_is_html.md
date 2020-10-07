@@ -110,7 +110,7 @@ They have no unique attributes.
 Represents a list of ordered items; nested `<li>` elements will render in a numbered order, by default.
 
 ```
-<ol reversed=true>
+<ol reversed="true">
     <li>item 1</li>
     <li>item 2</li>
     <li>item 3</li>
@@ -119,7 +119,7 @@ Represents a list of ordered items; nested `<li>` elements will render in a numb
 
 will render like:
 
-<ol reversed=true>
+<ol reversed="true">
     <li>item 1</li>
     <li>item 2</li>
     <li>item 3</li>
