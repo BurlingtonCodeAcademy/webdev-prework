@@ -83,7 +83,7 @@ They have no unique attributes.
 
 In this case, the `h1` is immediately followed with an `h4`, a smaller version. Both are *block level* elements.
 
-### `<img>
+### `<img>`
 The `<img>` element is used to embed an image into the HTML document. It requires a `src` attribute, which needs the path to the image you want to include. 
 
 It is also HIGHLY encouraged to provide an `alt` attribute, which is a *text description* of the image. This is important for accessibility, particularly the visually impaired. Those using screen readers will benefit highly from a proper description of the image.
@@ -96,7 +96,7 @@ height="100px" width="100px"
 Play around with it below!
 
 
-<iframe height="265" style={{width: "100%"}} scrolling="no" title="&lt;img&gt; exercise" src="https://codepen.io/burlingtoncodeacademy/embed/WNwqEbZ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe  style={{height:"265px", width: "100%"}} scrolling="no" title="&lt;img&gt; exercise" src="https://codepen.io/burlingtoncodeacademy/embed/WNwqEbZ?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/WNwqEbZ'>&lt;img&gt; exercise</a> by Burlington Code Academy
   (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -113,7 +113,7 @@ We touched briefly upon *anchor tags* last lesson, and they have the potential f
 
 Anchor tags have an `href` attribute which, like `<link>` elements, take a URL that the hyperlink points to. The link itself is the *content* inside of the opening and closing tags. 
 
-### <blockquote>
+### `<blockquote>`
 `<blockquote>` elements are meant to emphasize certain text the particular way shown. They come with default indentation.
 
 ### `<button>`
@@ -138,7 +138,7 @@ Make a "website" in the code sandbox below that has the following:
 
 Note there is no `<head>`, as that metadata has been taken care of by codepen. Treat the "HTML" area as the `<body></body>` element! 
 
-<iframe height="265" style={{width: "100%"}} scrolling="no" title="Your first website" src="https://codepen.io/burlingtoncodeacademy/embed/bGpPYop?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe  style={{height: "265px",width: "100%"}} scrolling="no" title="Your first website" src="https://codepen.io/burlingtoncodeacademy/embed/bGpPYop?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/bGpPYop'>Your first website</a> by Burlington Code Academy
   (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
