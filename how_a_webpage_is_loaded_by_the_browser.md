@@ -23,7 +23,6 @@ As we have covered, the *metadata* of a webpage is contained in the `<head>` ele
 6) The `<body>` element is parsed, starting with the `h1` and `h4` tags.
 7) When we get to the `<img>` tag, a request for that image is made, much like the one made for the `stylesheet` in step 5. 
     - When it is loaded, it is rendered.
-    - This is where you see the ![broken image](fakeurl) icon.
 8) The remaining elements in the `<body>` are parsed and loaded, until:
 9) **This is where The `<script>` tag is encountered.** A `<script>` is known as a **blocking** resource, which means that any `<script>` tags encountered are, by default immediately requested and executed. 
     - It is good practice to provide any JavaScript you want to use on your page as the *last* thing in your `<body>`.
