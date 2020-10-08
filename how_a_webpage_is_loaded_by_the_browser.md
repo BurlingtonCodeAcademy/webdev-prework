@@ -13,17 +13,25 @@ Let's take a look at our site from the previous lesson:
 As we have covered, the *metadata* of a webpage is contained in the `<head>` element. It contains all of the information that the user won't implicity see on the page as content, but instead informs the behavior of the page and resources needed to make it function as intended. So, going from top to bottom, the order of operations is as follows:
 
 1) The language is expected to be english, due to the `lang="en"` attribute on the containing `<html>` element. 
+
 2) The character set is defined as `UTF-8` in a self-closing `<meta>` tag. `UTF-8` is a highly dynamic and backwards compatible character encoding. It is BY FAR the most common encoding.
+
 3) The `name` and `content` values are provided in a second self-closing `<meta>` tag that dictate how the page will be rendered in terms of width, height, and zoom level.
+
 4) the `<title>` element determines what will be displayed in its browser tab or title bar.
+
 5) **This is where things start to get interesting.** a `<link>` tag is provided with a link to a `css` stylesheet. This is not something that your HTML document knows how to immediately parse. Rather, it follows the `href` provided, to retrieve the intended resource from elsewhere.
     - When a `<link>` is provided, a request is made to get that information, but:
     - The browser does not wait for that request to finish.
     - When it is loaded, it is applied. 
+
 6) The `<body>` element is parsed, starting with the `h1` and `h4` tags.
+
 7) When we get to the `<img>` tag, a request for that image is made, much like the one made for the `stylesheet` in step 5. 
     - When it is loaded, it is rendered.
+
 8) The remaining elements in the `<body>` are parsed and loaded, until:
+
 9) **This is where The `<script>` tag is encountered.** A `<script>` is known as a **blocking** resource, which means that any `<script>` tags encountered are, by default immediately requested and executed. 
     - It is good practice to provide any JavaScript you want to use on your page as the *last* thing in your `<body>`.
     - Scripts can be added anywhere, but in doing so, you are pausing the browser process.
