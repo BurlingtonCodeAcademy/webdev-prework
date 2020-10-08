@@ -11,9 +11,6 @@ When getting your first site up and running, there are a few higher-structure el
 - What scripts(s) you'd like to run on your page
 - What content you'd like to appear on the page
 
-This lesson covers:
-
-
 ## Basic HTML document layout
 
 Let's start as we normally do, with a simple example: 
