@@ -19,9 +19,9 @@ You should see something like this:
 
 From here, you can access the inspector tools in the same way you access the console, in one of three ways:
 
-* **Shortcuts:** <kbd>Ctrl + Shift + I</kdb>
-    - macOS: <kbd>⌘ + ⌥ + I</kbd>
-    - IE & Edge: <kbd>F12</kbd>
+* **Shortcuts:** `Ctrl + Shift + I`
+    - macOS:`⌘ + ⌥ + I`
+    - IE & Edge:`F12`
 
 * **Menu bar**
     - **Firefox**: Web Developer > Tools > Web Developer > Toggle Tools
@@ -49,7 +49,7 @@ Because the browser has its own version of what the web page should look and act
 
 ![highlighted h1](https://res.cloudinary.com/btvca/image/upload/v1602172629/inspect3_yuciae.png)
 
-Now, right click (or <kbd>Ctrl + Click</kbd>) that element and select *edit as HTML*. This will expose that element as raw HTML so that you can make changes to it. Make changes to it so that the *content* now reads: "My First DOM Manipulation", like so:
+Now, right click (or`Ctrl + Click`) that element and select *edit as HTML*. This will expose that element as raw HTML so that you can make changes to it. Make changes to it so that the *content* now reads: "My First DOM Manipulation", like so:
 
 ```html
 <h1>My First DOM Manipulation</h1>
