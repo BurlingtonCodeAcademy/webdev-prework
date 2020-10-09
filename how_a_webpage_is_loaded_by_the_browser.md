@@ -3,6 +3,8 @@
 
 Designing a web page is a thorough process. Every `<link>` or `<script>` element, every video or image or piece of audio is loaded into your page based relative to the document's flow. Depending on how you have laid out your HTML, your page may perform differently than you might anticipate. In the following lesson, we will discuss the fundamentals of how a page is loaded and executed. Try not to get too bogged down with the provided information; this is meant as an introduction to some helpful concepts that could assist you in the future.
 
+
+
 ## From Top to Bottom
 HTML is, by default, parsed from top to bottom. When a browser properly requests a webpage, (ie. a user navigates to a valid address), the corresponding HTML document is sent back to the browser and parsed. As things are interpreted by our browser, the page begins to load and render the information it has found. You'll typically see this effects immediately, as the HTML is read, styles are applied to it, and the scripts that give it functionality are run. 
 
