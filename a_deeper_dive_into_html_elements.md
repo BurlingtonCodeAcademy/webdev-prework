@@ -159,6 +159,11 @@ Happy Coding :)
 ## Exercises
 Refactor the following HTML so that it takes full use of the 4 semantic elements covered in this lesson. Note `<header>` is also a semantic element! For a full list, visit [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantic_elements)
 
+<iframe height="265" style="width: 100%;" scrolling="no" title="Semantic Elements BCA" src="https://codepen.io/burlingtoncodeacademy/embed/YzWyvLo?height=265&theme-id=dark&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/burlingtoncodeacademy/pen/YzWyvLo'>Semantic Elements BCA</a> by Burlington Code Academy
+  (<a href='https://codepen.io/burlingtoncodeacademy'>@burlingtoncodeacademy</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 Ask yourself:
 
 - What would denote individual items? (`<article>` elements)
