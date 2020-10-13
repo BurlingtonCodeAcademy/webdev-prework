@@ -155,3 +155,15 @@ And as always,
 Happy Coding :)
 
 -Paul
+
+## Exercises
+Refactor the following HTML so that it takes full use of the 4 semantic elements covered in this lesson. Note `<header>` is also a semantic element! For a full list, visit [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantic_elements)
+
+Ask yourself:
+
+- What would denote individual items? (`<article>` elements)
+- What are my larger `<section>` elements?
+- How would I add an `<aside>` if I felt so inclined?
+
+These questions don't have concrete answers! What's important is understanding the general implications of these different elements and how they can be utilized to give your page some general structure.
+
