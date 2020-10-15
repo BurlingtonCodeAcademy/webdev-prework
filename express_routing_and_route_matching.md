@@ -75,6 +75,7 @@ Most applications are a *little* more complex than this example. What happens wh
 By it's very nature, Express will exercise what is called *route matching* that, when a request is made to your express app, determines what route will be triggered. 
 
 ## Route Matching
+![map with a toy car on it](https://res.cloudinary.com/btvca/image/upload/v1602805106/holidays-1283014_1280_kceh3w.jpg)
 
 Routing refers to the logic that dictates how an application will respond to a particular request. It is denoted by a URI (or path) and a particular method, like GET or POST. 
 
@@ -165,6 +166,7 @@ For example, a request to `localhost:3000/about/jane` will hit this route, with 
 
 
 ### Route handlers
+![mountain paths](https://res.cloudinary.com/btvca/image/upload/v1602805420/mountains-1245937_1280_ub25eh.jpg)
 
 Handlers can be assigned additional callback functions that behave similar to middleware. If you're familiar with middleware, good! If not, no worries. They are essentially bits of code that are executed server-side, but before your explicit handler is called. 
 
