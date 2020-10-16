@@ -86,19 +86,122 @@ We can provide these files directly to our `<nav>` bar by assigning them as the 
 
  Assuming the other `.html` documents reside in the same folder as the home page, the browser will redirect to the corresponding page. 
 
+ > Use relative links wherever possible. While absolute links will also work (for example, `/gallery.html` and `http://www.mywebsite.com/galler.html` both would hypothetically work), it is more efficient to use relative links. Plus, if your domain name ever changes, you won't have to worry about changing every `href`!
+
 
 ## Linking to an Element
-Now let's say that the `arist-bio.html` page is a smash hit. It's chalk full of delightful information on our talented artist. They've had a long and successful career. So great, in fact, that they would like a secondary nav bar *only* on this particular page that allows the user to jump to different sections within the same page. 
+A third way of providing an `href` attribute to your anchor tags is by directly linking to content on the current page. This will automatically jump the browser's view to 
 
-[top](#top)
+Let's say that the `arist-bio.html` page is a smash hit. It's chock-full of delightful information on our talented artist. They've had a long and successful career that is so great, in fact, that they would like a secondary nav bar *only* on this particular page that allows the user to jump to different sections within it. 
+
+This can be accomplished quite easily, with the use of internal links to particular *elements* on that page. These elements require an `id` attribute in order to be properly targeted.
+
+`id` attributes are used for a number of reasons from referencing like this, styling with CSS, and selecting for JavaScript manipulation. **They should be unique to the page.**
+
+Like any HTML attribute, you can add it within the opening tag like so:
+
+```html
+<div id="placeholder">jump to this spot on the page</div>
+```
+Now, were we to create another `<nav>` element or even just a few random links, we could direct those links to any element that has been given an `id`. Again, the `id` must be unique to properly target one and *only* one element.
+
+You can link to an element by `id` like so:
+
+```html
+<a href="#placeholder">Jump to the div above!<a>
+```
+> Note that the `#` is an important character that must precede any `id` in an `href` attribute. The `#` often represents `id`, as you will see when we cover CSS. 
+
+As an added behavior, you can jump directly to the top of any page by providing the `href="#top"` or `href=#` attributes.
+
+See it in action:
+
+This:
+```html
+<a href="#top">top</a>
+```
+Renders as this:
+
+<a href="#top">top</a>
 
 
-- Intro
-- absolute paths (www.about.com)
-- relative paths (/about)
-- internal paths (#about)
-- wrapping elements
-- other things anchor tags can do (telephone number)
-- accessibility
-- glitch exercises
-    - Do one or two for each of these for each topic covered
+## Additional Features
+So, `<a>` tags are capable of linking to other sites, other pages on the same site, and other sections on the same page. Anything else? Yes!
+
+### Email addresses
+Anchor tags can link to email addresses, prompting the user to send an email to the address provided. This is quite simple, and only requires the `mailto:` prefix in the `href` attribute. 
+
+It looks like so:
+
+```html
+<a href="mailto:fakemail@notreal.com">Send me an email!</a>
+```
+<a href="mailto:fakemail@notreal.com">Send me an email!</a>
+
+(This might surprise you, but that email doesn't actually exist)
+
+### telephone numbers
+You can also link to telephone numbers! This requires the `tel:+` prefix to the `href` attribute.
+
+```html
+<a href="tel:+1(555) 5555">555 5555</a>
+```
+ On mobile, this will auto-dial the number. Operating systems will vary, but there are programs that can call as well, like Skype or FaceTime. 
+
+### Downloading files
+You can also download files with the `href`, so long as you also include the `download` attribute. It specifies what will exactly be downloaded when a user clicks the link.
+
+```html
+<a href="/images/cutedog.jpg" download>Download</a>
+```
+If you give `download` a value, that will be the name of the file downloaded on the user's computer. Otherwise, it defaults to the current file name. The above will download a file called `cutedog.jpg`, wheras this:
+
+```html
+<a href="/images/cutedog.jpg" download="dog">Download</a>
+```
+will download a file called `dog.jpg`
+
+# Final Musings
+![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599682636/sunset-1211475_1280_xtjrjn.png)
+
+And that's about it as far as adding navigation to the browser! You can do a lot with a little anchor tag. Let's go over some of the concepts covered. Then, move on to the exercises.
+
+Takeaways:
+
+- anchor tags behave differently based on the `href` value provided.
+    - absolute paths redirect to other sites
+    - relative paths redirect to paths relative to the document's location
+- you can link to elements that have an `id` within the current page by appending an `#` to the `id` name in a link's `href`.
+- anchor tags can prompt user emails
+- anchor tags can prompt telephone numbers
+- anchor tags can prompt downloads
+
+
+# Exercises
+
+<!-- Copy and Paste Me -->
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/navigating-the-browser-bca?path=about.html&previewSize=0&attributionHidden=true"
+    title="navigating-the-browser-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
+
+*Remix* this project on Glitch, then complete the following: 
+
+- In `index.html`,  create a `<nav>` element that contains links to the other provided `html` documents. 
+    - Add this nav bar to all pages, to allow for easy navigation to and fro.
+
+- In `about.html`, create a link at the top of the page that links to the element *on the same page* with the `id` of `jump-here`. 
+    - Create a second directly under that element that brings you back to the top of the page.
+
+- In `contact.html`, create 2 links.
+    - One should prompt the user to call (555) 1234
+    - The other should prompt the user to email `nomail@donotmail.yes`
+
+### **Bonus**
+
+- In `index.html`, add a link below the `<h3>` element that links to the element in `about.html` with the `id` of `jump-here` that you previously created.
+
