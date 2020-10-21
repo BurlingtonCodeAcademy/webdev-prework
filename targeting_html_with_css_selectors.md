@@ -378,6 +378,7 @@ em{
 a{
   text-decoration:none;
 }
+/* attribute selector */
 a[href^="mailto:"]{
 background-color: yellow;
 }
