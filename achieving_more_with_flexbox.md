@@ -13,7 +13,7 @@ or
 
 
 ## Creating a Flexbox
-`flex` is a two-dimensional `display` property that turns the element(s) it is applied to into what are referred to as a *flex container*. The *immediate* children of the flex container are called flex items, and can be oriented relative to the container's vertical (`column`) *or* horizontal (`row`) orientation.
+`flex` is a linear `display` property that turns the elements it is applied to into what are referred to as a *flex containers*. The *immediate* children of the flex container are called flex items, and can be oriented relative to the container's vertical (`column`) *or* horizontal (`row`) orientation.
 
 Perhaps it's best to start with an example. Let's take a generic `<div>`, as it has no additional default styling. We want to fill it with 3 equally sized child elements, that will also be `<div>` elements. Let's do that now:
 
@@ -259,7 +259,7 @@ Flexbox is a large topic, far too much to discuss in the scope of this prepwork.
 Happy Coding :)
 
 
-- Flexbox is a 2d layout principle
+- Flexbox is a linear layout principle
     - elements are placed sequentially regarding their main axis (`row` or `column`)
 - Applying `display:flex` to an element turns it into a flex container.
 - The elements *one level deep* (direct children) are turned into flex items.
