@@ -28,7 +28,7 @@ Let's size and color the container and items for visibility:
 
 ```css
 #flex-container{
-    background-color:lightgrey;
+    background-color:lightgray;
 }
 .flex-item {
     border: 1px solid black;
@@ -49,7 +49,7 @@ But, by turning the *parent* element into a *flex container*, we can manipulate 
 
 ```css
 #flex-container{
-    background-color:lightgrey;
+    background-color:lightgray;
     display:flex;
 }
 .flex-item {
@@ -215,10 +215,129 @@ The other common property to orient your elements based on the container is `ali
 
 Despite the container (area with gray background) being a `column`, the elements inside (flex items) have been oriented left-to-right by way of `align-items`.  Used in conjunction with `justify-content`, you can orient the contents of a container. There are more options for the main axis (`justify-content`), as it informs the primary behavior of the container.
 
+> Values available to `align-items` include `flex-start`, `flex-end`, `center`, and `stretch`.  When `flex-end` and `flex-start` are used, it means in relation to the axis it is applied to. 
 
-- Intro
-- Creating a Flexbox
-    - `display:flex`
-- Main Axis vs. Off axis
-    - Justify vs Align
-    - Container vs. Item
+
+Here they are working together on a row to position it at the end of it's main axis (`justify-content`) and centered vertically with `align-items`:
+
+```html
+<div id="flex-container">
+    <div class="flex-item">item 1</div>
+    <div class="flex-item">item 2</div>
+    <div class="flex-item">item 3</div>
+</div>
+```
+
+```css
+#flex-container {
+  height: 200px;
+  background-color: lightgray;
+  display: flex;
+  /* justify content along y axis */
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-item {
+  width: 50px;
+  height:50px;
+  border: 1px solid black;
+  background-color: cornflowerblue;
+}
+```
+<div style={{display: "flex", height:"200px", flexDirection:"column", alignItems: "flex-end", justifyContent: "center",backgroundColor:"lightgray"}} id="flex-container">
+    <div style={{height: "50px",width:"50px",border: "1px solid black", backgroundColor: "cornflowerblue"}}class="flex-item">item 1</div>
+    <div style={{height: "50px",width:"50px",border: "1px solid black", backgroundColor: "cornflowerblue"}}class="flex-item">item 2</div>
+    <div style={{height: "50px",width:"50px",border: "1px solid black", backgroundColor: "cornflowerblue"}}class="flex-item">item 3</div>
+</div>
+
+## Final Musings
+![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599682636/sunset-1211475_1280_xtjrjn.png)
+
+Flexbox is a large topic, far too much to discuss in the scope of this prepwork. For now, there are a few simple applications to familiarize yourself with so that you might harness a sliver of its awesome power. Meditate on these key points, and then hit up those exercises!
+
+Happy Coding :)
+
+
+- Flexbox is a 2d layout principle
+    - elements are placed sequentially regarding their main axis (`row` or `column`)
+- Applying `display:flex` to an element turns it into a flex container.
+- The elements *one level deep* (direct children) are turned into flex items.
+- Flex items are the elements that are oriented inside of the container.
+- `justify-content` is a property placed a flex container that orients its flex items based on the main axis. 
+- `align-items` orients flex items based on the perpendicular axis. Less customizable than `justify-content`.
+- `flex-direction` determines the direction of the flex container. Defaults to `row`, but can be turned into a `column`. 
+
+
+## Exercises
+
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/flexbox-prework-bca?path=style.css&previewSize=0&attributionHidden=true"
+    title="flexbox-prework-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
+
+In `style.css`, apply the proper CSS to achieve the following:
+
+
+1) Turn `#question-one` into a flex row, and position its items to the right side of the container (`flex-end`).
+
+<details>
+<summary>Answer</summary>
+
+```css
+#question-one {
+  display: flex;
+  justify-content: flex-end;
+}
+```
+</details>
+
+2) Turn `#question-two` into a flex column, and position its items to the right side of the container.
+
+<details>
+<summary>Answer</summary>
+
+```css
+#question-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+```
+</details>
+
+
+3) Turn `#question-three` into a flex row, and position the elements along the *x axis* with the `space-between` property.
+    - Then, center the items along the *y axis*.
+
+<details>
+<summary>Answer</summary>
+
+```css
+#question-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+```
+</details>
+
+4) Turn `#question-four` into a flex column, and position the items to the bottom of the container (`flex-end`) and *all the way to the right* of the container as well (also `flex-end`).
+
+<details>
+<summary>Answer</summary>
+
+```css
+#question-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+```
+</details>
