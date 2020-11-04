@@ -366,7 +366,6 @@ It is worth mentioning that, like Flexbox, the scope of this lesson is very limi
 
 ## Exercises
 
-<!-- Copy and Paste Me -->
 <div class="glitch-embed-wrap" style={{height: "420px", width: "100%"}}>
   <iframe
     src="https://glitch.com/embed/#!/embed/fork-heliotrope-radar?path=style.css&previewSize=0&attributionHidden=true"
