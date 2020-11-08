@@ -174,12 +174,171 @@ div{
 In this, the `height` property will begin to transition before the `color` property. If there are more delays than properties, they will stop being counted after the properties have each had a time applied to them. If there are more properties than delays, the delays will be looped over until all properties have had a delay applied to it. 
 
 ### `transition-timing-function`
-The `transition-timing-function` property is the 
+The `transition-timing-function` property is where the rubber meets the road, so to speak. While the other `transition-` properties (duration, property, and delay) all focus on the general behavior of your animations, `transition-timing-function` defines the very nature of that animation. Effectively, the value given to the `transition-timing-property` is what defines the acceleration curve of your transition, allowing the speed of your transition to change through the course of its animation. With it, you can start really fast, slow down in the middle, and go fast again at the end. You can do the opposite, as well! You can do anything! There are a number of keyword values that allow you to define these: `ease, linear, ease-in, ease-out, ease-in-out, cubic-bezier, and steps`
 
-- duration
-- timing
-- delay
-- transform
+`transition-timing-function: ease` is the default value of our animations so far. It increases the speed of the animation in the middle, and slows back down at the end. 
 
-- Final musings
-- Exercises
+`transition-timing-function: linear` transitions evenly throughout. 
+
+`transition-timing-function: ease-in` begins slowly, and increases in speed until the transition is complete.
+
+`transition-timing-function: ease-out` starts quickly, and slows down until the animation is complete.
+
+`transition-timing-function: ease-in-out` begins and ends slowly, while speeding up in the middle. 
+
+`transition-timing-function: cubic-bezier(p0,p1,p2,p3)` takes 4 comma-separated values where the 1st and last values must be between 0 and 1, as they dictate the position at that particular moment in the duration. Think of it as 2 sets of `(x,y)` coordinates passed into a function, like so:
+
+```css
+transition-timing-function: cubic-bezier(0.25, 0.5, 0.9, 1.0)
+```
+
+> `cubic-bezier()` is a large topic itself. If you're curious about learning more, visit MDN's article on [easing functions](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function). If not, the provided keywords are plenty to get started!
+
+`transition-timing-function: steps(n, <jumpterm>)` allows your transitions to "skip" to different points in the animation process. The number `n` represents is the exact number of steps that the animation will display. There are a number of keywords that `<jumpterm>` will be replaced by as well, but for now, let's focus on two: `jump-start` and `jump-end`.
+
+- `jump-start` tells your transition to begin the moment it is triggered. The first "jump" will happen immediately.
+
+- `jump-end` tells your transition to begin after waiting for a set amount of time, depending on the number of steps provided.
+
+There have been a lot of `transition-timing-function` terms thrown around, so before moving on, let's take a look at a few examples! All elements are triggered by hovering over them. See the differences in their behavior! Note that they all take the same amount of time to animate!
+
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/transition-timing-function-example-bca?path=style.css&previewSize=100&attributionHidden=true"
+    title="transition-timing-function-example-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
+
+> The above example uses the `transition` property instead of explicitly stating each `transition-` property separately.
+
+```css
+div{
+  transition: width 1s ease-in 1s;
+}
+```
+is the same as:
+
+```css
+div{
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}
+```
+
+## Final Musings
+![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599682636/sunset-1211475_1280_xtjrjn.png)
+
+Thus concludes your CSS lessons! Congratulate yourself for getting this far, take a break, get some water, and then come back to review, and tackle the exercises below. 
+
+- CSS transitions are triggered when an element changes state.
+- CSS transitions are defined by 4 properties:
+  - property
+  - duration
+  - timing-function
+  - delay
+- `transition-property` defines what properties, if any, the browser will animate during a transition.
+- `transition-duration` defines how long said animation will take to complete
+- `transition-timing-function` defines the nature of the animation itself
+- `transition-delay` defines the amount of time the animation waits before executing following a state change.
+
+Happy Coding :)
+
+-Paul
+
+# Exercises
+
+In the following window, configure the CSS to complete the challenges below. The CSS selectors have been provided.
+
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/transition-exercises-bca?path=style.css&previewSize=0&attributionHidden=true"
+    title="transition-exercises-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
+
+1) When hovered over, box 1 should transition with timing-function `ease`, over 1 second, to a `height` and `width` of 150px each.
+
+2) When hovered over, the `background-color` of box 2 should transition from `cornflowerblue` to `green` over the course of 2 seconds, in a `linear` curve.
+
+3) With a `timing-function` of `ease-in`, make box 3 rotate 360 degrees and gain a `border-radius` of `50%` when hovered over.
+
+<details>
+<summary>Hint</summary>
+
+Use `transform: rotate(360deg)` as the `:hover` property for rotation.
+ </details>
+
+ 4) When hovered over, increase the width of box 4 to `150px` over 1.5 seconds. Have it occur over a series of 4 steps, and occur immediately upon hovering.
+
+ 5) When hovered over, box 5 should transition to a height of `90px`, a background color of red, and *immediately* jump to an additional padding of `10px`. **Do not allow the padding to be a transition property**. Make this happen in `ease-out` timing-function and over the course of 1 second.
+
+<details>
+<summary>Answer (complete stylesheet)</summary>
+
+```css
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: whitesmoke;
+}
+
+div {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 50px;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: arial;
+}
+
+#question-one {
+  transition: all 1s ease;
+}
+#question-one:hover {
+  width: 150px;
+  height: 150px;
+}
+
+#question-two {
+  transition: background-color 2s linear;
+}
+#question-two:hover {
+  background-color: green;
+}
+
+#question-three {
+  transition: all 1s ease-in;
+}
+#question-three:hover {
+  transform: rotate(360deg);
+  border-radius: 50%;
+}
+
+#question-four {
+  transition: width 1.5s steps(4, jump-start);
+}
+#question-four:hover {
+  width: 150px;
+}
+#question-five {
+  transition-property: height, background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+#question-five:hover {
+  height: 90px;
+  background-color: red;
+  padding: 10px;
+}
+```
+</details>
