@@ -1,4 +1,4 @@
-# Project 2: Hero Profile
+# Project 3: Pet Instagram
 ![two rotweiler puppies peeking through a fence](https://res.cloudinary.com/btvca/image/upload/v1603979756/rottweiler-1785760_1280_jmy5i0.jpg)
 
 ## Prerequisites
@@ -22,13 +22,20 @@ In this project, you will be putting your CSS skills to the test by creating you
 
 3) A "footer" that fits the width of the page.
 
+4) A fixed "nav bar" with links that bring the user to the top or bottom of the page
+  - nav bar should be centered about halfway down the left side of page, and stays in that position regardless of scrolling.
+
 ### Bonus
 
 - Make your grid responsive, so when the browser's width shrinks, the number of columns shrinks as well. 
 
 Here's an example of what you're shooting for:
 
+
 ![pet instagram example](https://res.cloudinary.com/btvca/image/upload/v1603979548/Doggogram_huiwtx.png)
+
+Interactive version here:
+https://doggogram-project-bca.glitch.me/
 
 Again, all stylistic choices are completely up to you, so long as you accomplish the main objectives.
 
