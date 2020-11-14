@@ -10,28 +10,6 @@ As humans we naturally want names for things, names give us a means to communica
 
 This lesson introduces what may be the most important tool we have as programmers, the ability to apply a name to a value. It seems like a simple thing, a name, but choose good names and your program with be understandable, choose misleading or cryptic names, and your program will be frustrating and confusing.
 
-## Overview
-
-- Names for values
-
-- Evaluating Variables
-
-- Let vs Const
-
-- Valid Names
-  
-   - Available characters
-  
-   - camelCasing
-  
-   - Reserved words
-
-- Choose Good Names
-
-- Global variables
-
-- Mutating variables
-
 ## Names for Values
 
 Let's imagine we need to make some calculations on circles. A length around a circles edge is known as its circumference, and mathematics tells us there is a relationship between the circumference length and the width of the circle, also called the diameter.
