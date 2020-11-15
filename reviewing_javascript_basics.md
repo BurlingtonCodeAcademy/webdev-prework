@@ -65,6 +65,31 @@ let randomNum = Math.random()
 console.log(`The random number is: ${randomNum}`)
 ```
 
+All strings in JavaScript come with many *methods* that allow you to manipulate them in various ways.
+
+`.toUpperCase()` capitalizes every character in the string, if a capital version of that character is available.
+
+`.replace()` takes 2 values, and allows you to replace the first with second.
+
+`.repeat()` takes a number that allows you to repeat the string it is attached to that many times.
+
+The `.slice()` method extracts a section of the string the method is being called on. It expects 1 or 2 numbers inside the parentheses:
+
+The first number is the index at which to start the slice.
+The second number is optional, and denotes the END of the slice. If omitted, it takes the rest of the string with it. The character at this index is not included in the returned string.
+
+```js
+"car".toUpperCase() // "CAR"
+
+"car".replace("r","t") // "cat"
+
+"car".repeat("3") // "carcarcar"
+
+"car".slice(1) // "ar"
+
+"car".slice(1,2) // "a"
+```
+
 ## Variables
 
 Variables are the means in which value is stored for later use. That data can be in a variety of forms, be it strings, numbers, booleans (true or false), or more. It can also be defined in a number of ways that allow the value to be accessed based on the context in which it was defined. 
@@ -239,3 +264,50 @@ Try to avoid going too deep in function declarations. This will help you to main
 
 The following exercises are a cumulative review of the first 3 weeks of prework. 
 
+- Write a function `printNumber` that takes two integers as arguments. 
+    - if the first argument is greater than or equal the second, print it to the console.
+    - Otherwise, print every integer between the 2 arguments to the console. 
+
+Answer:
+
+```js
+function printNumber(numOne, numTwo){
+    if(numOne >= numTwo){
+        console.log(numOne)
+    } else{
+        for (let i = numOne; i< numTwo; i++){
+            console.log(i);
+        }
+    }
+}
+```
+
+- Write a function `printEachLetter` that takes a string as an argument and prints each character to its own line
+    - Hint: strings have a length property to determine how many characters it has.
+    - Hint: strings are indexed starting at 0
+Answer:
+
+```js
+function printEachLetter(str){
+    let length = str.length;
+    for(let i =0; i < length; i++){
+        console.log(str[i])
+    }
+}
+```
+
+- Write a function `howManyTimes` that takes a two strings as arguments. and returns the number of times the second argument appears in the first.
+    - The second argument must be a single character
+
+```js
+function howManyTimes(str, char){
+    let count = 0;
+    for (let i =0; i < str.length; i++){
+        if (str[i]=== char){
+            count++
+        }
+    }
+    console.log(count)
+    return count
+}
+```
