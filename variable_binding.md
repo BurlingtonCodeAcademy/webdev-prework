@@ -1,4 +1,5 @@
 # Binding Variables
+![twine wrapping around a pair of scissors](https://res.cloudinary.com/btvca/image/upload/v1605452229/cord-4088055_1280_y7szwr.jpg)
 
 > Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice. At that time Macondo was a village of twenty adobe houses, built on the bank of a river of clear water that ran along a bed of polished stones, which were white and enormous, like prehistoric eggs. **The world was so recent that many things lacked names, and in order to indicate them it was necessary to point.**
 
