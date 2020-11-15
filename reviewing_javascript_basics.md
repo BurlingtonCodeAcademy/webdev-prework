@@ -239,4 +239,3 @@ Try to avoid going too deep in function declarations. This will help you to main
 
 The following exercises are a cumulative review of the first 3 weeks of prework. 
 
-<a class="jsbin-embed" href="https://jsbin.com/embed?live">Editor</a><script src="https://static.jsbin.com/js/embed.js"></script>
