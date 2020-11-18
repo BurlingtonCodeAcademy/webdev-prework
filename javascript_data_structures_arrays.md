@@ -104,4 +104,106 @@ arr // [2, 3, 4]
 
 Arrays are also used to facilitate what is referred to as a *stack*. Stacks are a way of structuring your data in an array so that elements are added as normal to the end of the element, but they can only be removed in reverse-order.  Think of a stack of pancakes, or a deck or cards. An item placed in the pile must be removed before accessing the next in the list.
 
-The methods used to operate on a *stack* are `.pop()` and `.push()`. We've already covered, `.push()`, 
+The methods used to operate on a *stack* are `.pop()` and `.push()`. We've already covered `.push()`, which only leaves `.pop()`. 
+
+### `.pop()`
+
+`.pop()` is like shift, but for the end of the array. It extracts the last element in an array and returns it for your use.
+
+```js
+let colors = ["red", "yellow", "green"]
+
+let popped = colors.pop();
+
+popped // "green"
+colors // ["red", "yellow"]
+```
+
+There is one additional method that doesn't necessarily fit with the *queue* and *stack* methodologies, but is useful nonetheless, and that is `.unshift()`. 
+
+### `.unshift()`
+
+`.unshift()` simply adds an element to the beginning of the array, much like `.push()` does to the end of an array.
+
+```js
+let arr = [1, 2, 3]
+```
+
+> Array methods have a variety of uses, but there are some things worth noting in terms of speed and efficiency. If at all possible, when designing your applications, use `push/pop` before reaching for `shift/unshift`. This is because the former do not have to re-orient the indexes of subsequent elements. `push/pop` only deal with the last element in an array, and as a result are much more efficient. 
+
+## Looping over arrays
+
+Now that we've covered some basic examples of array declaration and syntax, let's take a look at ways to manipulate the data as a whole, ie. looping. 
+
+Remember `for` loops? We declare a variable that can increase or decrease every iteration, like so:
+
+```js
+for (let i = 0; condition; i++){
+    // your code here
+}
+```
+But what about the condition?  How might we want to loop over every element in the array? Well, if an element in the array is accessed by its index, and arrays are indexed starting at 0, we could effectively iterate (cycle through) an array by using the `length` property to determine the end index, while the starting index is 0!
+
+Let's take our *first* example array again:
+
+```js
+// starts at index 0 and ends at index 8
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+// arr.length is 9
+```
+
+To effectively iterate over an array with a `for` loop, then, we would need to incorporate every index between 0 and 8 inclusive, like so:
+
+```js
+for (let i = 0; i < arr.length; i++){
+    // your code here
+}
+```
+
+Since `arr.length` is 9, in this case, we do not want `i` to ever equal that. Thus the choice is `<`, instead of `<=`. 
+
+Now, we can cycle through the array by tying these 2 concepts together and performing certain actions on each element. Let's take every element in the array and *double it*.
+
+```js
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for (let i = 0; i< arr.length; i++){
+    arr[i] = arr[i] *2
+}
+// arr will now be [2, 4, 6, 8, 10, 12, 14, 16, 18]
+```
+
+This will use the incrementer variable `i` as the index, starting at 0 and running through all elements. Then, for each element, that position in the index is set to double its own value. Effective!
+
+> Note that the `length` property will update whenever the array is modified. 
+
+> When comparing arrays should not be compared to one another using `==`. This is because they, while possibly containing the same values, are technically different objects. 
+
+## Final Musings 
+![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599682636/sunset-1211475_1280_xtjrjn.png)
+
+And there you have it! An introductory glance at JavaScript arrays. This barely scratches the surface, but nonetheless provides an introductory concept of arrays and their general behavior. Review, then move onto the exercises below.
+
+- Arrays are ordered sets of data
+- They can be declared like any other variable, and are bookended by square brackets (`[]`)
+```js
+let exampleArray = [2, 4, 6]
+```
+- Arrays have a `length` property that determines the number of indexes within it.
+- `pop()` removes and returns the last element
+- `push()` adds an element to the end 
+- `shift()` removes and returns the first element  
+- `unshift()` adds elements to the beginning
+
+- You can loop over an array by using a `for` loop based upon the array's length.
+
+```js
+let loopedArray = [1, 5, 10, 20, 100]
+for (let i = 0; i < loopedArray.length; i++){
+    console.log(loopedArray[i]) // prints each value to the terminal
+}
+```
+
+## Exercises
+
