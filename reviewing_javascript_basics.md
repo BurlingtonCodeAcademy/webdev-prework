@@ -268,7 +268,8 @@ The following exercises are a cumulative review of the first 3 weeks of prework.
     - if the first argument is greater than or equal the second, print it to the console.
     - Otherwise, print every integer between the 2 arguments to the console. 
 
-Answer:
+<details>
+<summary>Answer</summary>
 
 ```js
 function printNumber(numOne, numTwo){
@@ -281,11 +282,15 @@ function printNumber(numOne, numTwo){
     }
 }
 ```
+</details>
+
 
 - Write a function `printEachLetter` that takes a string as an argument and prints each character to its own line
     - Hint: strings have a length property to determine how many characters it has.
     - Hint: strings are indexed starting at 0
-Answer:
+
+<details>
+<summary>Answer</summary>
 
 ```js
 function printEachLetter(str){
@@ -295,9 +300,14 @@ function printEachLetter(str){
     }
 }
 ```
+</details>
 
 - Write a function `howManyTimes` that takes a two strings as arguments. and returns the number of times the second argument appears in the first.
     - The second argument must be a single character
+
+
+<details>
+<summary>Answer </summary>
 
 ```js
 function howManyTimes(str, char){
@@ -311,3 +321,4 @@ function howManyTimes(str, char){
     return count
 }
 ```
+</details>
