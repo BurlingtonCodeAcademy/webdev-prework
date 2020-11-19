@@ -207,3 +207,67 @@ for (let i = 0; i < loopedArray.length; i++){
 
 ## Exercises
 
+
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/array-exercises-bca?path=script.js&previewSize=0&attributionHidden=true"
+    title="array-exercises-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
+
+### 1
+
+1. Create an array `colors` with "blue" and "green" in that order.
+2. Add "red" to the end of it
+3. Change the middle value ("green") to "yellow"
+    - Try to make it work based on `length`, instead of a fixed index.
+4. Remove the first value ("blue").
+5. Add "purple" to the beginning of the array.
+
+
+<details> 
+<summary>Answer</summary>
+
+```js
+let colors = ["blue", "green"]
+colors.push("red")
+colors[Math.floor((colors.length-1)/2)]= "yellow"
+colors.shift()
+colors.unshift("purple")
+questionOne.textContent = colors;
+```
+
+</details>
+
+### 2
+1. create an array `numbers` with the values 2,4,6,8, and 10 (in that order).
+2. loop over the array and change each element to be half of its original value.
+3. remove the first number and place it at the end of the array `numbers`.
+4. create a separate array `newNumbers` that only contains the even numbers of the new array.
+
+
+<details> 
+<summary>Answer</summary>
+
+```js
+let numbers = [2, 4, 6, 8, 10];
+
+for (let i=0; i< numbers.length; i++){
+  numbers[i] = numbers[i]/2;
+}
+
+let shifted = numbers.shift()
+numbers.push(shifted)
+
+let newNumbers=[]
+
+for (let i=0; i< numbers.length; i++){
+  if (numbers[i] %2===0){
+    newNumbers.push(numbers[i])
+  }
+}
+```
+
+</details>
