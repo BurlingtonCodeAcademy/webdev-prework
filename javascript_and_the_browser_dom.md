@@ -137,6 +137,51 @@ document.body.prepend(div)
 
 You do not need to append directly to the document's body, however. You can also append to any element within the document. For example, we can append an element to any element already in the DOM. 
 
+If appending to an element other than the body, there are additional methods that allow you to add these elements (nodes) before or after that particular node.
+
+Here, we create a div and two paragraph elements. By appending the div to the document's body, we can then use it as a touchstone for your additional elements to be placed relative to it:
+
+```js
+// creates elements
+let div = document.createElement('div')
+let beforePar = document.createElement('p')
+let afterPar = document.createElement('p')
+
+// adds text to elements
+div.textContent= "here is my div's text"
+beforePar.textContent = "paragraph before div"
+afterPar.textContent = "paragraph after div"
+
+// adds div to body
+document.body.append(div)
+
+//  adds paragraph before div
+div.before(beforePar)
+//  adds paragraph after div
+div.after(afterPar)
+```
+
+The result will be like so:
+
+<p> paragraph before div </p>
+<div>here is my div's text</div>
+<p> paragraph after div </p>
+
+<br/>
+
+ You may also replace them with `replaceWith`. As the name implies, the element it is called on is replaced with whatever string or element you provide as an argument.
+
+```js
+// creates elements
+let div = document.createElement('div')
+let replacer = document.createElement('p')
+
+// adds div to body
+document.body.append(div)
+
+// replaces div with paragraph
+div.replaceWith(replacer)
+```
 
 
 To remove an element from the document, simply call `remove` on it:
@@ -157,3 +202,87 @@ div.remove()
 
 This will not render anything, as the element is removed immediately after it is appended. This is much more useful when dealing with *events*, like clicking on a delete button, which we will cover in an upcoming lesson. 
 
+Let's review what we have so far.
+
+## Final Musings
+![Musings Sunset](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599682636/sunset-1211475_1280_xtjrjn.png)
+
+Thus concludes our first steps into using JavaScript to manipulate the DOM! With it, our tool belts expand even further; no longer is there one way to add elements to your web page. Now there's two! Review below, then move onto the exercises.
+
+- JavaScript is included in your HTML document via `<script>` elements.
+- `script` elements are usually found as the last element in the document's body, so they can actively manipulte the elements that have already been rendered.
+- JavaScript can create elements with `document.createElement()`
+- They can be inserted into the document based on the `body`, or other elements.
+    - `append`
+    - `prepend`
+    - `before`
+    - `after`
+    - `replacewith`
+
+## Exercises
+
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/javascript-and-the-browser-dom-exercises?path=script.js&previewSize=100&attributionHidden=true"
+    title="javascript-and-the-browser-dom-exercises on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
+
+
+In the coding environment above, complete the following:
+
+### 1
+create an `h1` element `mainHeader`
+- Give it the `textContent` "Header"
+- append it to the document's body
+
+### 2
+create an `ol` element `list`
+- create and `append` 3 `li` elements to `list`
+- give `list` the `className` of `list-class`
+- `li` elements should have text content "one","two", and "three" respectively.
+- append `list` just after `mainHeader`
+
+### 3 
+create a `div` element called `div`
+- give it inner HTML of `"<em>div text</em>"`
+- prepend it before `list`
+
+<details>
+<summary>Answer</summary>
+
+```js
+//  question 1
+
+let mainHeader = document.createElement("h1");
+
+mainHeader.textContent = "Header";
+document.body.append(mainHeader);
+
+// question 2
+let list = document.createElement("ol");
+
+list.className = "list-class";
+
+let itemOne = document.createElement("li");
+itemOne.textContent = "one";
+list.append(itemOne);
+let itemTwo = document.createElement("li");
+itemTwo.textContent = "two";
+list.append(itemTwo);
+let itemThree = document.createElement("li");
+itemThree.textContent = "three";
+list.append(itemThree);
+
+document.body.append(list);
+
+// question 3
+let div = document.createElement("div");
+div.className = "div-class";
+div.innerHTML = "<em>div text</em>";
+list.prepend(div);
+
+```
+</details>
