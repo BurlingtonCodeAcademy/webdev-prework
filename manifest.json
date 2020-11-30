@@ -1,0 +1,22 @@
+{
+  "course": {
+    "name": "webdev-prework",
+    "tracks": [
+      {
+        "intro-to-javascript": {
+          "lessons": ["hello_javascript", "numbers"]
+        }
+      },
+      {
+        "intro-to-html": {
+          "lessons": []
+        }
+      },
+      {
+        "intro-to-css": {
+          "lessons": []
+        }
+      }
+    ]
+  }
+}
