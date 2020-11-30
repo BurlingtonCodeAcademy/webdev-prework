@@ -1,22 +1,27 @@
 {
-  "course": {
-    "name": "webdev-prework",
-    "tracks": [
-      {
-        "intro-to-javascript": {
-          "lessons": ["hello_javascript", "numbers"]
-        }
-      },
-      {
-        "intro-to-html": {
-          "lessons": []
-        }
-      },
-      {
-        "intro-to-css": {
-          "lessons": []
-        }
-      }
-    ]
-  }
+ "course": {
+   "name": "webdev-prework",
+     "tracks": [
+       {
+         "intro-to-javascript": {
+           "lessons": ["hello_javascript", "arithmetic", "strings", "variable_binding", "making_decisions_with_conditionals", "repeating_things_with_loops", "reusing_procedures_with_functions", "I-O_input_and_output_in_the_browser", "project_1_fortune_teller"]
+         }
+       },
+       {
+         "intro-to-html": {
+           "lessons": ["what_is_html", "your_first_website", "how_a_webpage_is_loaded_by_the_browser", "inspecting_a_webpage_in_the_browser", "a_deeper_dive_into_html_elements", "navigating_the_browser", "embedding_media_in_html", "project_2_hero_profile"]
+         }
+       },
+       {
+         "intro-to-css": {
+           "lessons": ["adding_style_to_elements", "targeting_html_with_css_selectors", "doing_more_with_combinators", "alignment_with_static_layout_and_display", "achieving_more_with_flexbox", "displaying_elements_in_a_grid", "special_alignment_with_relative_and_absolute", "targeting_elements_with_pseudo_classes", "making_things_smooth_with_css_transitions", "project_3_doggogram"]
+         }
+       },
+       {
+         "browser-based-javascript": {
+           "lessons": ["reviewing_javascript_basics", "javascript_data_structures_arrays", "javascript_and_the_browser_dom", "targeting_elements_with_javascript", "event_listeners_and_handlers", "more_event_listeners_and_handlers"]
+         }
+       }
+     ]
+ }
 }
