@@ -3,7 +3,7 @@
 
 -- John Carmack, Co-founder, id Software
 
-![sing](https://res.cloudinary.com/btvca/image/upload/v1599838751/sign_aan0k2.jpg)
+![sign](https://res.cloudinary.com/btvca/image/upload/v1599838751/sign_aan0k2.jpg)
 
 Deciding what to do next is a part of our lives every day. As humans it's hard to investigate our process of decision making. When we wake up in the morning and feel hungry, our minds make a decision about what to eat. Later when we get dressed for the day, we decide what clothes to combine into our outfit. Some of these decisions are conscious, while others are made without thinking. Within a computer program, we as the programmer must determine how to make each choice, and the instructions about how to do so must be clear.
 
@@ -11,18 +11,13 @@ Making a decision requires several things, without which it would be impossible 
 
 The requirements of a decision
 
-1) Have something to compare against.
-2) Have a means of comparison.
-3) Have an action to take based on the comparison.
+**1)** Have something to compare against.
+
+**2)** Have a means of comparison.
+
+**3)** Have an action to take based on the comparison.
 
 In the following lesson, we will learn how JavaScript can fulfill the requirements above, what tools it provides to express decisions from simple to complex.
-
-- Overview
-- Making Comparisons
-- Conditionals
-- Branching Based on Conditions
-- Logical Operators
-- Switch Statements
 
 ## Making Comparisons
 
