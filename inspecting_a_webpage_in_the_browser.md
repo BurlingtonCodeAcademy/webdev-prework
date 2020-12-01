@@ -7,7 +7,7 @@ These tools can inspect the loaded HTML, CSS, and JavaScript, as well as informa
 
 For the following examples, we will be using the following URL:
 
-https://inspect-this-page-bca.glitch.me/
+**https://inspect-this-page-bca.glitch.me/**
 
 You should see something like this:
 
