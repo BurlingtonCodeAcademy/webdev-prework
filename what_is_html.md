@@ -188,7 +188,9 @@ The `<strong>` element is an *inline* element that boldens its content. In the p
 Create an *ordered list* with the following three items, with the first and third being italicized:
 
 1) *garnet*
+
 2) amethyst
+
 3) *emerald*
 
 <iframe style={{width: "100%",  height:"154px"}} scrolling="no" title="BCA &lt;ul&gt; exercise" src="https://codepen.io/burlingtoncodeacademy/embed/poymNab?height=154&theme-id=dark&default-tab=result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
