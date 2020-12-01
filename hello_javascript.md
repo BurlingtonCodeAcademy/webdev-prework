@@ -8,27 +8,6 @@ Welcome to the first lesson of our course pre-work! You are about to begin a jou
 
 In this first lesson we will keep the concepts fairly high level and cover what programming is all about, why JavaScript is important in the modern technology landscape, and how to write your first lines of code.
 
-## Overview
-
-- What is Programming?
-   - What do we mean when we say 'Programming'?
-   - What are 'programming languages'?
-   - How are programming languages different then spoken languages?
-- Why JavaScript?
-   - why are you learning JavaScript instead of Python, Ruby, C++, etc
-   - How the demand in JavaScript jobs is accelerating
-   - How a Browser is becoming a universal deployment target
-- Opening the Web Browser Developer Tools
-   - Opening the Browser Inspector using the menu bars
-   - Opening the Browser Inspector using the keyboard shortcuts
-   - Opening the Browser Inspector using the mouse right-click
-- How to Run JavaScript
-   - Navigating to the JavaScript console
-   - Running some simple math
-- The Syntax of Hello World
-   - Words, period, parenthesis, quotes, and semicolon
-
-## What is Programming?
 
 ### What do we mean when we say Programming?
 
@@ -38,7 +17,7 @@ Years later people built special tools that punched holes into stacks of cards, 
 
 ![white microwave oven](https://images.unsplash.com/photo-1574027542338-98e75acfd385?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Alex Motoc")
 
-More years passed and then instead of punching holes into cards and having a computer read those cards the process was performed on special keyboards which were connected directly to the computer, this allowed the programmer to type keys and see their output immediately on a screen. After the program was written it could be translated into machine instructions that would operate the computer's central processing unit(CPU) and display the output on a screen.
+More years passed and then instead of punching holes into cards and having a computer read those cards the process was performed on special keyboards which were connected directly to the computer, this allowed the programmer to type keys and see their output immediately on a screen. After the program was written it could be translated into machine instructions that would operate the computer's central processing unit (CPU) and display the output on a screen.
 
 Today we can write programs the same way those programmers did decades ago, by writing our instructions down in a file and running that file, and we can also write and run a program directly within our web browser. We can use our program to change a web page, receive inputs from a user, and make decisions based on those inputs.
 
@@ -315,10 +294,10 @@ Now let's take a look at the JavaScript program that you just wrote.
 Below you will see a diagram of the simple program that outputs the string:
 
 ```js
-&#39;Hello JavaScript!&#39;
+Hello JavaScript!
 ```
 
-![](https://res.cloudinary.com/btvca/image/upload/v1586817842/curriculum/hello-javascript-statement-anatomy_egkvoj.png)
+![anatomy of a console.log](https://res.cloudinary.com/btvca/image/upload/v1586817842/curriculum/hello-javascript-statement-anatomy_egkvoj.png)
 
 There are lots of pieces to this program that you may see, or you may not yet. Let's list the parts so that you can start to see them more easily.
 
@@ -364,6 +343,19 @@ console.log("Your Name Here")
 
 1. **How does a programming language differ from a spoken language?**
 
-2. **Why is javascript important?**
+
+2. **What is JavaScript primarily used for?**
+
+<details>
+<summary>Answer</summary>
+
+Browser automation, and creating highly functional web pages.
+</details>
 
 3. **Where is JavaScript run?**
+
+<details>
+<summary>Answer</summary>
+
+The browser, and in runtime environments like `Node.js`
+</details>
