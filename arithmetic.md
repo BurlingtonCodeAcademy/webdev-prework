@@ -12,58 +12,6 @@ Today our "computers" can tally up answers to even the most difficult questions 
 
 Read on, and learn one of the most fundamental data types, Numbers, which you will draw upon often in your journey of JavaScript.
 
-## Overview
-
-- Simple math expressions
-
-  - Adding two numbers
-
-  - Subtracting two numbers
-
-  - Multiplication of numbers
-
-  - Division of Numbers
-
-  - Exponentiation
-
-  - Modulus, getting the remainder of a division
-
-- Number types
-
-  - Integers
-
-  - Floats
-
-  - BigInt
-
-  - Scientific notation
-
-  - Bases other than 10
-
-  - Weird types: Nan, Infinity, -Infinity
-
-- Operators and precedence
-
-  - Parenthesis
-
-  - Exponentiation
-
-  - Multiplication / Division
-
-  - Addition / Subtraction
-
-- Idiosyncrasies of Floats
-
-  - Rounding due to memory space
-
-  - Rounding due to base 2
-
-- Maximum Size of Integer
-
-  - MAX_SAFE_INTEGER
-
-- The `Math` object
-
 ## Simple math expressions
 
 JavaScript can run nearly any mathematical expression you can imagine, and below we will show you how to communicate some of them.
@@ -80,7 +28,7 @@ Did you get the number `2` back? If so congratulations, you just evaluated an an
 123 * 45 * 56 * 78 * 90;
 ```
 
-Is your answer the number `2175919200`? Great work! Your computer works as expected. One of the nice things about writing math expressions in JavaScript is that what you write looks a lot like what you would punch into a calculator, or even write out by hand on paper ... who does that any more?
+Is your answer the number `2175919200`? Great work! Your computer works as expected. One of the nice things about writing math expressions in JavaScript is that what you write looks a lot like what you would punch into a calculator, or even write out by hand on paper, but does that any more?
 
 Now let's try some other expressions, this time we will use more of the tools that JavaScript gives you to work with when writing math expressions. We have only seen addition and multiplication so far, bu there is a lot more we can do.
 
@@ -296,7 +244,7 @@ Math.random();
 
 # Exercises
 
-In either a node environment or in your browser, solve the following questions with `Math`.
+In your browser's console, solve the following questions by using the `Math` object.
 
 1. Find the area of a circle with a 3in radius.
 
