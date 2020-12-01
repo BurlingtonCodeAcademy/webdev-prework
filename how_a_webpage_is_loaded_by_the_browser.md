@@ -92,5 +92,7 @@ Hopefully some of the concepts addressed have helped you understand what happens
 
 ## Questions
 1) When would using `async` scripts be useful?
+
 2) When would using `async` be harmful?
+
 3) Why are `<script>` tags frequently placed at the end of the `<body>`?
