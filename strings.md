@@ -2,25 +2,8 @@
 
 ![focus dictionary index page](https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Romain Vignes")
 
-## Overview
 
 When building programs, it's common to work with text, either single characters, or extensive collections of characters. You are reading some character collections right now! There is a specific name for these groups of characters in JavaScript and programming in general, and they are called **Strings**. This type of data is used most often for processing input from a human being and responding using messages during or after a program runs. You will also find Strings interspersed throughout your code, because you may need to make decisions based on what a user types, selects, or chooses while your program is running. This lesson will serve to familiarize you with what Strings are and how to use them.
-
-- Strings by Themselves
-  
-   - Single vs Double Quotes
-  
-   - Combining Strings
-  
-   - Escaping Special Characters
-
-- Strings and Numbers
-
-- Template Strings
-
-- Long Strings
-
-- String Methods
 
 ## Strings by Themselves
 
@@ -153,8 +136,7 @@ Did you get a result that looks like this?
 ```js
 "The joke goes \"Time flies like an arrow,\" 'fruit flies like a banana.'"
 ```
-
-![Groucho Marx](https://cdn.pixabay.com/photo/2014/07/25/23/05/groucho-marx-401923_960_720.jpg)
+![groucho marx](https://res.cloudinary.com/btvca/image/upload/v1606849425/groucho-marx-male-1278137_1280_kg0rzw.jpg)
 
 What are the backslash characters (`\`) doing there? The reason why they exist is that while JavaScript can handle a string containing both kinds of quotes, single and double, it needs to mark those that otherwise end the string as being **part of** the **String**. This process of marking what are usually considered **special characters** is known as **escaping**, and it's quite common within Strings.
 
@@ -268,7 +250,7 @@ As of some one gently rapping, rapping at my chamber door. \
 
 The poem above is multiple lines, but it is only a single String, the `\` characters following each line are saying to JavaScript, "Hey, I know that a line-break is coming up, but please do not end the String because there is more to come, okay?". Using these backslashes, we can use a **String** that spans multiple lines without needing to combine multiple shorter **Strings**.
 
-This same solution can be used for **Template Strings** without any changes other than the starting and ending quotes being back-tick <code>(`)</code> characters.
+This same solution can be used for **Template Strings** without any changes other than the starting and ending quotes being back-tick "` `" characters.
 
 ## Indexing
 As discussed, strings are a series of characters. Each *character* in that string exists at a location relative to the string as a whole, called an *index*. 
