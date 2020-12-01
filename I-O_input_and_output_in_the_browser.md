@@ -179,9 +179,6 @@ function askName(){
 
 You can store the value of a window prompt in a variable for later use:
 
-```js
-
-```
 </details>
 
 <details>
