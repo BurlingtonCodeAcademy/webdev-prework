@@ -52,10 +52,7 @@ Happy Coding :)
 
 
 
-### Additional Information
-
-<details>
-<summary>Getting Started</summary>
+## Getting Started
 
 In the embedded glitch window below, select the name of the project in the bottom left corner. 
 
@@ -71,17 +68,19 @@ In this glitch environment, your code will run whenever changes are detected. To
 
 Now, when adding any code to `script.js` you should see your changes immediately in your mini-browser.
 
-</details>
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%;"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=script.js&previewSize=0&attributionHidden=true"
+    title="fortune-teller-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
 
-<details>
-<summary>Submitting Your Project</summary>
+## Submitting Your Project
 
 Once you're confident in your work, grab the URL from the glitch environment and send it to our team for review. To find a copyable link click on **Share**, select **Code** and then select **copy**. 
 
 ![glitch share link](https://res.cloudinary.com/btvca/image/upload/v1601320649/glitch_share_ocoffp.png)
 
-Send all project URLS to **support@burlingtoncodeacademy**.com with your name and project in the title:
-
-i.e. **Jane Doe Week 1 Prework**
-
-</details>
+### Click on the button below to submit your URL!
