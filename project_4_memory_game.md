@@ -72,15 +72,6 @@ In this glitch environment, your code will run whenever changes are detected. To
 
 Now, when adding any code to `script.js` you should see your changes immediately in your mini-browser.
 
-<div class="glitch-embed-wrap" style={{height: "420px", width: "100%;"}}>
-  <iframe
-    src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=script.js&previewSize=0&attributionHidden=true"
-    title="fortune-teller-bca on Glitch"
-    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-    style={{height: "100%", width: "100%", border: "0"}}>
-  </iframe>
-</div>
-
 ## Submitting Your Project
 
 Once you're confident in your work, grab the URL from the glitch environment and send it to our team for review. To find a copyable link click on **Share**, select **Code** and then select **copy**. 
