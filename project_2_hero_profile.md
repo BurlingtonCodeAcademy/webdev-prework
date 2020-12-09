@@ -13,17 +13,24 @@ In this project, you will create a "hero profile" of an important figure, whethe
 **Create a site that contains:**
 
 1) A home page that has a header with your hero's name
+
 2) At least 1 image of your hero* that:
     - includes a caption
     - includes alternative text
     - preferably within semantic elements (`<figure>`)
+
 3) A *brief* synopsis of your hero
+
 4) A nav bar that links to at least one other page
     - `about.html` has been provided, but may be changed
     - the nav bar should exist on all pages
+
 5) A notable quote from your hero
+
 6) A background image on at least one page
+
 7) A list of outstanding achievements 
+
 8) Proper *metadata* (think `<head>`) on each page
     - Hint: provide a proper `<title>`
     - Link to your stylesheet
