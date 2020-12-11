@@ -27,11 +27,9 @@ In this project, you will create a "hero profile" of an important figure, whethe
 
 5) A notable quote from your hero
 
-6) A background image on at least one page
+6) A list of outstanding achievements 
 
-7) A list of outstanding achievements 
-
-8) Proper *metadata* (think `<head>`) on each page
+7) Proper *metadata* (think `<head>`) on each page
     - Hint: provide a proper `<title>`
     - Link to your stylesheet
 
