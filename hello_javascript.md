@@ -46,7 +46,7 @@ There have been thousands of distinct programming languages created since their 
 
 Do any of those languages ring a bell? Each of those languages are used in hundreds of thousands of applications. In fact, your computer is using some of those languages at this very moment while you are reading this lesson.
 
-The reason that there are so many languages is that each one has been designed to do something better than or different than all the other languages that existed at the time. It's a bit like thinking about why there are so many different insects, or birds, or fish. Each kind of thing specializes in something different, and that makes it the right tool for a certain job.
+The reason that there are so many languages is that each one has been designed to do something better than, or different than all the other languages that existed at the time. It's a bit like thinking about why there are so many different insects, or birds, or fish. Each kind of thing specializes in something different, and that makes it the right tool for a certain job.
 
 ### How are Programming Languages Different Than Spoken Languages?
 
@@ -162,7 +162,7 @@ Take a look at the following study [2018 Student Developer Report by HackerRank]
 
 ### JavaScript Frameworks are Growing
 
-Along with the number of jobs available to developers growing year-over-year, the tools available have also continued to keep pace with the breadth of uses for JavaScript. Among the most popular frameworks available today, [Node.js, Angular, and React sit in the top three places among all languages](https://insights.stackoverflow.com/survey/2018/#technology) according to the Stack Overflow developer survey. In 2019 the State of JS survey found that in 2019 there were six widely used frameworks for just front-end JavaScript and that react, the framework taught in our boot camp, 71% of respondents have used React and would use it again.
+Along with the number of jobs available to developers growing year-after-year, the tools available have also continued to keep pace with the breadth of uses for JavaScript. Among the most popular frameworks available today, [Node.js, Angular, and React sit in the top three places among all languages](https://insights.stackoverflow.com/survey/2018/#technology) according to the Stack Overflow developer survey. In 2019 the State of JS survey found that in 2019 there were six widely used frameworks for just front-end JavaScript and that React, the framework taught in our boot camp, 71% of respondents have used React and would use it again.
 
 ![](https://miro.medium.com/max/1400/0*7jbtUx39ehZHpiG4)
 
@@ -200,9 +200,9 @@ Anywhere on the currently loaded page, use the right-click mouse button and sele
 
 #### Open the Browser Inspector with a Keyboard Shortcut
 
-`Command + Option + J (Mac)`
+`Command + Option + J (Mac)` or `Command + Option + I`
 
-`Control + Shift + J (Windows, Linux, Chrome OS)`
+`Control + Shift + J (Windows, Linux, Chrome OS)` or `Control + Shift + I`
 
 ---
 
@@ -309,15 +309,15 @@ console.log('Hello JavaScript!');
 
 #### Expected output from the Console
 
-```js
-'Hello JavaScript!'
+```
+Hello JavaScript!
 ```
 
 The program starts with the word **console** which is what's called an **Object** in JavaScript. This object is a bit like a model of the browser developer console that you opened before, it allows for you to send messages to the browser console and see those messages appear. We send one such message to the console called **log**, this message also needs some text to display, which we provide in the **String** containing the characters `'Hello JavaScript!'`.
 
 When the browser receives the message `console.log('Hello JavaScript')`, it prints those characters to the screen. Notice that there are **parentheses** surrounding the **String** on the left and right sides, the first is an **opening** **parenthesis**, meaning that it faces like a spoon to the right, and the second **parenthesis** comes after the **String** and faces to the left, that one is called a **closing parenthesis**. Together these **parenthesis** are called a **pair** and they **enclose** the **String**.
 
-Finally take a look at the end of the line of code and see that there is a **semicolon** as the last character. This **semicolon** tells the program JavaScript that your line of code is finished, it serves a lot like a period in English text, in that it is explicitly saying "this line is complete".
+Finally take a look at the end of the line of code and see that there is a **semicolon** as the last character. This **semicolon** tells the JavaScript program that your line of code is finished. It serves a lot like a period in English text, in that it is explicitly saying "this line is complete".
 
 # Exercises
 

@@ -14,7 +14,7 @@ So, what are they exactly?
 
  There are edge cases, as there always are in programming, but that's the gist. 
 
- So what' that mean? Let's break it down.
+ So what's that mean? Let's break it down.
 
 ## A simple example
 
@@ -30,7 +30,7 @@ function isEven(number){
         return false
     }
 }
-isEven(4) // will return true
+isEven(4) // output: true
  ```
 
  Immediately after the function is declared, it is *called*, with `4` passed in as the *argument*.
@@ -99,7 +99,7 @@ function doubleIt(num){
     return (num*2)
 }
 // b)
-doubleIt(100) // will return 200
+doubleIt(100) // output: 200
 ```
 a) 
 - is the function declaration
@@ -168,7 +168,7 @@ function subtractFive(num){
 
    
 } 
-subtractFive(10) // => 15
+subtractFive(10) // output: 15
 ```
 
 So, what's happening here? There's a function declaration within a function declaration?
@@ -183,7 +183,7 @@ Here, we've introduced a *second* function that has been *declared* within the f
 let newNum = num - 5 // when num is 10
 ```
 
-And then, due being defined within the function, `timesThree` knows what `newNum` is. So, it returns:
+And then, due to being defined within the function, `timesThree` knows what `newNum` is. So, it returns:
 
 ```javascript
 newNum * 3
@@ -248,8 +248,8 @@ None at all!
 Write a function that takes 2 numbers as arguments, and returns `3 times` the larger of those 2 numbers. 
 
 ```js
-threeTimesLarger(2,3) // 9
-threeTimesLarger(20,5) //60
+threeTimesLarger(2,3) // output: 9
+threeTimesLarger(20,5) // output: 60
 ```
 
 <details>

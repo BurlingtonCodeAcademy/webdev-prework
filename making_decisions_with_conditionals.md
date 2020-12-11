@@ -176,8 +176,8 @@ if (firstNumber > secondNumber) {
 This code acts like a fork in the road in a sense.
 
 - When the condition (firstNumber > secondNumber) results in true,
-    - Then the line of code console.log('First number is larger') is run
-    - Otherwise the code console.log('Second number is larger') is run.
+    - Then the line of code `console.log('First number is larger')` is run
+    - Otherwise the code `console.log('Second number is larger')` is run.
 
 ## Final Musings
 
@@ -225,7 +225,7 @@ write the conditions for the following logic:
 <details>
 <summary>Hint</summary>
 
-The `%` (modulo) operator returns the remainder of a division. A remainder of `0` means that a number (dividend) is divisible by the provided divisor.
+The `%` (modulus) operator returns the remainder of a division. A remainder of `0` means that a number (dividend) is divisible by the provided divisor.
 </details>
 
 <details>
