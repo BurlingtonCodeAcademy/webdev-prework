@@ -4,6 +4,8 @@
 ## Prerequisites
 - Week 1 and week 2 of BCA prework track
 
+<iframe src="https://player.vimeo.com/video/489138507" width="100%" height="420px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ## Goal
 To challenge your understanding of HTML fundamentals, while fostering an environment for personal contribution.
 
