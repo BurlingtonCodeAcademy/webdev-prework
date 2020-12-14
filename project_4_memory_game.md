@@ -13,16 +13,24 @@ In this project, you will create a "memory game" that consists of a 4x4 grid of 
 **Create a web app that has:**
 
 1) A title
+
 2) A 4x4 grid, centered on the page. 
+
 3) 8 pairs of images
     - initially hidden (`opacity:0`)
     - randomly placed on board
+
 4) Reveals images when clicked
+
 5) Indicates when 2 images match
     - i.e. turns green
+
 6) Hides images that do not match
+
 7) Tracks the number of matches
+
 8) Displays "YOU WIN!" when all images have been matched
+
 9) Keeps the provided attribution in the bottom right corner
 
 
