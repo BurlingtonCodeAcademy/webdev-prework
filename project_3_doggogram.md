@@ -1,8 +1,11 @@
 # Project 3: Pet Instagram
 ![two rotweiler puppies peeking through a fence](https://res.cloudinary.com/btvca/image/upload/v1603979756/rottweiler-1785760_1280_jmy5i0.jpg)
 
+<iframe src="https://player.vimeo.com/video/489962108" width="100%" height="420px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ## Prerequisites
 - Weeks 1, 2, and 3 of BCA prework track
+
 
 ## Goal
 To challenge your understanding of CSS fundamentals, while fostering an environment for personal contribution. 
