@@ -1,6 +1,9 @@
 # Project: Fortune Teller
 ![crystal ball](https://res.cloudinary.com/btvca/image/upload/c_mfit,h_540,w_1080/v1600868346/ball-625908_1280_uh5bo8.jpg)
 
+<iframe src="https://player.vimeo.com/video/488245857" width="100%" height="420px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
 ## Prerequisites: 
 - Week 1 of the BCA [Software Development Bootcamp](https://www.burlingtoncodeacademy.com/software-development-bootcamp/) pre-work lessons.
 
