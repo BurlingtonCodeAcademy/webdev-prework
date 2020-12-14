@@ -8,27 +8,27 @@ Solving mathematical equations has been one of the primary uses of computers sin
 
 Source: [United States Naval Observatory report 1884](https://books.google.com/books?id=v8ARAAAAYAAJ&pg=PR4-IA110&dq=computer&hl=en&ei=ygbzTYXpNIOosQO-7YmvCw&sa=X&oi=book_result&ct=result#v=onepage&q=computer&f=false)
 
-Today our "computers" can tally up answers to even the most difficult questions which would have required weeks or months to calculate by hand. In this lesson you will learn how to communicate a mathematical expression in JavaScript such that your computer can provide you with an answer before your finger even leaves the enter key. You will also learn about some of the limitations that are inherent with using digital device to calculate, and how you can work around these limitations.
+Today our "computers" can tally up answers to even the most difficult questions which would have required weeks or months to calculate by hand. In this lesson you will learn how to communicate a mathematical expression in JavaScript such that your computer can provide you with an answer before your finger even leaves the enter key. You will also learn about some of the limitations that are inherent with using digital devices to calculate, and how you can work around these limitations.
 
-Read on, and learn one of the most fundamental data types, Numbers, which you will draw upon often in your journey of JavaScript.
+Read on, and learn one of the most fundamental data types, Numbers, which you will draw upon often in your journey into JavaScript.
 
 ## Simple math expressions
 
 JavaScript can run nearly any mathematical expression you can imagine, and below we will show you how to communicate some of them.
 
-Let's start off with some simple equations just to kick the tires a bit. In the web browser you are using to read this, open your **JavaScript console** by following the steps in the **hello-javascript** lesson and type the following into the text area.
+Let's start off with some simple equations just to kick the tires a bit. In the web browser you are using to read this, open your **JavaScript console** by following the steps in the **Hello Javascript** lesson and type the following into the text area.
 
 ```js
 1 + 1;
 ```
 
-Did you get the number `2` back? If so congratulations, you just evaluated an answer to your first mathematical expression. That seems a little too easy, so let's try something a little meatier.
+Did you get the number `2` back? If so congratulations, you just evaluated your first mathematical expression. That seems a little too easy, so let's try something a little meatier.
 
 ```js
 123 * 45 * 56 * 78 * 90;
 ```
 
-Is your answer the number `2175919200`? Great work! Your computer works as expected. One of the nice things about writing math expressions in JavaScript is that what you write looks a lot like what you would punch into a calculator, or even write out by hand on paper, but does that any more?
+Is your answer the number `2175919200`? Great work! Your computer works as expected. One of the nice things about writing math expressions in JavaScript is that what you write looks a lot like what you would punch into a calculator, or even write out by hand on paper, but who does that any more?
 
 Now let's try some other expressions, this time we will use more of the tools that JavaScript gives you to work with when writing math expressions. We have only seen addition and multiplication so far, bu there is a lot more we can do.
 
@@ -44,7 +44,7 @@ Whoa! Suddenly you're getting introduced to a whole bunch of new tools. Let's gi
 
 You have certainly already used some mathematical operators before in school or work. Below we list the operators that we used in the code example above
 
-**NOTE:** any of the symbols listed below can be applied to any pair of numbesr which can both be positive, both be negative or be a mix of positive and negative.
+**NOTE:** any of the symbols listed below can be applied to any pair of numbers which can be positive, negative, or a mix of positive and negative.
 
 ![black retractable pen on white printer paper](https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ 'Antoine Dautry')
 
@@ -66,22 +66,22 @@ The **division** symbol `\` when placed between two numbers represents the divis
 
 #### Remainder
 
-The **remainder** symbol `%`, also known as the **modulus** operator, calculates the amount left over after dividing the number on the left evenly by the number on the right. The application of the **remainder** operator on two numbers will always produce a number of the same sign as the number on the left, which is the amount remaining after evenly dividing the number on the left by the number on the right.
+The **remainder** symbol `%`, also known as the **modulus** operator, calculates the amount left over after dividing the number on the left by the number on the right. The application of the **remainder** operator on two numbers will always produce a number of the same sign as the number on the left, which is the amount remaining after evenly dividing the number on the left by the number on the right.
 
 #### Exponentiation
 
-The **exponentiation** symbol `**`, also known as the **power** operator, calculates the value of the number on the left raised to the power of the number on the right. It results in a number equal to the number on the left multiplied by its own value the number of times to the number on the right.
+The **exponent** symbol `**`, also known as the **power** operator, calculates the value of the number on the left raised to the power of the number on the right. It results in a number equal to the number on the left multiplied by its own value the number of times of the number on the right.
 
 ## Operator Precedence
 
-Based on the operators that have learned above you may be asking "how do I know which of these acts on the numbers first?". The answer is that there are rules that determine which classes of operators which take **precedence** over others.
+Based on the operators that you have learned above you may be asking "how do I know which of these acts on the numbers first?". The answer is that there are rules that determine which classes of operators which take **precedence** over others.
 
 The table below has a column **priority** which describes based on ascending numbers in which operators are applied, also called **evaluated**, first. This means that an expression using an operator with a **priority** of 1 is **evaluated** _before_ one with an operator of **priority** 2. If there are two operators used in the same expression with the same **priority** then the **associativity** rule determines which one is applied first.
 
 | Priority | Operator       | Associativity |
 | -------- | -------------- | ------------- |
 | 0        | Grouping       | N/A           |
-| 1        | Exponentiation | Right to left |
+| 1        | Exponent       | Right to left |
 | 2        | Multiplication | Left to right |
 | 2        | Division       | Left to right |
 | 2        | Remainder      | Left to right |
@@ -92,7 +92,7 @@ Do you notice something familiar about the rules in the table above? They are th
 
 > Please-Excuse-My-Dear-Aunt-Sally
 
-This mnemonic is used to remember the following order or precedence rules:
+This mnemonic is used to remember the following order, or precedence rules:
 
 - Parenthesis
 
@@ -128,7 +128,7 @@ When you express a number in JavaScript, that number will by default be a **Floa
 
 Did you get the answer `3n`? If so congratulations! You just added your first two JavaScript **BigInt** numbers.
 
-Why do these kinds of numbers exist? Well it's a bit complicated, but is has to do with how much information can be stored in a regular old JavaScript **Number** type. To make a long story short, there is only so much room within the default **Number** type, and so as your number gets **really** large, as in quadrillions, then it's possible that when you combine that number with another using math you _could_ get the wrong answer. By using **BigInt** for **Integer** numbers you do not have to worry about those limitations, but you **DO** have to use them together with other **BigInt** numbers, and you **DO** have to be using a modern browser or another JavaScript environment.
+Why do these kinds of numbers exist? Well it's a bit complicated, but it has to do with how much information can be stored in a regular old JavaScript **Number** type. To make a long story short, there is only so much room within the default **Number** type, and so as your number gets **really** large, as in quadrillions, then it's possible that when you combine that number with another using math you _could_ get the wrong answer. By using **BigInt** for **Integer** numbers you do not have to worry about those limitations, but you **DO** have to use them together with other **BigInt** numbers, and you **DO** have to be using a modern browser or another JavaScript environment.
 
 ## Idiosyncrasies of Floats
 
@@ -160,7 +160,7 @@ Huh, I wonder why not?
 
 ##### Floating Point Subtraction Answer
 
-The reason you didn't get `0` as an answer above is that JavaScript cannot represent the number `0.1`exactly using the **Floating Point** number representation scheme. Before you start getting angry at JavaScript for its bad decisions, consider that **ALL** programming languages that use **Floating Point** have to make the same trade-offs for representing them. This is due to the way all computers store information, which is represented as a series of `0s` and `1s` known as binary which we will cover later. Some numbers can be represented exactly using binary, while other numbers such as `0.1` or `0.7`cannot. As a result of this, numbers which are the result of certain mathematical operators involving these approximations, are themselves approximations.
+The reason you didn't get `0` as an answer above is that JavaScript cannot represent the number `0.1` exactly using the **Floating Point** number representation scheme. Before you start getting angry at JavaScript for its bad decisions, consider that **ALL** programming languages that use **Floating Point** have to make the same trade-offs for representing them. This is due to the way all computers store information, which is represented as a series of `0s` and `1s` known as binary which we will cover later. Some numbers can be represented exactly using binary, while other numbers such as `0.1` or `0.7`cannot. As a result of this, numbers which are the result of certain mathematical operators involving these approximations, are themselves approximations.
 
 ![clear glass pitcher](https://images.unsplash.com/photo-1570438395701-aee966d0e8bc?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ 'Zac Harris')
 
@@ -195,7 +195,7 @@ You can find a full list [here](https://developer.mozilla.org/en-US/docs/Web/Jav
 
 Like `Number`, `Math` is available anywhere you can run JavaScript. `Math` comes with a lot of really cool functionality, much like your basic graphing calculator! Trigonometry, logarithms, rounding, and more are at the palm of your hand in just a few easy steps!
 
-Why, just like the `π` button on a calculator, `Math.PI` returns the ratio of a circle's circumference to its diameter, or better known as pi!
+Why, just like the `π` button on a calculator, `Math.PI` returns the ratio of a circle's circumference to its diameter, better known as pi!
 
 Here's a short list of things you can do with `Math`(there are a TON more):
 
@@ -229,12 +229,6 @@ Math.round(412.942);
 Math.random();
 // output : 0.20018197563815687 (different every time)
 ```
-
-> Note that some of these have `()` after them, and some, like `Math.PI` do not. Those that do not are referred to as _properties_, and represent a value that does not change, like **pi** or **e**. Those that do are referred to as _methods_ and they perform some sort of calculations, usually when given a number to work with.
-
-[List of Properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#Static_properties)
-
-[List of Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#Static_methods)
 
 > Note that some of these have `()` after them, and some, like `Math.PI` do not. Those that do not are referred to as _properties_, and represent a value that does not change, like **pi** or **e**. Those that do are referred to as _methods_ and they perform some sort of calculations, usually when given a number to work with.
 
@@ -345,7 +339,7 @@ Math.round(Math.random());
 
 ```js
 Math.round(Math.random() * 10);
-// output: 0 or 1
+// output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10
 ```
 
 </details>

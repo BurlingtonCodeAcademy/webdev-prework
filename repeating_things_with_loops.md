@@ -129,7 +129,7 @@ Hold the phone! Now give the phone to me. 10 is not less than 10. The text will 
 
 By manipulating the value of `i` in each iteration of the loop, we have created a condition that WILL eventually equate to `false`, thus ending the loop.
 
-**** This why the loop only ran 9 times. The 10th iteration (when `i` is 10) does not run the loop because the *condition* isn't true. Changing the condition to `i <= 10` (less than or equal to) would allow for that one final print to the command line!
+**** This is why the loop only ran 9 times. The 10th iteration (when `i` is 10) does not run the loop because the *condition* isn't true. Changing the condition to `i <= 10` (less than or equal to) would allow for that one final print to the command line!
 
 ```javascript
 i <= 10 // 10 <= 10 is true!
@@ -322,7 +322,7 @@ Write a `for` loop that prints every number between 1 and 33 (inclusive) that is
 <details>
 <summary>Hint</summary>
 
-The modulo operator (`%`) returns the remainder of a division.
+The modulus operator (`%`) returns the remainder of a division.
 </details>
 
 <details>

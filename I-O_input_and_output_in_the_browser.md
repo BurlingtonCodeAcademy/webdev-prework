@@ -113,7 +113,7 @@ console.log(answer)
 ```
 ![prompt window](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1600795290/prompt_window_qolppv.png)
 
-While there are far more elaborate examples of collecting user input, `window.prompt()` is widely supported across browsers and is an great starting place to understand and begin dealing with user input in a browser context. 
+While there are far more elaborate examples of collecting user input, `window.prompt()` is widely supported across browsers and is a great starting place to understand and begin dealing with user input in a browser context. 
 
 ## `window.confirm()`
 

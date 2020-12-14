@@ -5,11 +5,11 @@
 
 *Excerpt from One Hundred Years of Solitude, by Gabriel García Márquez.*
 
-So far in your programming you have used two kinds of values; Strings and Numbers. You have also used a function like `console.log('some message to log');`. Values are an important part of programming in that they serve as the data that the computer uses to perform its work. The problem with values is that they can be hard for a human to remember, they lack the meaning that we a used to in our spoken languages.
+So far in your programming you have used two kinds of values; Strings and Numbers. You have also used a function like `console.log('some message to log');`. Values are an important part of programming in that they serve as the data that the computer uses to perform its work. The problem with values is that they can be hard for a human to remember, they lack the meaning that we are used to in our spoken languages.
 
-As humans we naturally want names for things, names give us a means to communicate fluently, names provide a common meaning.
+As humans we naturally want names for things. Names give us a means to communicate fluently. Names provide a common meaning.
 
-This lesson introduces what may be the most important tool we have as programmers, the ability to apply a name to a value. It seems like a simple thing, a name, but choose good names and your program with be understandable, choose misleading or cryptic names, and your program will be frustrating and confusing.
+This lesson introduces what may be the most important tool we have as programmers, the ability to apply a name to a value. It seems like a simple thing, a name, but choose good names and your program will be understandable, choose misleading or cryptic names, and your program will be frustrating and confusing.
 
 ## Names for Values
 
@@ -39,7 +39,7 @@ Given we have a circle with a diameter of 2 and a circumference of about 6.28, l
 
 **x = 6.28 / 2**
 
-**x = 3.14**
+**x = 3.141592**
 
 Wonderful, we now have a value of approximately 3.14, and if we give a name to it, we can use it within the statements above. The mathematical name for this value is **Pi**, so we should use the same name.
 
@@ -99,7 +99,7 @@ The reason for `let` being present on the first line, but not the second is subt
 
 There are several ways to create variables in JavaScript, and it's confusing to know which one is correct to use. In addition to the `let` keyword that creates variables, JavaScript also has two other keywords, `const` and `var` that can perform similar functions. Why then should you use `let`?
 
-The `const` keyword creates variables whose value which they point to cannot be changed. It stands for the action **create a constant**. You might be asking why creating a variable whose value cannot be changed would be useful, and the answer is that sometimes you want to **know** that a variable will not change, but still have a name for it, so that the value is easier to remember.
+The `const` keyword creates variables whose value, which they point to, cannot be changed. It stands for the action **create a constant**. You might be asking why creating a variable whose value cannot be changed would be useful, and the answer is that sometimes you want to **know** that a variable will not change, but still have a name for it, so that the value is easier to remember.
 
 The `var` keyword also creates a variable, and like `let` it will allow you to change the value that the variable points to. So why do both `let` and `var` exist? The answer is that `var` is an older, and less safe version of `let`. What we mean when we say **less safe** is that `var` allows you to change the value of the variable in **more** places, it's more liberal in the access it provides to the rest of your program. That sounds like a good thing, but usually it's not. Part of your job as a programmer is to control access to data within your program, to ensure that other parts don't mistakenly change it. When you use `let` instead of `var` it's easier to ensure that the variable is safe from being tampered with.
 

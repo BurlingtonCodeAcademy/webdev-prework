@@ -15,15 +15,15 @@ In JavaScript, it's easy to create a String of text. All you need is a pair of q
 
 What you've just read may look familiar. We used a String of text just like it when we completed the Hello JavaScript lesson. There are three parts to this String, and I'll break them down below.
 
-1. The first quotation mark, `'`, or `"`, which starts the **String**.
+1. The first quotation mark `'` which starts the **String**.
 
 2. The list of characters that make up the **String** text, `Hello, JavaScript!`, you can use any characters in the [Unicode](https://en.wikipedia.org/wiki/List_of_Unicode_characters) character set, which includes characters for many languages, including English.
 
-3. The closing quotation mark,  `'`, or `"`, which ends the **String**.
+3. The closing quotation mark  `'` which ends the **String**.
 
 ### Single vs. Double Quotes
 
-It's possible to create a String with either single quotes, or double quotes at the beginning and end. There is a recommendation to use single quotes that much of the JavaScript community follows for consistency, but it is not a requirement. The rule you'll need to remember to follow is this; If you start a **String** with single-quotes, you **must** end it with single-quotes, and if you start it with double-quotes, then you must finish it with double-quotes. 
+It's possible to create a String with either single quotes, or double quotes at the beginning and end. There is a recommendation to use single quotes that much of the JavaScript community follows for consistency, but it is not a requirement. The rule you'll need to remember to follow is this; If you start a **String** with single-quotes, you **must** end it with single-quotes, and if you start it with double-quotes, then you must end it with double-quotes. 
 
 You might be asking yourself, "What if I need to use quotes within my String?". To answer that question, read on to the next section.
 
@@ -81,7 +81,7 @@ Now to output that String, open the JavaScript console in your browser and run t
 console.log('All the world is a stage,' + 'And all the men and women merely players;');
 ```
 
-> 'All the world is a stage, And all the men and women merely players;
+> "All the world is a stage, And all the men and women merely players;"
 
 *Quote by William Shakespeare, from As You Like It*
 
@@ -153,13 +153,19 @@ Try and run that code in your browser console, and you'll likely see an error th
 SyntaxError: "" string literal contains an unescaped line break
 ```
 
+**or**
+
+```
+SyntaxError: Invalid or unexpected token
+```
+
 So then how can you create a string that spans more than one line? The answer is to use what is known as a **new-line character** to indicate that you want the current line to end, and the rest of the **String** to begin on the next line. Let's see an example below.
 
 ```js
 "All the world is a stage,\n" + "And all the men and women merely players;"
 ```
 
-Notice that after the **String** `All the world is a stage,` there is a `\n`. That character is saying to JavaScript, "Hey, I want you to place a line-break  here, and then add whatever comes next to the line below the current one.". We have to use the  backslash`\` character here to let JavaScript know the next character is special, and in this case, it's the new-line character.
+Notice that after the **String** `All the world is a stage,` there is a `\n`. That character is saying to JavaScript, "Hey, I want you to place a line-break  here, and then add whatever comes next to the line below the current one." We have to use the  backslash`\` character here to let JavaScript know the next character is special, and in this case, it's the new-line character.
 
 #### Escaping Quote Characters
 
@@ -197,7 +203,7 @@ If you need to calculate the number before **concatenating** it with the string,
 "The answer to life, the universe, and everything is ... " + (100 - 58)
 ```
 
-Parenthesis are used here is to prevent `100` from being concatenated with the **String**, and then for JavaScript to try and subtract `58` from that **String**. Remember from the lesson on [Arithmetic](./arithmetic) that if you attempt to subtract a **String** and a **Number**, that the result will be the value `NaN`, which is different than what you want.
+Parenthesis are used here is to prevent `100` from being concatenated with the **String**, and then for JavaScript to try and subtract `58` from that **String**. If you attempt to subtract a **String** and a **Number**, the result will be the value `NaN`, which is different than what you want.
 
 It's possible to add the number anywhere within the **String** by placing breaks within the **String** where you want the number to be. See the example below.
 
@@ -211,7 +217,7 @@ By breaking our string into pieces and then reassembling those pieces in a way t
 
 ## Template Strings
 
-If we are working with a particularly complicated **String** and want to use numbers or any other form of JavaScript **expression** within the final output, you can also reach for another tool known as a **Template String**. This kind of **String** uses a different quote to start and end them and allow for marking parts of the **String** as an **expression** that will be **evaluated** to a **value** and then inserted into the **String**. Let's see some examples so you can see what we mean.
+If we are working with a particularly complicated **String** and want to use numbers or any other form of JavaScript **expression** within the final output, you can also reach for another tool known as a **Template String**. This kind of **String** uses a different type of quote called a **back-tick** to start and end them and allow for marking parts of the **String** as an **expression** that will be **evaluated** to a **value** and then inserted into the **String**. Let's see some examples so you can see what we mean.
 
 ```js
 `Hello, I am a template. 1 + 1 = ${1 + 1}`
@@ -250,18 +256,18 @@ As of some one gently rapping, rapping at my chamber door. \
 
 The poem above is multiple lines, but it is only a single String, the `\` characters following each line are saying to JavaScript, "Hey, I know that a line-break is coming up, but please do not end the String because there is more to come, okay?". Using these backslashes, we can use a **String** that spans multiple lines without needing to combine multiple shorter **Strings**.
 
-This same solution can be used for **Template Strings** without any changes other than the starting and ending quotes being back-tick "` `" characters.
+This same solution can be used for **Template Strings** without any changes other than the starting and ending quotes being back-tick "`` ``" characters.
 
 ## Indexing
 As discussed, strings are a series of characters. Each *character* in that string exists at a location relative to the string as a whole, called an *index*. 
 
-**An *index* is a number that identifies the location of a character in a string. The index comes at the end of that string, inside of square brackets (`[ ]`)**
+**An *index* is a number that identifies the location of a character in a string. The index comes at the end of that string, inside of square brackets `[ ]`**
 
 Try this in your browser console:
 
 ```js
 'here-is-a-string'[1]
-// will return 'e'
+// output: 'e'
 ```
 Wait, why am I getting '`e`'? isn't the first letter '`h`'? 
 
@@ -276,20 +282,20 @@ Example:
 // has 11 characters
 
 'this-string'[11]
-// should return undefined
+// output: undefined
 
 'this-string'[10]
-// should return 'g'
+// output: 'g'
 ```
 Do I have to *know* the length of a string? Nope! It can be found by adding `.length` to the end of *any* string. The result will be the number of characters that string is comprised of. 
 
 ```js
 `this-string`.length
-// should return 11
+// output: 11
 ```
 
 ## String Methods
-So, we've covered the basics of what strings *are*, but how do we use them in programming? While a pre-determined string can be the preferred output in a number of use cases (like a "log in successful" message,) they are much more dynamic than that.
+So, we've covered the basics of what strings *are*, but how do we use them in programming? While a pre-determined string can be the preferred output in a number of use cases (like a "log in successful" message) they are much more dynamic than that.
 
 JavaScript has a TON of *methods* that are natively available to use on *any* string. 
 
@@ -297,13 +303,13 @@ What are methods?
 
 More on that when we discuss functions. For now, all you need to know is that they are tools for manipulating strings in a variety of ways. 
 
-For example, the method `.toUpperCase()` will take a string and return an uppercase variation of it. Methods need to be *called* with open and closed parentheses, '`()`', and accessed with a period '`.`'
+For example, the method `.toUpperCase()` will be called on a string and return an uppercase variation of it. Methods need to be *called* with open and closed parentheses, '`()`', and accessed with a period '`.`'
 
 **Try this in your browser console:**
 
 ```js
 `capitalized`.toUpperCase()
-// should return 'CAPITALIZED'
+// output: 'CAPITALIZED'
 ```
 There are many methods, each with unique and sometimes confusing behaviors. Some take values inside the parentheses that determine how that method will behave. 
 
@@ -313,9 +319,9 @@ For example, the `.replace()` method replaces a part of a string. This method ac
 
 ```js
 `Yes-No?`.replace('-',' or ')
-//should return 'Yes or No?'
+// output: 'Yes or No?'
 ```
-This takes the string `Yes-No?` and replaces the `-` with `' or '` (note the whitespaces).
+This takes the string `Yes-No?` and replaces the `-` with `' or '` (note the whitespace).
 
 Here are a few more examples: 
 
@@ -325,7 +331,7 @@ The `.repeat()` method returns a string repeated the given number of times.
 
 ```js
 `haha`.repeat(3)
-// should return 'hahahahahaha'
+// output: 'hahahahahaha'
 ```
 
 ### `.indexOf()`
@@ -333,7 +339,7 @@ The `.indexOf()` method returns the starting *index* of the string being searche
 
 ```js
 'looking for something?'.indexOf('for')
-//should return 8
+// output: 8
 ```
 If no substring is present, it will return `-1`
 
@@ -346,10 +352,10 @@ The `.slice()` method extracts a section of the string the method is being calle
 
 ```js
 "let's slice this string".slice(6)
-// should return "slice this string"
+// output: "slice this string"
 
 "let's slice this string".slice(6,11)
-// should return "slice"
+// output: "slice"
 ```
 For a complete list, check out [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Instance_methods)
 
