@@ -19,7 +19,7 @@ The requirements of a decision
 
 In the following lesson, we will learn how JavaScript can fulfill the requirements above, what tools it provides to express decisions from simple to complex.
 
-## Making Comparisons
+## Making Comparisons with Booleans
 
 When you compare anything to something else you need a way to determine what attribute of each is different, and in what way it is different. For example, imagine you want to make breakfast, you have two eggs laid in front of you, and want to know which egg is larger than the other so that you can choose the largest one.
 
@@ -45,7 +45,7 @@ Q: Is the value of the brownEgg larger than the value of the greenEgg?
 A: Yes
 ```
 
-Instead of getting back a string of text containing the characters "Yes" JavaScript returns the value `true` back to you. This is for a number of reasons, but one of them is because it's easier to use the values of `true` or `false` to choose which action to take after the comparison is made.
+Instead of getting back a string of text containing the characters "Yes" JavaScript returns the value `true` back to you. This is for a number of reasons, but one of them is because it's easier to use the values of `true` or `false` to choose which action to take after the comparison is made. `true` and `false` are known as `booleans`. Booleans are reserved key words in JavaScript, and are a different data type than strings! All comparisons will evaluate as a boolean (`true` or `false`). 
 
 ## Comparison Operators
 
