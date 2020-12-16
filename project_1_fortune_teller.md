@@ -60,9 +60,12 @@ Once you're confident in your work, grab the URL from the glitch environment and
 
 ![glitch share link](https://res.cloudinary.com/btvca/image/upload/v1601320649/glitch_share_ocoffp.png)
 
+
 <hr/>
 
-<div class="glitch-embed-wrap" style={{height: "420px", width: "100%;"}}>
+## Workspace
+
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%", border:"10px solid black", borderRadius: "5%"}}>
   <iframe
     src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=script.js&previewSize=0&attributionHidden=true"
     title="fortune-teller-bca on Glitch"
