@@ -56,16 +56,6 @@ A function has been provided that accepts an array as an argument and manipulate
 
 Happy Coding! :)
 
-<div class="glitch-embed-wrap" style={{height: "420px", width: "100%"}}>
-  <iframe
-    src="https://glitch.com/embed/#!/embed/memory-game-starter-code-bca?path=script.js&previewSize=0&attributionHidden=true"
-    title="memory-game-starter-code-bca on Glitch"
-    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-    style={{height: "100%", width: "100%", border: "0"}}>
-  </iframe>
-</div>
-
-
 ## Getting Started
 
 In the embedded glitch window below, select the name of the project in the bottom left corner. 
@@ -88,4 +78,18 @@ Once you're confident in your work, grab the URL from the glitch environment and
 
 ![glitch share link](https://res.cloudinary.com/btvca/image/upload/v1601320649/glitch_share_ocoffp.png)
 
-### Click on the button below to submit your URL!
+
+<hr/>
+
+## Workspace
+
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%", boxShadow: "7px 12px 32px 5px rgba(0,0,0,0.49)"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/memory-game-starter-code-bca?path=script.js&previewSize=0&attributionHidden=true"
+    title="memory-game-starter-code-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
+
+<hr/>

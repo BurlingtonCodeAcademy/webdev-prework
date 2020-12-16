@@ -65,7 +65,7 @@ Once you're confident in your work, grab the URL from the glitch environment and
 
 ## Workspace
 
-<div class="glitch-embed-wrap" style={{height: "420px", width: "100%", boxShadow: "7px 12px 32px 5px rgba(0,0,0,0.49)", borderRadius: "5%"}}>
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%", boxShadow: "7px 12px 32px 5px rgba(0,0,0,0.49)"}}>
   <iframe
     src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=script.js&previewSize=0&attributionHidden=true"
     title="fortune-teller-bca on Glitch"
@@ -76,4 +76,3 @@ Once you're confident in your work, grab the URL from the glitch environment and
 
 <hr/>
 
-### Click on the button below to submit your URL!

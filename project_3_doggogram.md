@@ -44,16 +44,6 @@ Again, all stylistic choices are completely up to you, so long as you accomplish
 
 Happy Coding :)
 
-<div class="glitch-embed-wrap" style={{height: "420px", width: "100%"}}>
-  <iframe
-    src="https://glitch.com/embed/#!/embed/doggogram-css-project-bca?path=style.css&previewSize=0&attributionHidden=true"
-    title="doggogram-css-project-bca on Glitch"
-    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-    style={{height: "100%", width: "100%", border: "0"}}>
-  </iframe>
-</div>
-
-
 
 ## Getting Started
 
@@ -78,4 +68,18 @@ Once you're confident in your work, grab the URL from the glitch environment and
 
 ![glitch share link](https://res.cloudinary.com/btvca/image/upload/v1601320649/glitch_share_ocoffp.png)
 
-### Click on the button below to submit your URL!
+
+<hr/>
+
+## Workspace
+
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%", boxShadow: "7px 12px 32px 5px rgba(0,0,0,0.49)"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/doggogram-css-project-bca?path=style.css&previewSize=0&attributionHidden=true"
+    title="doggogram-css-project-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
+
+<hr/>
