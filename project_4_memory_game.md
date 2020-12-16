@@ -1,6 +1,8 @@
 # Project 4: Memory Game
 ![three blank polaroid pictures](https://res.cloudinary.com/btvca/image/upload/v1605019282/polaroid-3130379_1280_wbrn27.jpg)
 
+<iframe src="https://player.vimeo.com/video/491363474" width="100%" height="420px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ## Prerequisites
 - Week 1, 2, and 3 of BCA prework track
 
