@@ -1,8 +1,11 @@
 # Project: Fortune Teller
 ![crystal ball](https://res.cloudinary.com/btvca/image/upload/c_mfit,h_540,w_1080/v1600868346/ball-625908_1280_uh5bo8.jpg)
 
+<hr/>
+
 <iframe src="https://player.vimeo.com/video/488245857" width="100%" height="420px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+<hr/>
 
 ## Prerequisites: 
 - Week 1 of the BCA [Software Development Bootcamp](https://www.burlingtoncodeacademy.com/software-development-bootcamp/) pre-work lessons.
@@ -33,19 +36,10 @@ define a function `tellFortune` that:
 
 Don't forget to call your function!
 
-<div class="glitch-embed-wrap" style={{height: "420px", width: "100%;"}}>
-  <iframe
-    src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=script.js&previewSize=0&attributionHidden=true"
-    title="fortune-teller-bca on Glitch"
-    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-    style={{height: "100%", width: "100%", border: "0"}}>
-  </iframe>
-</div>
-
 
 ## Getting Started
 
-In the embedded glitch window below, select the name of the project in the bottom left corner. 
+In the embedded glitch window at the bottom of the page, select the name of the project in the bottom left corner. 
 
 ![project name](https://res.cloudinary.com/btvca/image/upload/v1600871422/fortuneTellerProjectName_lpnko4.png)
 
@@ -65,5 +59,18 @@ Now, when adding any code to `script.js` you should see your changes immediately
 Once you're confident in your work, grab the URL from the glitch environment and send it to our team for review. To find a copyable link click on **Share**, select **Code** and then select **copy**. 
 
 ![glitch share link](https://res.cloudinary.com/btvca/image/upload/v1601320649/glitch_share_ocoffp.png)
+
+<hr/>
+
+<div class="glitch-embed-wrap" style={{height: "420px", width: "100%;"}}>
+  <iframe
+    src="https://glitch.com/embed/#!/embed/fortune-teller-bca?path=script.js&previewSize=0&attributionHidden=true"
+    title="fortune-teller-bca on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style={{height: "100%", width: "100%", border: "0"}}>
+  </iframe>
+</div>
+
+<hr/>
 
 ### Click on the button below to submit your URL!
