@@ -1,5 +1,7 @@
 # Arithmetic
 
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/discussion-arithmetic/264">Discuss in Forum</a>
+
 ![black and white Texas Instruments calculator](https://images.unsplash.com/photo-1563212034-a3c52118cce2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ 'Ray Reyes')
 
 Solving mathematical equations has been one of the primary uses of computers since they were first created over fifty years ago. In fact the term "computer" was inherited by the ancestors of our devices from the human beings who computed the answers to long equations, often while working for the military or aerospace organizations.

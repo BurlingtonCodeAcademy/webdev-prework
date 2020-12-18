@@ -1,5 +1,7 @@
 # Strings in JavaScript
 
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/discussion-strings/265">Discuss in Forum</a>
+
 ![focus dictionary index page](https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Romain Vignes")
 
 

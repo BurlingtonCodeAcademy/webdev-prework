@@ -1,5 +1,7 @@
 # Functions: Terms & Behavior in JavaScript
 
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/discussion-reusing-procedures-with-functions/269">Discuss in Forum</a>
+
 ![functions](https://res.cloudinary.com/btvca/image/upload/c_scale,w_1080/v1599680156/functions_title_card_ftkut4.jpg)
 
 Functions are an essential piece of the JavaScript puzzle. Without them, our code would run wild and overgrown. Our applications would accrue [code debt](https://en.wikipedia.org/wiki/Technical_debt) at an unmanageable rate. We would constantly repeat ourselves. We would constantly repeat ourselves. Civilzations would crumble.

@@ -3,6 +3,8 @@
 
 -- John Carmack, Co-founder, id Software
 
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/discussion-making-decisions-with-conditionals/267">Discuss in Forum</a>
+
 ![sign](https://res.cloudinary.com/btvca/image/upload/v1599838751/sign_aan0k2.jpg)
 
 Deciding what to do next is a part of our lives every day. As humans it's hard to investigate our process of decision making. When we wake up in the morning and feel hungry, our minds make a decision about what to eat. Later when we get dressed for the day, we decide what clothes to combine into our outfit. Some of these decisions are conscious, while others are made without thinking. Within a computer program, we as the programmer must determine how to make each choice, and the instructions about how to do so must be clear.

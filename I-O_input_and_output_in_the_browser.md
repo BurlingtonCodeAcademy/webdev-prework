@@ -1,4 +1,7 @@
 # I/O in the Browser
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/discussion-io-in-the-browser/270">Discuss in Forum</a>
+
 ![coffee cup and beans](https://res.cloudinary.com/btvca/image/upload/c_limit,h_540,w_1080/v1600709948/coffee-171653_1280_ntdjqd.jpg)
 
 A barista takes a bag of mouthwatering coffee beans and empties it into the industrial grinder. Out comes fine grounds, coarse grounds, medium-coarse grounds, any grounds of their choosing! These are then put into a state of the art machine that makes the hot brown bean water that keeps the world moving. It's both delicious, and a prime example of what we're here to talk about today: input and output.
