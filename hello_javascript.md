@@ -1,6 +1,7 @@
 # Hello JavaScript!
 
-[Discussion in Forum](https://forum.burlingtoncodeacademy.com/t/discussion-hello-javascript/264)
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/discussion-hello-javascript/264">Discussion in Forum </a >
+
 
 ![white robot near brown wall](https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Alex Knight")
 
