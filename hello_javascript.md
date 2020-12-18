@@ -1,5 +1,7 @@
 # Hello JavaScript!
 
+#### [View in Forum](https://forum.burlingtoncodeacademy.com/t/discussion-hello-javascript/264)
+
 ![white robot near brown wall](https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ "Alex Knight")
 
 <caption><em>Image of a Robot saying hello!</em></caption>
@@ -319,6 +321,7 @@ When the browser receives the message `console.log('Hello JavaScript')`, it prin
 
 Finally take a look at the end of the line of code and see that there is a **semicolon** as the last character. This **semicolon** tells the JavaScript program that your line of code is finished. It serves a lot like a period in English text, in that it is explicitly saying "this line is complete".
 
+
 # Exercises
 
 ## Print Your Name
@@ -359,3 +362,4 @@ Browser automation, and creating highly functional web pages.
 
 The browser, and in runtime environments like `Node.js`
 </details>
+
