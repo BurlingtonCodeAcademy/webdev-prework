@@ -1,7 +1,6 @@
 # Project: Fortune Teller
 
-<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/discussion-fortune-teller-project/271
-">Discuss in Forum</a>
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/discussion-fortune-teller-project/271">Discuss in Forum</a>
 
 ![crystal ball](https://res.cloudinary.com/btvca/image/upload/c_mfit,h_540,w_1080/v1600868346/ball-625908_1280_uh5bo8.jpg)
 
