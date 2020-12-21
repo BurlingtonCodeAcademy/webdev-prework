@@ -1,4 +1,7 @@
 # Your First Website
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-2-your-first-website/273">Discuss in Forum</a>
+
 ![website](https://res.cloudinary.com/btvca/image/upload/v1601489831/webdesign-3411373_1280_hiakqt.jpg)
 
 ## Overview

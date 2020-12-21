@@ -1,4 +1,7 @@
 # Embedding Media in HTML
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-2-embedding-media-in-html/278">Discuss in Forum</a>
+
 ![computer with media player](https://res.cloudinary.com/btvca/image/upload/v1602947056/youtube-1684601_1280_lw3t9v.png)
 
 Save for the occasional `<img>` tag in the examples provided so far, we haven't really covered much in HTML other than plain text. After all, most elements in HTML are simply different ways of structuring and providing additional context to the text content on a page. Nav bars, headers, paragraphs, and all of the majority of other elements in HTML accomplish nothing more than providing a bit of structure and implicit value to the text within its tags.

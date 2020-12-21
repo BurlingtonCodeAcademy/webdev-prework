@@ -1,4 +1,8 @@
 # Project 2: Hero Profile
+
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-2-project-2-hero-profile/279">Discuss in Forum</a>
+
 ![silhouetted man and woman with suits and capes](https://res.cloudinary.com/btvca/image/upload/v1603033682/super-hero-3083468_1280_cd2f6c.jpg)
 
 ## Prerequisites

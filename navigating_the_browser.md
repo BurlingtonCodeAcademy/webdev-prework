@@ -1,4 +1,7 @@
 # Navigating the browser
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-2-navigating-the-browser/277">Discuss in Forum</a>
+
 ![smartphone with map navigation](https://res.cloudinary.com/btvca/image/upload/v1602867330/navigation-1048294_1280_qf2uow.jpg)
 
 So far, we have covered some of the fundamental aspects of HTML and its behavior. Hopefully, you feel comfortable with the concepts of a markup language, what the general layout of an HTML document might look like, how it's loaded by the browser, and a couple of the newer features of it's most recent iteration (HTML5). So, now that we've made a single page, we're all set. Right? Wrong!

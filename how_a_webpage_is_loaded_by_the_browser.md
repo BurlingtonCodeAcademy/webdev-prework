@@ -1,4 +1,7 @@
 ## How a webpage is loaded by a browser
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-2-how-a-webpage-is-loaded-by-a-browser/274">Discuss in Forum</a>
+
 ![blueprint](https://res.cloudinary.com/btvca/image/upload/v1601924324/architecture-1857175_1280_qv4kbl.jpg)
 
 Designing a web page is a thorough process. Every `<link>` or `<script>` element, every video or image or piece of audio is loaded into your page based relative to the document's flow. Depending on how you have laid out your HTML, your page may perform differently than you might anticipate. In the following lesson, we will discuss the fundamentals of how a page is loaded and executed. Try not to get too bogged down with the provided information; this is meant as an introduction to some helpful concepts that could assist you in the future.

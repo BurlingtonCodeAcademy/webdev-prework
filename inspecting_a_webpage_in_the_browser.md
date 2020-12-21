@@ -1,4 +1,7 @@
 # Inspecting a Web Page In the Browser
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-2-inspecting-a-web-page-in-the-browser/275">Discuss in Forum</a>
+
 ![browser](https://res.cloudinary.com/btvca/image/upload/v1602079780/gui-2311259_1280_f4l8ua.png)
 
 Designing webs pages can be a long and complex process. Not all browsers support every modern feature you might want to incorporate in your page, and even if they do, those same browsers might interpret the information differently. So, as a developer in the design phase, it is in your best interest to capitalize on the features your browser DOES provide, like the console you've been using to run your basic JavaScript functions. That very same browser comes with a suite of tools known as *developer tools*, which house a variety of functionality. 

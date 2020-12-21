@@ -1,4 +1,8 @@
-# HTML
+# What is HTML?
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-2-what-is-html-discussion-thread/272">Discuss in Forum</a>
+
+
 ![website code](https://res.cloudinary.com/btvca/image/upload/v1601320976/website-647013_1280_dymbwr.jpg)
 
 ## Introduction

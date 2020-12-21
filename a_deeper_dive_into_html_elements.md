@@ -1,4 +1,7 @@
 # A Deep(er) Dive into HTML
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-2-a-deeper-dive-into-html/276">Discuss in Forum</a>
+
 ![abstract pattern](https://res.cloudinary.com/btvca/image/upload/v1602180881/background-2462431_1280_ulp9k9.jpg)
 
 ## Review
