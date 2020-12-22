@@ -1,4 +1,7 @@
 # Project 3: Pet Instagram
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-project-3-pet-instagram/289">Discuss in Forum</a>
+
 ![two rotweiler puppies peeking through a fence](https://res.cloudinary.com/btvca/image/upload/v1603979756/rottweiler-1785760_1280_jmy5i0.jpg)
 
 <iframe src="https://player.vimeo.com/video/489962108" width="100%" height="420px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

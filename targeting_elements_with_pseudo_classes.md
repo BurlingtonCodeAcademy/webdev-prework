@@ -1,4 +1,7 @@
 # Targeting Elements With Pseudo-classes
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-targeting-elements-with-pseudo-classes/287">Discuss in Forum</a>
+
 ![a photo lens and a blue background](https://res.cloudinary.com/btvca/image/upload/v1604590551/lens-1209823_1280_hmux2g.jpg)
 
 As you have most likely gathered by this point, CSS selectors are integral in targeting a particular element or elements. This, combined with *combinators*, allow for your stylesheets to be concise and efficient. Styling elements relative to their `id`, `class`, or element name and then using that selection to style the elements surrounding them is a fundamental skill in writing CSS. 

@@ -1,4 +1,7 @@
 # Alignment With Static Layout and Display
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-alignment-with-static-layout-and-display/283">Discuss in Forum</a>
+
 ![blueprint with pencil and ruler](https://res.cloudinary.com/btvca/image/upload/v1603458455/blueprint-964629_1280_bsinth.jpg)
 You might remember from our lessons on HTML that elements typically orient themselves on the page in one of 2 ways, being either `inline` level or `block-level`. This is the default way of the web; HTML elements come bundled with their own style and behavior that causes them to act in the way they do with no additional CSS. It's what makes a header (`<h1>`) so big, or the list-items (`<li>`) in an `<ol>` indented with bullets. 
 

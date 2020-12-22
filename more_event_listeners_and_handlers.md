@@ -1,4 +1,7 @@
 # More Event Listeners and Handlers
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-4-more-event-listeners-and-handlers/295">Discuss in Forum</a>
+
 ![silhouetted crowd at sunset](https://res.cloudinary.com/btvca/image/upload/v1606159383/celebration-3443779_1280_vtgiix.jpg)
 
 

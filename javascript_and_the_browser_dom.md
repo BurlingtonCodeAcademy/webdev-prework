@@ -1,4 +1,7 @@
 # JavaScript and The Browser DOM
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-4-javascript-and-the-browser-dom/292">Discuss in Forum</a>
+
 ![technical blueprints](https://res.cloudinary.com/btvca/image/upload/v1605811042/blueprint-4056027_1280_ztranq.jpg)
 
 Think back to our lesson, **A Deep(er) Dive into HTML**. In it, we discuss the fundamentals of HTML and moreso, the DOM. As discussed, the DOM, or *document object model*, is the browser's interpretation of your HTML, CSS, JavaScript, and other assorted media. It takes these various resources and compiles them into a visual representation of those resources so you can see, interact, and manipulate it. 

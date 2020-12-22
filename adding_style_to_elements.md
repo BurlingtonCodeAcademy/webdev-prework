@@ -1,4 +1,7 @@
 # Adding Style to HTML Elements
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-adding-style-to-elements/280">Discuss in Forum</a>
+
 ![abstract paint paint splash](https://res.cloudinary.com/btvca/image/upload/v1603132228/abstract-2468874_1280_h0zv9g.jpg)
 As we've seen in prior lessons, HTML on its own can be a little one-dimensional. There is an implicit functionality to many HTML elements, both in terms of structure, and their ability to highlight certain content. But what happens when you want to go further? 
 

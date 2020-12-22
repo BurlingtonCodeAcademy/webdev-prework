@@ -1,4 +1,7 @@
 # Special Alignment With Relative and Absolute Positioning 
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-special-alignment-with-relative-and-absolute/286">Discuss in Forum</a>
+
 ![Pencils](https://res.cloudinary.com/btvca/image/upload/v1604432022/pencils-806604_1280_nkrrhc.jpg)
 
 In the current world of web development, Flexbox and Grid reign supreme. They are powerful and concise, allowing for quick, clean, and predictable layouts, yielding often-sought-after results. 

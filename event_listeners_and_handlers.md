@@ -1,4 +1,7 @@
 # Event Listeners and Handlers
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-4-event-listeners-and-handlers/294">Discuss in Forum</a>
+
 ![silhouetted crowd at sunset](https://res.cloudinary.com/btvca/image/upload/v1606159383/celebration-3443779_1280_vtgiix.jpg)
 
 So, up until this point, we have been addressing fundamental aspects of JavaScript in the browser. By including a `<script>` with relevant code inside or linked to it, we can both `create/append` elements to our document as well as target those and other elements for further manipulation. The latter, targeting and manipulating, has been effectively glorified JavaScript. We load our HTML, CSS, and JavaScript relatively instantaneously. The effects of CSS and JavaScript have been relatively interchangeable because of this; add a class here or there, and change the `color` or `font-size`.

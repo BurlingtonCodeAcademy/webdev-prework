@@ -1,4 +1,7 @@
 # Making Things Smooth With CSS Transitions
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-making-things-smooth-with-css-transitions/288">Discuss in Forum</a>
+
 ![assorted color dandelions](https://res.cloudinary.com/btvca/image/upload/v1604691739/dandelion-2817950_1280_rjht7y.jpg)
 
 And so, you've almost made it through another week of our web development pre-work track. Congratulations! As a reward for your hard work, we will be turning our attention from some of the "drier" CSS topics and will instead be having fun with one of the most fun aspects; transitions! 

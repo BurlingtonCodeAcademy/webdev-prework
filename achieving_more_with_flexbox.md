@@ -1,4 +1,8 @@
 # Achieving More With Flexbox
+
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-achieving-more-with-flexbox/284">Discuss in Forum</a>
+
 ![various tools on a table](https://res.cloudinary.com/btvca/image/upload/v1603985723/tool-2820946_1280_ytxwyg.jpg)
 
 So, we've seen what basic `display` properties like `inline`, `block`, and `inline-block` are capable of. Admittedly, you can achieve a lot with them, but you will often find yourself limited. What about orienting things relative to a parent container? Or ensuring that elements have equal spacing, without having to count every pixel? 

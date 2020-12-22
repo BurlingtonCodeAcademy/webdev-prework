@@ -1,4 +1,7 @@
 # Project 4: Memory Game
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-4-project-4-memory-game/296">Discuss in Forum</a>
+
 ![three blank polaroid pictures](https://res.cloudinary.com/btvca/image/upload/v1605019282/polaroid-3130379_1280_wbrn27.jpg)
 
 <iframe src="https://player.vimeo.com/video/491363474" width="100%" height="420px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

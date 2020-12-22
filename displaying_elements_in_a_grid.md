@@ -1,5 +1,7 @@
 # Displaying Elements in a Grid
 
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-displaying-elements-in-a-grid/285">Discuss in Forum</a>
+
 ![grid of multicolored squares](https://res.cloudinary.com/btvca/image/upload/v1604083040/square-2724387_1280_mqncbb.jpg)
 
 

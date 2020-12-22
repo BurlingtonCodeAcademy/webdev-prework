@@ -1,5 +1,8 @@
 # JavaScript Data Structures: Arrays
 
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-4-javascript-data-structures-arrays/291">Discuss in Forum</a>
+
+
 ![athletic track starting line with numbers](https://res.cloudinary.com/btvca/image/upload/v1605535961/athletic-field-1867053_1280_tga7m9.jpg)
 
 

@@ -1,4 +1,7 @@
 # Targeting HTML with CSS Selectors
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-targeting-html-with-css-selectors/281">Discuss in Forum</a>
+
 ![dartboard with a dart in the bullseye](https://res.cloudinary.com/btvca/image/upload/v1603203296/target-1551492_1280_h9tvs5.jpg)
 As we've seen, CSS targets specific HTML elements to apply rules to. Multiple *declarations* can be applied to any given rule, or *ruleset*. In doing so, we can add style and shape to elements on our pages, establishing general trends for how those elements will appear in the browser. 
 

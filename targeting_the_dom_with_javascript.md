@@ -1,4 +1,7 @@
 # Targeting the DOM with JavaScript
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-4-targeting-the-dom-with-javascript/293">Discuss in Forum</a>
+
 ![blue squares with a hand pointing at one of them](https://res.cloudinary.com/btvca/image/upload/v1606138080/selection-68953_1280_zmalry.jpg)
 
 When using JavaScript in the browser, it is paramount to success that you understand how to manipulate specific elements by *targeting* them. This can be achieved in a similar way to our CSS selectors in that the practice for both is often based on `class`, `id`, or element type. By specifying exactly what element(s) we are looking for, we can inevitably work towards injecting JavaScript into our web pages to do a whole lot more than we've seen so far. But what do they look like?

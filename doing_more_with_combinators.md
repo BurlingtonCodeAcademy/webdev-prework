@@ -1,4 +1,7 @@
 # Doing More With CSS Combinators
+
+<a style={{color:"blue"}} href="https://forum.burlingtoncodeacademy.com/t/week-3-doing-more-with-combinators/282">Discuss in Forum</a>
+
 ![Multiple darts on a dartboard](https://res.cloudinary.com/btvca/image/upload/v1603287134/darts-102919_1280_nomyje.jpg)
 
 When a developer is writing their CSS, selectors prove to be an indispensable part of the process. By adding classes, attributes, and IDs to your HTML, you can quickly apply styles and layouts to your pages. They provide the customizability needed to select exactly what you want to manipulate, as well as grant a hierarchy of application, so that certain rules and choices can be overwritten quickly and easily. 
