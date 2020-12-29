@@ -406,7 +406,7 @@ Format the string `01Calvin & Hobbes97` by removing the number at the beginning 
 <summary>Solution</summary>
 
 ```js
-`01Calvin_&Hobbes`.slice(2,17)
+`01Calvin_&Hobbes97`.slice(2,17)
 ```
 </details>
 <br/>
