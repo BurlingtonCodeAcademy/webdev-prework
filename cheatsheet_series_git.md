@@ -133,7 +133,6 @@ Git is an open source distributed version control system that allows developers 
 
 ## Configuring Local Repository Information
 This is for initial setup. It is unlikely you will have to utilize `git config` very often. 
-
 <table>
 
 <th>Command</th>
@@ -146,5 +145,18 @@ This is for initial setup. It is unlikely you will have to utilize `git config` 
 <tr>
 <td>git config --global user.name "[your-email]"</td>
 <td>Defines an email that will be included in all commits made locally.</td>
+</tr>
+</table>
+
+## Troubleshooting
+
+<table>
+
+<th>Command</th>
+<th>Purpose</th>
+
+<tr>
+<td>git help</td>
+<td>Displays a list of other possible actions and their descriptions.</td>
 </tr>
 </table>
