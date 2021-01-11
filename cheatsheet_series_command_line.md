@@ -170,7 +170,7 @@ Mandatory arguments to long options are mandatory for short options too.
 Using this helpful chart (you can reference any time with `--help`), we can see that `-a` is an option that displays files that do not have their own name, but rather an extension only.
 
 ```
-$ ls
+$ ls -a
 ./   .prettierrc  index.html     package.json       style.css
 ../  assets/      node_modules/  package-lock.json  test.js
 ```
