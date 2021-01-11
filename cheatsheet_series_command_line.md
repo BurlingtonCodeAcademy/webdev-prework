@@ -235,17 +235,12 @@ Commands can be specific to particular operating systems, and as such there is n
 </tr>
 <tr>
 <td>rm [file]</td>
-<td>deletes the file in the current directory with the name matching the provided argument.</td>
-<td>rm first_draft.doc</td>
-</tr>
-<tr>
-<td>rm [file]</td>
 <td>deletes the file in the current directory with the name matching the provided argument. Options inform what is deleted, and how.</td>
 <td>rm first_draft.doc</td>
 </tr>
 <tr>
 <td>PATH</td>
 <td>Returns a list of semi-colon separated directories that contain scripts for the command line to execute. This is where your CLI variables will often live.</td>
-<td>rm first_draft.doc</td>
+<td></td>
 </tr>
 </table>
