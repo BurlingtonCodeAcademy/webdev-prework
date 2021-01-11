@@ -8,19 +8,19 @@ The prompt is what you see before any commands are input by the user. Depending 
 
 ### On Windows, it displays the current directory:
 ```
-C:\Users\admin
+C:\Users\admin>
 ```
 
 ### On Linux and Mac, you might see something like this:
 ```
-admin@LAPTOP-JULHSBL9:~$```
+admin@LAPTOP-JULHSBL9:~$
 ```
 Which follows the pattern:
 ```
 [user]@[host]:[directory]$
 ```
 
-The prompt will often be represented in doccumentation as the `$` character, as other information is specific to your particular environment.
+The prompt will often be represented in documentation as the `$` character, as other information is specific to your particular environment.
 
 ## The CLI Output
 
