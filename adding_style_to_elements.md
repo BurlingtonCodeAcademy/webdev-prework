@@ -261,7 +261,8 @@ What are some ways you could center *everything* on the page without content spa
 <details>
 <summary>Hint</summary>
 
-Change the body's width and set its `margin-right` to `auto`
+Change the body's width and margin. 
+
 </details>
 
 You should be aiming for something like this:
