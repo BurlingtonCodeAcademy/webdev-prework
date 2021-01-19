@@ -79,6 +79,8 @@ The result will be so:
        <div style={{width:"50px",height:"50px", backgroundColor:"cornflowerblue",border:"1px solid black"}} ></div>     <div style={{position:"relative", top:"20px",width:"50px",height:"50px", backgroundColor:"cornflowerblue",border:"1px solid black"}} ></div> <div style={{width:"50px",height:"50px", backgroundColor:"cornflowerblue",border:"1px solid black"}} ></div>
 </div>
 
+<br/>
+
 Those elements with the `.move-down` class are not removed from their normal position in the document, but they appear `20px` lower than they would otherwise. **The `top` property determines how far from the default top of the element it should currently be oriented**. The same goes for `right`, `bottom` and `left`; the value given is how far the element is moved in the opposite direction.
 
 ### `absolute`
