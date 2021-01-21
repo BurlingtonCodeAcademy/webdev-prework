@@ -140,7 +140,7 @@ Inequality operators evaluate as `true` if the statement is otherwise NOT true. 
 
 ```js
 3 == "3" //true
-3 !== "3" //false
+3 != "3" //false
 ```
 
 The remaining operators are the *relational* operators, or those that compare the two values to one another based on their relationship to one another. This allows for a broader range of conditions to be `true` or `false` depending on the given operator. The relational operators are:
