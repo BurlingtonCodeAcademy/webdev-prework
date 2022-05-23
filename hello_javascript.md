@@ -11,6 +11,7 @@ Welcome to the first lesson of our course pre-work! You are about to begin a jou
 
 In this first lesson we will keep the concepts fairly high level and cover what programming is all about, why JavaScript is important in the modern technology landscape, and how to write your first lines of code.
 
+___
 
 ### What do we mean when we say Programming?
 
@@ -25,6 +26,8 @@ More years passed and then instead of punching holes into cards and having a com
 Today we can write programs the same way those programmers did decades ago, by writing our instructions down in a file and running that file, and we can also write and run a program directly within our web browser. We can use our program to change a web page, receive inputs from a user, and make decisions based on those inputs.
 
 This act of encoding human thought into instructions that a computer can understand is known as programming, and it is a powerful ability that will change the way you think about solving problems.
+
+___
 
 ### What are Programming Languages?
 
@@ -50,6 +53,8 @@ There have been thousands of distinct programming languages created since their 
 Do any of those languages ring a bell? Each of those languages are used in hundreds of thousands of applications. In fact, your computer is using some of those languages at this very moment while you are reading this lesson.
 
 The reason that there are so many languages is that each one has been designed to do something better than, or different than all the other languages that existed at the time. It's a bit like thinking about why there are so many different insects, or birds, or fish. Each kind of thing specializes in something different, and that makes it the right tool for a certain job.
+
+___
 
 ### How are Programming Languages Different Than Spoken Languages?
 
@@ -113,6 +118,8 @@ while(currentNumber < max) {
 
 The JavaScript code that you see above is a precise set of instructions that tells the computer what to do in order to print out all prime numbers from two up to ten. When the computer reads those instructions there is zero ambiguity for the steps it must follow. As a human however you may have a difficult time reading and understanding the code above. During the next several lessons you will see and understand what each part of that program does, such that you could write your own version which results in the same output.
 
+___
+
 ## Why JavaScript?
 
 ### Why learn JavaScript instead of Python, C/C++, Ruby, etc.
@@ -145,6 +152,7 @@ While there are many programming languages, some of which we listed above, we ch
 
 Link: <https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npms-predictions-for-2019-3a3d7e5298ef>
 
+
 ### Accelerating JavaScript Jobs
 
 The number of jobs available that require JavaScript experience has been increasing for years, and will continue to increase for the foreseeable future. JavaScript's position within technology has been growing at an astounding rate, largely due to the importance of the web browser as a target for applications, and the standardization of web browser APIs over the past decade.
@@ -172,6 +180,8 @@ Along with the number of jobs available to developers growing year-after-year, t
 ###### React framework popularity growth, from NPM Inc. This year in JavaScript 2018
 
 Link: <https://medium.com/npm-inc/this-year-in-javascript-2018-in-review-and-npms-predictions-for-2019-3a3d7e5298ef>
+
+___
 
 ## How to Run JavaScript
 
@@ -322,6 +332,7 @@ When the browser receives the message `console.log('Hello JavaScript')`, it prin
 
 Finally take a look at the end of the line of code and see that there is a **semicolon** as the last character. This **semicolon** tells the JavaScript program that your line of code is finished. It serves a lot like a period in English text, in that it is explicitly saying "this line is complete".
 
+___
 
 # Exercises
 
